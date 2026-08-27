@@ -1,0 +1,20 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]">
+  <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span>
+      <span>•</span>
+      <span>© 2007–{currentYear} Martin Metzmacher</span>
+    </div>
+
+    <div class="flex items-center gap-5 text-xs font-mono">
+      <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a>
+      <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a>
+      <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a>
+      <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a>
+    </div>
+  </div>
+</footer>

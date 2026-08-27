@@ -1,0 +1,103 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --bg-page: #faf9f6;
+    --text-main: #1c1c1c;
+    --text-muted: #666666;
+    --border-color: #e6e4df;
+    --card-bg: #ffffff;
+    --accent-color: #111111;
+  }
+
+  .dark {
+    --bg-page: #121212;
+    --text-main: #ededed;
+    --text-muted: #999999;
+    --border-color: #272727;
+    --card-bg: #1a1a1a;
+    --accent-color: #ffffff;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-serif-reading {
+  font-family: 'Newsreader', Georgia, Cambria, serif;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+.prose-reading {
+  font-family: 'Newsreader', Georgia, Cambria, serif;
+  font-size: 1.1875rem;
+  line-height: 1.8;
+  color: var(--text-main);
+}
+
+.prose-reading p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose-reading h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+  line-height: 1.25;
+  color: var(--text-main);
+}
+
+.prose-reading h3 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  color: var(--text-main);
+}
+
+.prose-reading blockquote {
+  font-style: italic;
+  border-left: 2px solid var(--text-main);
+  padding-left: 1.25rem;
+  margin-left: 0;
+  margin-right: 0;
+  color: var(--text-muted);
+}
+
+.prose-reading a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.prose-reading a:hover {
+  opacity: 0.75;
+}
+
+.prose-reading img {
+  border-radius: 0.5rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 100%;
+  height: auto;
+}
+
+.prose-reading ul, .prose-reading ol {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-left: 1.5em;
+}
+
+.prose-reading li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

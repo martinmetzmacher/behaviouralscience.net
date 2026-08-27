@@ -1,0 +1,29 @@
+---
+id: 16
+title: "The Role of Deliberative Processing in Behavioural Regulation"
+slug: the-role-of-deliberative-processing-in-behavioural-regulation
+date: 2008-02-07T08:23:53+02:00
+modified: 2008-09-22T20:41:49+02:00
+author: "Martin Metzmacher"
+url: http://behaviouralscience.net/2008/02/07/the-role-of-deliberative-processing-in-behavioural-regulation/
+categories: ["Behavioural Regulation"]
+tags: ["automatic", "behaviour", "Behavioural Regulation", "deliberation", "deliberative processing", "Deutsch", "Fazio", "Gollwitzer", "Implementation Intention", "impulsive", "Impulsive Action", "Mode-Model", "model", "Pochaska", "Strack", "Wong", "Yon"]
+excerpt: "It is interesting to note that most of models for behaviour have a focus on the automatic, impulsive part of behavioural regulation. However, deliberation has not disappeared from the scene and makes up a part of some models. The Mode-Model by Fazio consists of two different classes of processes that can regulate behaviour. The spontaneous […]"
+comment_count: 0
+---
+
+It is interesting to note that most of models for behaviour have a focus on the automatic, impulsive part of behavioural regulation. However, deliberation has not disappeared from the scene and makes up a part of some models.
+
+The Mode-Model by Fazio consists of two different classes of processes that can regulate behaviour. The spontaneous process begins with the presence of an environmental trigger.  Such perceptions are affected by the knowledge structures, affect, value and expectations that are associated with the current situation. The model expects behaviour to be largely determined by this route. The deliberative processing is marked by cognitive work. It needs conscious information to be present and analyses it in order to identify costs and benefits. However, a deliberative process might still involve some components that are influenced by automatic processes, thus mixed processes are possible.
+
+In his paper on implementation intention Gollwitzer (1993) focuses on the automatic route to behaviour. He also believes that with perceptual information certain situated knowledge is activated. In his model automatic goal pursuit arises from frequent pairing of goal and stimulus. He proposes however a deliberative way to mimic this process. If an implementation intention is consciously formed and practised then this goal information will become active, when the “if” perception occurs. The behavioural schema of the “then”-part is then automatically activated.
+
+Pochaska’s research has led to some interesting findings concerning the change of behavioural patterns. He proposes a model of five steps that are connected in a circle. The first step is precontemplation, followed by contemplation and preparation. The behaviour change is then enacted and, crucially for the success, maintained. Although automatic processes might also be involved, the general outline is focussed on deliberative thought. Most of the suggestion for supporting people who are changing involve stimulating deliberative thought processes in the client.
+
+Last but not least, the model of the reflective impulsive system as supposed by Strack and Deutsch: The main body of the model is made up of the associative store. Episodic and semantic links spread activation between the perception /imagination and behavioural schemata. Only the impulsive system is able to generate behaviour by an “impulsive action”. Yet the reflective system is also important, as it can influence the spreading of activation of every step of the deliberation process. Those steps involve: Propositional categorization, noetic decision and behavioural decision. This model is very comprehensive and provides a unifying framework for many different theories.
+
+The Mode-Model, Gollwitzer’s idea on implementation intention and the reflective impulsive system share many features, yet they focus on slightly different topics with regard to behaviour control. Whereas Gollwitzer is interested in how behaviour can be changed, but on a more mechanical level than Pockaska, the other two models give an explanation of how and why behaviour arises from a more general point of view.
+
+I believe that the strongest empirical evidence for the effect of deliberation on behaviour comes from intention implementation, because in order to change unwanted behaviour one does need to compete with the automatic behaviour for the most activation in order to activate the appropriate behavioural schema. In order to do so the automatic associations must be changed. This was confirmed by Gollwitzer (2002) and his colleagues. They showed that participants holding implementation intentions reacted to words describing the anticipated critical situation much stronger than participants who had only formed goal intentions.
+
+I believe that all theories concerned with deliberation will need to look closely at automatic, impulsive behaviour. As with the implementation intention I believe that the influence of deliberation on behaviour is mostly indirect, as supposed by Strack and Deutsch. Furthermore I believe that research in embodied embedded cognition will contribute to the topic of behavioural regulation, because it can generate specific hypotheses on how the activation in the impulsive system spreads. For example, Wong & Yon (1991) have proposed that associations are less semantically but more perceptually oriented. For example, asking participants to describe a water melon (many report green and stripes) yields different results than asking them to describe half a water melon (participants report much more red). I believe that if it is clearer how the associations are interconnected, it will also be much easier to see how deliberate processes can have influence on behaviour and how reflective and impulsive processes interact with each other.

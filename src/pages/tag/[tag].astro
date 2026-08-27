@@ -1,0 +1,75 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+  const tagsMap = new Map();
+
+  allPosts.forEach((post) => {
+    post.data.tags.forEach((tag) => {
+      const slug = tag.toLowerCase().replace(/\s+/g, '-');
+      if (!tagsMap.has(slug)) {
+        tagsMap.set(slug, { name: tag, posts: [] });
+      }
+      tagsMap.get(slug).posts.push(post);
+    });
+  });
+
+  return Array.from(tagsMap.entries()).map(([slug, data]) => ({
+    params: { tag: slug },
+    props: { tagName: data.name, posts: data.posts },
+  }));
+}
+
+interface Props {
+  tagName: string;
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { tagName, posts } = Astro.props;
+const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<BaseLayout title={`Tag: #${tagName}`}>
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-10">
+    <div class="border-b border-[var(--border-color)] pb-6 space-y-2">
+      <div class="text-xs font-mono text-[var(--text-muted)]">
+        <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-serif-reading font-medium text-[var(--text-main)]">
+        Tag: #{tagName}
+      </h1>
+      <p class="text-sm font-mono text-[var(--text-muted)]">{sortedPosts.length} essays</p>
+    </div>
+
+    <section class="divide-y divide-[var(--border-color)]">
+      {sortedPosts.map((post) => {
+        const rawDate = post.data.date;
+        const year = rawDate.substring(0, 4);
+        const month = rawDate.substring(5, 7);
+        const day = rawDate.substring(8, 10);
+        const slug = post.data.slug || post.slug.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+        const permalink = `/${year}/${month}/${day}/${slug}/`;
+
+        return (
+          <article class="py-6 group">
+            <div class="space-y-2">
+              <time datetime={rawDate} class="text-xs font-mono text-[var(--text-muted)]">
+                {new Date(rawDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+              <h2 class="text-2xl font-serif-reading font-medium text-[var(--text-main)] group-hover:underline leading-snug">
+                <a href={permalink}>{post.data.title}</a>
+              </h2>
+              {post.data.excerpt && (
+                <p class="text-[var(--text-muted)] font-serif-reading text-base line-clamp-2">
+                  {post.data.excerpt}
+                </p>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </section>
+  </main>
+</BaseLayout>

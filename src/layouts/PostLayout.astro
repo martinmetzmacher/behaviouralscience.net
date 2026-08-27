@@ -1,0 +1,116 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import AuthorCard from '../components/AuthorCard.astro';
+
+interface Props {
+  title: string;
+  date: string;
+  author: string;
+  categories: string[];
+  tags: string[];
+  excerpt?: string;
+  legacyUrl?: string;
+  commentCount?: number;
+}
+
+const {
+  title,
+  date,
+  author,
+  categories,
+  tags,
+  excerpt,
+  legacyUrl,
+  commentCount = 0,
+} = Astro.props;
+
+const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={excerpt} type="article" publishDate={date}>
+  <!-- Top Reading Progress Indicator -->
+  <div id="reading-progress" class="fixed top-0 left-0 h-[3px] bg-[var(--text-main)] z-50 transition-all duration-100 w-0"></div>
+
+  <main class="max-w-2xl mx-auto px-6 py-12">
+    
+    <!-- Top Meta / Breadcrumb & Legacy URL Badge -->
+    <div class="flex items-center justify-between text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8">
+      <a href="/" class="hover:text-[var(--text-main)] flex items-center gap-1">
+        ← All Essays
+      </a>
+      {legacyUrl && (
+        <span class="px-2 py-0.5 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[10px]" title="Exact historical WordPress URL preserved">
+          Historical URL Parity
+        </span>
+      )}
+    </div>
+
+    <!-- Article Header -->
+    <header class="space-y-4 mb-10">
+      <div class="flex flex-wrap items-center gap-3 text-xs font-mono text-[var(--text-muted)]">
+        <time datetime={date}>{formattedDate}</time>
+        {categories.length > 0 && (
+          <>
+            <span>•</span>
+            <div class="flex gap-2">
+              {categories.map((c) => (
+                <a href={`/category/${c.toLowerCase().replace(/\s+/g, '-')}/`} class="text-[var(--text-main)] font-medium hover:underline">
+                  {c}
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]">
+        {title}
+      </h1>
+
+      <div class="flex items-center gap-3 pt-2 text-sm text-[var(--text-muted)]">
+        <span>By <strong class="text-[var(--text-main)] font-normal">{author}</strong></span>
+      </div>
+    </header>
+
+    <!-- Article Content -->
+    <article class="prose-reading">
+      <slot />
+    </article>
+
+    <!-- Tags -->
+    {tags.length > 0 && (
+      <div class="mt-12 pt-6 border-t border-[var(--border-color)] flex flex-wrap gap-2 text-xs font-mono">
+        <span class="text-[var(--text-muted)] self-center">Tags:</span>
+        {tags.map((t) => (
+          <a href={`/tag/${t.toLowerCase().replace(/\s+/g, '-')}/`} class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+            #{t}
+          </a>
+        ))}
+      </div>
+    )}
+
+    <!-- Author Card -->
+    <AuthorCard />
+
+    <!-- Navigation Footer -->
+    <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono">
+      <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a>
+      <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a>
+    </div>
+
+  </main>
+</BaseLayout>
+
+<script is:inline>
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('reading-progress');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+</script>

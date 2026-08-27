@@ -1,0 +1,45 @@
+---
+---
+<button
+  id="theme-toggle"
+  type="button"
+  aria-label="Toggle theme"
+  class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"
+>
+  <span id="theme-icon">☀️</span>
+  <span id="theme-text">Light</span>
+</button>
+
+<script is:inline>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script>

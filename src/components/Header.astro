@@ -1,0 +1,24 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+---
+
+<header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors">
+  <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-6">
+      <a href="/" class="flex items-center gap-2.5 group">
+        <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span>
+        <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span>
+      </a>
+    </div>
+
+    <nav class="flex items-center gap-5 text-sm">
+      <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a>
+      <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a>
+      <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a>
+      
+      <div class="h-4 w-[1px] bg-[var(--border-color)]"></div>
+      
+      <ThemeToggle />
+    </nav>
+  </div>
+</header>

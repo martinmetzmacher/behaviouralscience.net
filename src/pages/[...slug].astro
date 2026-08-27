@@ -1,0 +1,59 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AuthorCard from '../components/AuthorCard.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  const paths = [];
+
+  for (const page of pages) {
+    const slug = page.data.slug || page.slug;
+    paths.push({
+      params: { slug },
+      props: { page },
+    });
+
+    if (slug === 'martin-metzmacher' || slug === 'christina-summerdyk') {
+      paths.push({
+        params: { slug: `about-behavioural-science-blog/${slug}` },
+        props: { page },
+      });
+    }
+  }
+
+  return paths;
+}
+
+interface Props {
+  page: CollectionEntry<'pages'>;
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+---
+
+<BaseLayout title={page.data.title}>
+  <main class="max-w-2xl mx-auto px-6 py-12">
+    <div class="text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8">
+      <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a>
+    </div>
+
+    <header class="space-y-4 mb-10">
+      <h1 class="text-4xl sm:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]">
+        {page.data.title}
+      </h1>
+    </header>
+
+    <article class="prose-reading">
+      <Content />
+    </article>
+
+    <AuthorCard />
+
+    <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono">
+      <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a>
+      <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a>
+    </div>
+  </main>
+</BaseLayout>

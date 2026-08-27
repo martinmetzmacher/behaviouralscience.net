@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tag: #SCID — Behavioural Science</title><meta name="description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><link rel="canonical" href="https://behaviouralscience.net/tag/scid/"><!-- Open Graph / Social --><meta property="og:type" content="website"><meta property="og:title" content="Tag: #SCID — Behavioural Science"><meta property="og:description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><meta property="og:url" content="https://behaviouralscience.net/tag/scid/"><meta property="og:image" content="https://behaviouralscience.net/media/behavioural-science-blog-stats.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Theme initialization script (prevents flash) --><script>
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script><link rel="stylesheet" href="/_astro/_slug_.DpU__Azp.css"></head> <body class="min-h-screen flex flex-col justify-between"> <div> <header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors"> <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between"> <div class="flex items-center gap-6"> <a href="/" class="flex items-center gap-2.5 group"> <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span> <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span> </a> </div> <nav class="flex items-center gap-5 text-sm"> <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a> <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a> <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a> <div class="h-4 w-[1px] bg-[var(--border-color)]"></div> <button id="theme-toggle" type="button" aria-label="Toggle theme" class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"> <span id="theme-icon">☀️</span> <span id="theme-text">Light</span> </button> <script>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script> </nav> </div> </header>  <main class="max-w-4xl mx-auto px-6 py-12 space-y-10"> <div class="border-b border-[var(--border-color)] pb-6 space-y-2"> <div class="text-xs font-mono text-[var(--text-muted)]"> <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a> </div> <h1 class="text-3xl sm:text-4xl font-serif-reading font-medium text-[var(--text-main)]">
+Tag: #SCID </h1> <p class="text-sm font-mono text-[var(--text-muted)]">1 essays</p> </div> <section class="divide-y divide-[var(--border-color)]"> <article class="py-6 group"> <div class="space-y-2"> <time datetime="2008-11-22T16:47:48.000Z" class="text-xs font-mono text-[var(--text-muted)]"> November 22, 2008 </time> <h2 class="text-2xl font-serif-reading font-medium text-[var(--text-main)] group-hover:underline leading-snug"> <a href="/2008/11/22/why-a-computerized-decision-system-does-not-always-lead-to-the-correct-dsm-classification/">Why a Computerized Decision System does not always lead to the Correct DSM-Classification</a> </h2> <p class="text-[var(--text-muted)] font-serif-reading text-base line-clamp-2"> According to Lars Bergman there are several reasons that keep computerized systems from producing the correct DSM-classification. The most important point might be that diagnosis in psychiatry is just to complex for a fully structured system to reach a good level of validity. Dynamic systems and appropriate statistics might be necessary. According to Dreyfus the […] </p> </div> </article>
+</section> </main>  </div> <footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]"> <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-2"> <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span> <span>•</span> <span>© 2007–2026 Martin Metzmacher</span> </div> <div class="flex items-center gap-5 text-xs font-mono"> <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a> <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a> <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a> <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a> </div> </div> </footer> </body></html>

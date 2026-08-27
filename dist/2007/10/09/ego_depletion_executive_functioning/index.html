@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ego Depletion &amp; Executive Functioning — Behavioural Science</title><meta name="description" content="Executive functioning is the mental ability to control and manage cognitive processes. It is a theoretical cognitive system that involves processes such as attention, abstract thinking, rule acquisition, initiating appropriate actions and inhibiting inappropriate actions and selecting relevant sensory information. Executive functioning is sometimes called central executive or cognitive control and plays an important role […]"><link rel="canonical" href="https://behaviouralscience.net/2007/10/09/ego_depletion_executive_functioning/"><!-- Open Graph / Social --><meta property="og:type" content="article"><meta property="og:title" content="Ego Depletion &#38; Executive Functioning — Behavioural Science"><meta property="og:description" content="Executive functioning is the mental ability to control and manage cognitive processes. It is a theoretical cognitive system that involves processes such as attention, abstract thinking, rule acquisition, initiating appropriate actions and inhibiting inappropriate actions and selecting relevant sensory information. Executive functioning is sometimes called central executive or cognitive control and plays an important role […]"><meta property="og:url" content="https://behaviouralscience.net/2007/10/09/ego_depletion_executive_functioning/"><meta property="og:image" content="https://behaviouralscience.net/media/behavioural-science-blog-stats.png"><meta property="article:published_time" content="2007-10-09T20:57:09.000Z"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Theme initialization script (prevents flash) --><script>
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script><link rel="stylesheet" href="/_astro/_slug_.DpU__Azp.css"></head> <body class="min-h-screen flex flex-col justify-between"> <div> <header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors"> <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between"> <div class="flex items-center gap-6"> <a href="/" class="flex items-center gap-2.5 group"> <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span> <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span> </a> </div> <nav class="flex items-center gap-5 text-sm"> <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a> <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a> <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a> <div class="h-4 w-[1px] bg-[var(--border-color)]"></div> <button id="theme-toggle" type="button" aria-label="Toggle theme" class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"> <span id="theme-icon">☀️</span> <span id="theme-text">Light</span> </button> <script>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script> </nav> </div> </header>   <div id="reading-progress" class="fixed top-0 left-0 h-[3px] bg-[var(--text-main)] z-50 transition-all duration-100 w-0"></div> <main class="max-w-2xl mx-auto px-6 py-12"> <!-- Top Meta / Breadcrumb & Legacy URL Badge --> <div class="flex items-center justify-between text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8"> <a href="/" class="hover:text-[var(--text-main)] flex items-center gap-1">
+← All Essays
+</a> <span class="px-2 py-0.5 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[10px]" title="Exact historical WordPress URL preserved">
+Historical URL Parity
+</span> </div> <!-- Article Header --> <header class="space-y-4 mb-10"> <div class="flex flex-wrap items-center gap-3 text-xs font-mono text-[var(--text-muted)]"> <time datetime="2007-10-09T20:57:09.000Z">October 9, 2007</time>  <span>•</span> <div class="flex gap-2"> <a href="/category/social-psychology/" class="text-[var(--text-main)] font-medium hover:underline"> Social Psychology </a> </div>  </div> <h1 class="text-3xl sm:text-4xl lg:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]"> Ego Depletion &amp; Executive Functioning </h1> <div class="flex items-center gap-3 pt-2 text-sm text-[var(--text-muted)]"> <span>By <strong class="text-[var(--text-main)] font-normal">Martin Metzmacher</strong></span> </div> </header> <!-- Article Content --> <article class="prose-reading">  <p>Executive functioning is the mental ability to control and manage cognitive processes. It is a theoretical cognitive system that involves processes such as attention, abstract thinking, rule acquisition, initiating appropriate actions and inhibiting inappropriate actions and selecting relevant sensory information. Executive functioning is sometimes called central executive or cognitive control and plays an important role in many psychological theories. Many of them come from observation of patients with frontal lobe damage. They show disorganized behaviour and strategies in everyday life, although the more basic functions such as reasoning, learning and memory are still functioning. Thus it was hypothesized that there must be an overarching system coordinating the basic cognitive processes.</p>
+<p>Although there is some evidence that points to a cognitive system of executive control, it is hard to translate those findings into sound scientific evidence. This is due to the nature of executive control, which is mainly concerned with dynamic coordination of cognitive resources. It manifests itself only indirectly by effecting other cognitive processes. The executive system is believed to be involved in handling novel situations that require functions, which cannot be explained by the reproduction of learned schemas or set behaviours, for example situations which require the inhibition of strong habitual responses. This inhibition of habitual responses (self-control or self-regulation) is of utmost importance for humans living together. Many problems (such as crime, addiction and obesity) are connected to failures of self-regulation.</p>
+<p>The term self-regulation or self-control must (of course) not be taken literally, as a self does not regulate itself, but it may control behaviours, feelings and thoughts. To investigate which processes are influenced by self-regulation numerous experiments have been conducted. Most experiments first impair self-regulatory abilities by subjecting the participants to a task that possibly involves self-control. If those subjects do worse on a subsequent task, than subjects that have not undergone ego depletion, the task is presumed to require self-control.</p>
+<p>On the matter of cognitive processing, Schmeichel, Vohs and Baumeister (2003) showed that most forms of intelligent thought are affected by ego-depletion. Wegner, Schneider, Cater &#x26; White (1997) asked participants to suppress thoughts about a white bear or to not suppress thoughts. Dependent measure was the time participants spend on unsolvable anagrams. Those who previously had suppressed their thought did quit significantly sooner. Memory also seems to be impaired, but only if the task involves cognitive processing (for example choosing which items to remember). More basic function of memory, for example simple recall, does not seem to be influenced. Vohs, Baumeister, Twenge, Schmeichel, Tice &#x26; Crocker (2005) presented different products and asked the participants which one they would like to have. As dependent measurement they used a supposedly healthy drink that tasted very bad. Participants who had previously been assigned the difficult decision tasked drank less than one-third of the amount participants in the control group drank. They also quit a mathematical computing task earlier.</p>
+<p>Interpersonal processes play an important part in human life. Vohs et al. (2005) found that self-presentation requires self-regulation. They asked participants to present themselves very positively to a friend and moderate to a stranger (which goes against the natural urge to be modest with friends, but to present a favourable picture of oneself to strangers). Participants in this condition were faster to stop with a mathematical task than participants in the control condition, who presented themselves consonant with typical self-presentation patterns. On the topic of love, Vohs and Baumeister (2004) examined the self-regulatory processes of people in a relationship. Having to read a dull historical biography, participants either had to show exaggerate emotional and facial expression or read the text normally. Those in the ego-depletion condition took significantly longer on watching pictures of attractive people. Richeson and Shelton (2003) found that suppressing stereotypes led to ego depletion effects in participants high on racial bias when interacting with members of the minority group.</p>
+<p>Regulating affect also draws energy on self-control processes. Muraven , Tice &#x26; Baumeister (1998) showed participants emotionally distressing film clips. They were asked to either show no emotion, show exaggerated emotion or just behave normally. The dependent measurement was a handgrip exercise, as this is supposed to involve self-regulation (going on even, if it hurts). Participants in the normal condition press the handgrip longer.</p>
+<p>It is also important to look at processes that can prevent ego-depletion or even replenish self-control abilities. A possibility to prevent subjects from showing effects of ego depletion is to install an automatic process that takes over the function of the “normal control process” that is supposed to draw on self-regulatory energy. One way to do this are intention implementations. Webb and Sheeran (2002) asked participants to form intention implementations on the Stroop task. Whenever they would see a word, they would ignore the meaning of the word and only focus on the colour. Participants who had formed implementation intentions about the Stroop task showed no depletion effect on a subsequent task. A way to neutralise the effects of ego depletion would be to replenish the energy sources of the self. Smith (2002) first depleted self-regulatory energy by a series of challenging tasks and then had the participants either read a magazine or meditate. Those who had meditated performed much better on a subsequent measurement of self-regulation. Motivation might also play an important factor when assessing effects of ego-depletion. Weiland, Lassiter, Daniels and Fischer (2004) had participants cross out the letter E from a text, either using very difficult or easy rules. Depleted participants who where primed with achievement, instead of a neutral prime, continued longer on a unsolvable puzzle test.</p>
+<p>The conclusion is that self-regulation has significant influence on executive functioning, affecting function on a broad variety of behaviour. Self-regulation might be the most important adaptation of human behaviour that enables us to live in cultural groups. Ultimately, Freud might have hinted in the right direction with his account of the superego as an entity supplying the individual with energy for self-regulation.</p>
+<p>For our experiment we will have a broad variety of dependent measures to choose from. There are cognitive tasks (Stroop, anagram solving), tasks that measure how long participants engage in a behaviour (for example solving puzzles) before they quit and more real-life measurements (drinking, handgrip). They all have their advantages and their disadvantages: The Stroop test, for example, is very reliable, but might lack ecological validity. More ecological valid tasks (such as drinking bad tasting fluid or pressing a handgrip) might not be so reliable. Furthermore, tasks measuring ‘time before quit’ might be confounded with motivation. The problem with all those tasks is that you cannot measure ego-depletion without a tasks that makes use of self-regulation itself. Future research will have to deal with this strong connection between the manipulation and the dependent measurement. Maybe a creative mind will come up with a way to measure ego-depletion without inducing it at the same time.</p>
+<p>References</p>
+<blockquote>
+<p>Muraven, M., Tice, D. M., &#x26; Baumeister, R. F. (1998). Self-control as limited resource: Regulatory depletion patterns. Journal of Personality and Social Psychology, 74, 774-789.</p>
+</blockquote>
+<blockquote>
+<p>Richeson, J. A., &#x26; Shelton, J. N. (2003). When prejudice does not pay: Effects of interracial contact on executive function. Psychological Science, 14, 287-290.</p>
+</blockquote>
+<blockquote>
+<p>Schmeichel, B. J., Vohs, K. D., &#x26; Baumeister, R. F. (2003). Intellectual performance and ego depletion: Role of the self in logical reasongin and other information processing. Journal of Personality and Social Psychology, 85, 33-46.</p>
+</blockquote>
+<blockquote>
+<p>Smith, R. W. (2002). Effects of relaxation on self-regulatory depletion. (Doctoral dissertation, Case Western Reserve University, 2002.) Dissertation Abstracts International, 63 (5-B), 2605.</p>
+</blockquote>
+<blockquote>
+<p>Vohs, K. D., Baumeister, R. F. (2004). Depletion of self-regulatory resources makes people selfish. Unpublished manuscript, University of British Columbia, Vancouver, BC, Canada.</p>
+</blockquote>
+<blockquote>
+<p>Vohs, K. D., Baumeister, R. F., &#x26; Ciarocco, N. J. (2005). Self-regulation and self-presentation: Regulatory resource depletion impairs impression management and effortful selfpresentation depletes regulatory resources. Journal of Personality and Social Psychology, 88, 632 – 657.</p>
+</blockquote>
+<blockquote>
+<p>Vohs, K. D., Baumeister, R. F., Twenge, J. M., Schmeichel, B. J., Tice, D. M., &#x26; Crocker, J. (2004). Decision fatigue: Making multiple decisions depletes the self. Manuscript in preparation.</p>
+</blockquote>
+<blockquote>
+<p>Webb, T. L., &#x26; Sheeran, P. (2002). Can implementation intentions help to overcome ego-depletion? Journal of Experimental Psychology, 39, 279-286.</p>
+</blockquote>
+<blockquote>
+<p>Wegner, D. M., Schneider, D. J., Carter, S. R., &#x26; White, T. L. (1987). Paradoxical effects of thought suppression. Journal of Personality and Social Psychology, 53, 5-13.</p>
+</blockquote>
+<blockquote>
+<p>Weiland, P. E., Lassiter, G. D., Daniels, L., &#x26; Fisher, A. (2004, January). Can nonconscious goals moderate self-regulatory failure? Paper presented at the annual meeting of the Society for Personality and Social Psychology, Austin, TX.</p>
+</blockquote>
+<h2 id="comments">Comments</h2>
+<h3 id="by-76fidelia-on-2017-08-06t1048020100">By 76Fidelia on 2017-08-06T10:48:02+01:00</h3>
+<p>Hi blogger, i must say you have very interesting posts here.</p>
+<p>Your page can go viral. You need initial traffic boost only.</p>
+<p>How to get it? Search for; Mertiso’s tips go viral</p>
+<h3 id="by-lovely-tea-teas-on-2017-07-18t0510120100">By Lovely Tea Teas on 2017-07-18T05:10:12+01:00</h3>
+<p>Cool post, do you mind if I link to it from my new blog/tea shop?</p>
+<p>Its called Lovely Tea Teas? Thanks in advance – Oliver aka Mr</p>
+<p>Tea</p>
+<h3 id="by-beautiful-places-on-2016-12-22t0154580100">By beautiful places on 2016-12-22T01:54:58+01:00</h3>
+<p>With havin so much content do you ever run into any issues of</p>
+<p>plagorism or copyright violation? My site has a lot of</p>
+<p>completely unique content I’ve either created myself or outsourced but it looks like a lot of it is popping it up all</p>
+<p>over the web without my authorization. Do</p>
+<p>you know any ways to help prevent content from being ripped off?</p>
+<p>I’d truly appreciate it.</p>
+<h3 id="by-francine-quotestumblrcom-on-2016-08-26t1034060100">By francine-quotes.tumblr.com on 2016-08-26T10:34:06+01:00</h3>
+<p>I pay a visit day-to-day a few blogs and information sites to read articles or reviews, except this</p>
+<p>website offers feature based content.</p>
+<h3 id="by-the-behavioural-science-blog-in-2010--behavioural-science-blog-on-2011-01-02t1354230100">By The Behavioural Science Blog in 2010 « Behavioural Science Blog on 2011-01-02T13:54:23+01:00</h3>
+<p>[…] Ego Depletion &#x26; Executive Functioning October 20071 comment […]</p>
+<h3 id="by-2010-in-review--behavioural-science-blog-on-2011-01-02t1353100100">By 2010 in review « Behavioural Science Blog on 2011-01-02T13:53:10+01:00</h3>
+<p>[…] Ego Depletion &#x26; Executive Functioning October 20071 comment […]</p>
+<h3 id="by-mar-on-2009-11-20t2117160100">By Mar on 2009-11-20T21:17:16+01:00</h3>
+<p>Suppressed Medical Records (File 5100-13465/001)</p>
+<p>St. Catharines, Ontario</p>
+<p>– Privacy Commissioner of Canada (Sect. 25,26,28)</p>
+<p>– C.M.H.A / C.A.M.H. – Brock University</p>
+<p>Further details Google:</p>
+<p>Medicine_Gone_Bad</p>
+<p>or</p>
+<p><a href="http://medicine-gone-bad.blogspot.com/">http://medicine-gone-bad.blogspot.com/</a></p>  </article> <!-- Tags --> <div class="mt-12 pt-6 border-t border-[var(--border-color)] flex flex-wrap gap-2 text-xs font-mono"> <span class="text-[var(--text-muted)] self-center">Tags:</span> <a href="/tag/baumeister/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Baumeister </a><a href="/tag/ciarocco/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Ciarocco </a><a href="/tag/daniels/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Daniels </a><a href="/tag/ego-depletion/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#ego depletion </a><a href="/tag/fisher/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Fisher </a><a href="/tag/high-maintenance-interaction/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#high maintenance interaction </a><a href="/tag/hmi/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#HMI </a><a href="/tag/lassiter/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Lassiter </a><a href="/tag/muraven/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Muraven </a><a href="/tag/richeson/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Richeson </a><a href="/tag/schmeichel/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Schmeichel </a><a href="/tag/schneider/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Schneider </a><a href="/tag/self-monitoring/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#self-monitoring </a><a href="/tag/self-presentation/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#self-presentation </a><a href="/tag/sheeran/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Sheeran </a><a href="/tag/shelton/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Shelton </a><a href="/tag/smith/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Smith </a><a href="/tag/social-psychology/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Social Psychology </a><a href="/tag/tice/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Tice </a><a href="/tag/twenge/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Twenge </a><a href="/tag/vohs/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Vohs </a><a href="/tag/webb/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Webb </a><a href="/tag/wegner/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Wegner </a><a href="/tag/weiland/" class="px-2.5 py-1 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--text-main)]">
+#Weiland </a> </div> <!-- Author Card --> <div id="author-card" class="my-16 p-8 rounded-2xl bg-[var(--card-bg)] border border-[var(--border-color)] space-y-4"> <div class="flex items-center gap-4"> <div class="w-14 h-14 rounded-full bg-neutral-800 text-neutral-100 flex items-center justify-center font-serif-reading text-2xl font-bold">
+MM
+</div> <div> <h3 class="text-lg font-semibold text-[var(--text-main)]">Martin Metzmacher</h3> <p class="text-xs font-mono text-[var(--text-muted)]">Author, Behavioral Scientist & Diagnostician</p> </div> </div> <p class="text-sm text-[var(--text-muted)] leading-relaxed font-serif-reading text-base">
+This publication represents over a decade of empirical research, clinical methodology, and behavioural science synthesis. Today, these cognitive frameworks anchor diagnostic systems, behavioral transformation books, and practice workflows.
+</p> <div class="pt-2 flex items-center gap-4 text-xs font-mono"> <a href="/about-behavioural-science-blog/" class="underline hover:text-[var(--text-main)]">Academic Foundations</a> <span>•</span> <a href="/martin-metzmacher/" class="underline hover:text-[var(--text-main)]">About Martin</a> </div> </div> <!-- Navigation Footer --> <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono"> <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a> <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a> </div> </main>  </div> <footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]"> <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-2"> <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span> <span>•</span> <span>© 2007–2026 Martin Metzmacher</span> </div> <div class="flex items-center gap-5 text-xs font-mono"> <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a> <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a> <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a> <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a> </div> </div> </footer> </body></html> <script>
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('reading-progress');
+    if (bar) bar.style.width = scrolled + '%';
+  });
+</script>

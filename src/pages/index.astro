@@ -1,0 +1,113 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AuthorCard from '../components/AuthorCard.astro';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+// Collect all unique categories
+const categoriesMap = new Map();
+sortedPosts.forEach((post) => {
+  post.data.categories.forEach((cat) => {
+    const slug = cat.toLowerCase().replace(/\s+/g, '-');
+    categoriesMap.set(slug, { name: cat, count: (categoriesMap.get(slug)?.count || 0) + 1 });
+  });
+});
+const categories = Array.from(categoriesMap.entries()).map(([slug, data]) => ({ slug, ...data }));
+---
+
+<BaseLayout>
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
+    <!-- Publication Hero / Masthead -->
+    <section class="border-b border-[var(--border-color)] pb-10 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[var(--text-muted)]">
+        <span>Scientific Authority & Living Monograph</span>
+        <span>•</span>
+        <span>{sortedPosts.length} Essays</span>
+      </div>
+      <h1 class="text-4xl sm:text-5xl font-serif-reading font-normal tracking-tight leading-[1.15] text-[var(--text-main)]">
+        The Science of Human Behaviour, Habits & Decision Making
+      </h1>
+      <p class="text-lg text-[var(--text-muted)] max-w-2xl font-serif-reading leading-relaxed">
+        Empirical psychological models, cognitive science, and behavioral regulation — connecting over a decade of foundational research with modern diagnostic and high-leverage practice.
+      </p>
+
+      <!-- Category Filter Pills -->
+      <div class="pt-4 flex flex-wrap gap-2 text-xs">
+        <a href="/" class="px-3 py-1 rounded-full bg-[var(--text-main)] text-[var(--bg-page)] font-medium">
+          All ({sortedPosts.length})
+        </a>
+        {categories.slice(0, 8).map((cat) => (
+          <a href={`/category/${cat.slug}/`} class="px-3 py-1 rounded-full bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] border border-[var(--border-color)] transition-colors">
+            {cat.name} ({cat.count})
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Essays Stream -->
+    <section class="divide-y divide-[var(--border-color)]">
+      {sortedPosts.map((post) => {
+        const rawDate = post.data.date;
+        const year = rawDate.substring(0, 4);
+        const month = rawDate.substring(5, 7);
+        const day = rawDate.substring(8, 10);
+        const slug = post.data.slug || post.slug.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+        const permalink = `/${year}/${month}/${day}/${slug}/`;
+        
+        const formattedDate = new Date(rawDate).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        });
+
+        return (
+          <article class="py-8 group">
+            <div class="space-y-2.5">
+              <div class="flex flex-wrap items-center gap-3 text-xs font-mono text-[var(--text-muted)]">
+                <time datetime={rawDate}>{formattedDate}</time>
+                {post.data.categories.length > 0 && (
+                  <>
+                    <span>•</span>
+                    <span class="text-[var(--text-main)] font-medium">{post.data.categories[0]}</span>
+                  </>
+                )}
+                {post.data.comment_count > 0 && (
+                  <>
+                    <span>•</span>
+                    <span>{post.data.comment_count} {post.data.comment_count === 1 ? 'comment' : 'comments'}</span>
+                  </>
+                )}
+              </div>
+
+              <h2 class="text-2xl sm:text-3xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] group-hover:underline underline-offset-4 decoration-1 leading-snug">
+                <a href={permalink}>
+                  {post.data.title}
+                </a>
+              </h2>
+
+              {post.data.excerpt && (
+                <p class="text-[var(--text-muted)] font-serif-reading text-base leading-relaxed line-clamp-2">
+                  {post.data.excerpt}
+                </p>
+              )}
+
+              <div class="flex items-center gap-3 pt-1">
+                <a href={permalink} class="text-xs font-mono text-[var(--text-muted)] group-hover:text-[var(--text-main)] flex items-center gap-1">
+                  Read essay →
+                </a>
+                <span class="text-[10px] font-mono text-neutral-400 dark:text-neutral-500">
+                  {permalink}
+                </span>
+              </div>
+            </div>
+          </article>
+        );
+      })}
+    </section>
+
+    <!-- Author Bio & Authority Anchor -->
+    <AuthorCard />
+  </main>
+</BaseLayout>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-25WZ9GE3HW"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-25WZ9GE3HW", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location"});</script>
+<link rel="canonical" href="https://search.people.virginia.edu/" />
+<link rel="shortlink" href="https://search.people.virginia.edu/" />
+<meta name="robots" content="max-image-preview:standard" />
+<link rel="image_src" href="current-pagecurrent-page" />
+<meta property="og:site_name" content="UVA Public People Search" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://search.people.virginia.edu/index" />
+<meta property="og:title" content="Faculty &amp; Staff" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="UVA Template Media" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://challenges.cloudflare.com" />
+<link rel="icon" href="/sites/publicsearch/themes/uvatemplate/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Faculty &amp; Staff | UVA Public People Search</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/blazy.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/core.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/draggable.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/resizable.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/better_exposed_filters/css/better_exposed_filters.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/cacheflush/css/cacheflush.menu.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/theme.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?tjyopi" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/kvo0rbm.css" />
+<link rel="stylesheet" media="all" href="/sites/publicsearch/themes/uvatemplate/css/style.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/sites/publicsearch/files/asset_injector/css/captcha-5f1307f72b7268b491d1c24d95f6dd7b.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/sites/publicsearch/files/asset_injector/css/internal_search_page_styling-6d5a9b34290baf512b1881c627bad70c.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/sites/publicsearch/files/asset_injector/css/search_options-88b98d77185985d2b597eec77b2dfbc8.css?tjyopi" />
+<link rel="stylesheet" media="all" href="/sites/publicsearch/files/asset_injector/css/search_view-e1dec84a4972cc854950e6d4e16cbbe6.css?tjyopi" />
+
+    
+  </head>
+  <body class="path-frontpage page-node-type-landing-page has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+			<div class="logo">
+			  <div class="region region-logo">
+    <section id="block-topbar" class="uva-logo-block block block-block-content block-block-contentbf58632e-43c6-4602-bc61-ae5d5ecccd14 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><a href="http://www.virginia.edu/" target="_self" title="University of Virginia Home Page"><img alt="UVA Logo" src="/sites/all/themes/global/images/logo-horizontal-retina.svg" width="340"></a></p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+		</div>
+	
+			<div class="branding container-fluid">
+			  <div class="region region-branding">
+            <a class="name navbar-brand" href="/" title="Home" rel="home">UVA Public People Search</a>
+    
+  </div>
+
+		</div>
+	
+
+
+	<div role="main" class="main-container container js-quickedit-main-content">
+
+		<div class="row">
+
+										
+									<section class="col-sm-12">
+
+																			<div class="highlighted"></div>
+									
+								
+								
+																			
+									
+																							<div class="col-sm-12 subpage-header">
+							  <div class="region region-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+    <h1 class="page-header">
+<span>Faculty &amp; Staff</span>
+</h1>
+
+
+  </div>
+
+						</div>
+									
+													<a id="main-content"></a>
+					  <div class="region region-content">
+      
+<article data-history-node-id="42" class="landing-page is-promoted full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+    
+      <div class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field--items">
+              <div class="field--item">  <div class="paragraph paragraph--type--basic paragraph--view-mode--default">
+          
+            <div class="field field--name-field-body field--type-text-long field--label-hidden field--item"><p class="text-align-center view-header"><strong>Search by UVA computing ID or name</strong></p><p class="text-align-center view-header">Results are limited and alphabetized by full name.&nbsp;<br>If your search does not return the expected result, please narrow your search.</p></div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+</article>
+
+<section class="views-element-container block block-views block-views-blockpublic-search-block-1 clearfix" id="block-views-block-public-search-block-1">
+  
+    
+
+      <div class="form-group"><div class="staff-a-l view view-public-search view-id-public_search view-display-id-block_1 js-view-dom-id-15c998d57d3bcabb2c7b5313fc83888dc74c1a2aa5b329418f314b6c8f942209">
+  
+    
+      <div class="view-header">
+      <p class="text-align-center view-header">
+    <button class="search-button" id="search-id" onclick="searchByID()">Search by ID</button><button class="search-button" style="display:none;" id="search-name" onclick="searchByName()">Search by Name</button>
+</p><br>
+    </div>
+        <div class="view-filters form-group">
+      <form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-public-search-block-1" action="/person/all" method="get" id="views-exposed-form-public-search-block-1" accept-charset="UTF-8">
+  <div class="form--inline form-inline clearfix">
+  <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-attribute js-form-item-attribute form-group">
+      <label for="edit-attribute" class="control-label">First Name</label>
+  
+  
+  <input data-drupal-selector="edit-attribute" class="form-text form-control" type="text" id="edit-attribute" name="attribute" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-attribute-3 js-form-item-attribute-3 form-group">
+      <label for="edit-attribute-3" class="control-label">Last Name</label>
+  
+  
+  <input data-drupal-selector="edit-attribute-3" class="form-text form-control" type="text" id="edit-attribute-3" name="attribute_3" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-select js-form-type-select form-item-attribute-2 js-form-item-attribute-2 form-group">
+      <label for="edit-attribute-2" class="control-label">Affiliation</label>
+  
+  
+  <div class="select-wrapper"><select data-drupal-selector="edit-attribute-2" class="form-select form-control" id="edit-attribute-2" name="attribute_2"><option
+            value="All" selected="selected">- Any -</option><option
+            value="1">Faculty</option><option
+            value="2">Staff</option><option
+            value="3">Emeritus Faculty</option><option
+            value="4">Sponsored</option></select></div>
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-attribute-1 js-form-item-attribute-1 form-group">
+      <label for="edit-attribute-1" class="control-label">UVA ID:</label>
+  
+  
+  <input data-drupal-selector="edit-attribute-1" class="form-text form-control" type="text" id="edit-attribute-1" name="attribute_1" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions"><button data-drupal-selector="edit-submit-public-search" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-public-search" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button><button data-drupal-selector="edit-reset-public-search" class="button js-form-submit form-submit btn-danger btn icon-before" type="submit" id="edit-reset-public-search" name="reset" value="Reset"><span class="icon glyphicon glyphicon-trash" aria-hidden="true"></span>
+Reset</button></div>
+
+</div>
+
+</form>
+
+    </div>
+    
+      <div class="view-empty">
+      
+    </div>
+  
+        <div class="attachment attachment-after">
+      <div class="views-element-container form-group"><div class="hide-staff-a-l view view-public-search view-id-public_search view-display-id-attachment_1 js-view-dom-id-caf95973e3bf1bace063687d3651379ee14c39af9934be5580e953e4673da405">
+  
+    
+      
+      <div class="view-empty">
+      
+    </div>
+  
+          </div>
+</div>
+<div class="views-element-container form-group"><div class="hide-staff-a-l view view-public-search view-id-public_search view-display-id-attachment_2 js-view-dom-id-f322d242a085f76179743e02c58e0194ca1c8d890fc235162e99392b55ea28fc">
+  
+    
+      
+      <div class="view-empty">
+      
+    </div>
+  
+          </div>
+</div>
+<div class="views-element-container form-group"><div class="hide-staff-a-l view view-public-search view-id-public_search view-display-id-attachment_3 js-view-dom-id-7c297674d3789d248bfab43fcbba630e8f86f362114f6eabc64032c28b35fe53">
+  
+    
+      
+      <div class="view-empty">
+      
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+          <div class="view-footer">
+      <div class="search-links">
+<p><a href="/advanced-search">Search Full Directory (Netbadge is required)</a></p>
+</div>
+
+<p>
+    <br>
+    <em><img src="https://publicsearch.people.virginia.edu/sites/publicsearch.people.virginia.edu/files/arrow.png" alt="Arrow icon" width="18"> &nbsp;UVA employees may maintain their primary work phone &amp; addresses (both physical work location and messenger mail address) in </em><a href="https://www.myworkday.com/uva/d/task/2998$2708.htmld" target="_blank"><em>Workday</em></a><em>. Not sure of your messenger mail address? You can find this </em><a href="https://www2.virginia.edu/mailservices/directory.html" target="_blank"><em>updated information</em></a><em> on the UVA Mailing Services website.</em>
+</p>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+							</section>
+
+								</div>
+	</div>
+
+
+			<footer class="footer container-fluid">
+			  <div class="region region-footer">
+    <section id="block-footerwhiteuvalogo" class="footer-logo block block-block-content block-block-content5f14381e-1ae8-4765-8f20-f9f37b3dd014 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><a href="http://www.virginia.edu/" target="_new" title="University of Virginia Home Page"><img alt="UVA Logo White" src="/sites/all/themes/global/images/uva-logo-footer-white.png"></a></p>
+</div>
+      
+  </section>
+
+<section id="block-footercontact" class="footer-contact block block-block-content block-block-content749dcb49-6484-40a0-9af1-f684c528da59 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="contact first"><p><strong>UVA Help Desk</strong></p><p>Call 4 HELP (434-924-4357)&nbsp;<br><a href="https://liveperson.edusupportcenter.com/sims/helpcenter/LiveChat.seam?inst_name=virginia" target="_blank">Chat with an Agent</a>&nbsp;<br><a href="https://virginia.service-now.com/its?id=itsweb_kb_article&amp;sys_id=15ff3b8fdb3ac744f032f1f51d9619c9" target="_blank">Request Assistance</a>&nbsp;<br><a href="/cdn-cgi/l/email-protection#dfafbab0afb3baacbabeadbcb79fa9b6adb8b6b1b6bef1babbaa">Questions about Search</a>&nbsp;<br><a href="https://virginia.service-now.com/its?id=itsweb_kb_article&amp;sys_id=b97a3b1cdb0adb80f032f1f51d961928" target="_blank">Update your Directory Info</a></p></div><div class="notice"><p><a href="http://eocr.virginia.edu/notice-non-discrimination-and-equal-opportunity">Notice of Non-Discrimination and Equal Opportunity</a> | <a href="http://reportabarrier.virginia.edu">Report a Barrier</a> | <a href="http://www.virginia.edu/siteinfo/privacy/">Privacy Policy</a></p><p>© 2026 By the Rector and Visitors of the University of Virginia</p></div></div>
+      
+  </section>
+
+<section id="block-footersocialmedia" class="footer-social block block-block-content block-block-content2f4f4b91-1023-4378-8756-5a62c96968bd clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div><p><a href="https://www.youtube.com/uva" title="Link to UVA YouTube"><img alt="YouTube Icon" id="youtube" src="/sites/all/themes/global/images/youtube-white.png" width="24px" height="24px" loading="lazy"></a> <a href="https://www.youtube.com/uva" title="Link to UVA YouTube">YouTube</a></p><p><a href="https://twitter.com/UVA" title="Link to UVA Twitter"><img alt="Twitter Icon" id="twitter" src="/sites/all/themes/global/images/twitter-X-white-icon-16px.png" width="24px" height="24px" loading="lazy"></a> &nbsp;<a href="https://twitter.com/UVA" title="Link to UVA Twitter">Twitter</a></p><p><a href="https://www.facebook.com/UniversityofVirginia" title="Link to Facebook"><img alt="Facebook Icon" id="facebook" src="/sites/all/themes/global/images/facebook-white.png" width="24px" height="24px" loading="lazy"></a> <a href="https://www.facebook.com/UniversityofVirginia" title="Link to Facebook">Facebook</a></p></div></div>
+      
+  </section>
+
+<section id="block-totopbutton" class="block block-block-content block-block-content38fbf32c-9a94-4ded-9e95-d23566ac176f clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div aria-label="toTop" id="toTop" role="button" tabindex="0"><img alt="Scroll Back to Top Button" src="/sites/all/themes/global/images/to-top-button.png"></div>
+</div>
+      
+  </section>
+
+
+  </div>
+
+		</footer>
+	
+  </div>
+
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/42","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx9Ue2SwyAIfCETH8lBJYbWCiOm19zTn_3OpTf3h1l2YVgAVLE5KgcMjasNqmMAaWEGA58SlYa1QHaKUMPsBBI6bWumkv6qf5SxNOKi_1ScCb_28uGj32Pr8x1ehBWjmyj3VG3CghWy8Rm-V-uJRzjApaccjo4EYqyoane58cxNWwWxL-SkYjdAbSMKC5-xbpjGnBuJCRBmnPKis33D8YRlMeGIkfoSDkLgGrt7-0LjVLnfsUTTCbSxLgJ5jASZ0915Yk4ZHfRLr41C33BHGIEKqXuZ9dn_ZsalyOIz6YzR6KoNT9aDolnO0LHkHi1E9jhM3Yj-4l9bDhoqyU5NmT3k4fnxrdTxcJ3y6PvQHvT10Wpv8b7rljhxXDL-ALgqBGk","theme":"uvatemplate","theme_token":null},"ajaxTrustedUrl":{"\/person\/all":true},"google_analytics":{"account":"G-25WZ9GE3HW","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ckeditorAccordion":{"accordionStyle":{"collapseAll":null,"keepRowsOpen":null,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:15c998d57d3bcabb2c7b5313fc83888dc74c1a2aa5b329418f314b6c8f942209":{"view_name":"public_search","view_display_id":"block_1","view_args":"all","view_path":"\/node\/42","view_base_path":"person\/%","view_dom_id":"15c998d57d3bcabb2c7b5313fc83888dc74c1a2aa5b329418f314b6c8f942209","pager_element":0},"views_dom_id:7c297674d3789d248bfab43fcbba630e8f86f362114f6eabc64032c28b35fe53":{"view_name":"public_search","view_display_id":"attachment_3","view_args":"all","view_path":"\/node\/42","view_base_path":"person\/%","view_dom_id":"7c297674d3789d248bfab43fcbba630e8f86f362114f6eabc64032c28b35fe53","pager_element":0},"views_dom_id:f322d242a085f76179743e02c58e0194ca1c8d890fc235162e99392b55ea28fc":{"view_name":"public_search","view_display_id":"attachment_2","view_args":"all","view_path":"\/node\/42","view_base_path":"person\/%","view_dom_id":"f322d242a085f76179743e02c58e0194ca1c8d890fc235162e99392b55ea28fc","pager_element":0},"views_dom_id:caf95973e3bf1bace063687d3651379ee14c39af9934be5580e953e4673da405":{"view_name":"public_search","view_display_id":"attachment_1","view_args":"all","view_path":"\/node\/42","view_base_path":"person\/%","view_dom_id":"caf95973e3bf1bace063687d3651379ee14c39af9934be5580e953e4673da405","pager_element":0}}},"user":{"uid":0,"permissionsHash":"feb853f2ac6c31f2f1a5e34f283116db9e8896adeebc6300aef596d898b97af1"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.13"></script>
+<script src="/core/misc/drupal.js?v=10.6.13"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.13"></script>
+<script src="/core/misc/debounce.js?v=10.6.13"></script>
+<script src="/libraries/dompurify/dist/purify.min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.6.13"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.6.13"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/position-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.once.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.sanitizer.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/blazy.compat.min.js?tjyopi"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.6.13"></script>
+<script src="/sites/publicsearch/files/asset_injector/js/search_options-86d15d4693dac27ccdbffd8fd13def2e.js?tjyopi"></script>
+<script src="/modules/contrib/better_exposed_filters/js/better_exposed_filters.js?v=6.x"></script>
+<script src="/core/misc/progress.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/misc/progress.js?tjyopi"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/announce.js?v=10.6.13"></script>
+<script src="/core/misc/message.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/misc/message.js?tjyopi"></script>
+<script src="/core/misc/ajax.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/misc/ajax.js?tjyopi"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.ajax.min.js?tjyopi"></script>
+<script src="/modules/contrib/block_ipaddress/js/ipAddress.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/bootstrap-pre-init.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/tooltip.js?tjyopi"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tjyopi"></script>
+<script src="/core/misc/displace.js?v=10.6.13"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.6.13"></script>
+<script src="/core/misc/position.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/modal.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/dialog.js?tjyopi"></script>
+<script src="/themes/contrib/bootstrap/js/modal.jquery.ui.bridge.js?tjyopi"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.6.13"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.6.13"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.6.13"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/misc/dialog.ajax.js?tjyopi"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.13"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/affix.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/alert.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/button.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/carousel.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/collapse.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/dropdown.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/modal.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/tooltip.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/popover.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/scrollspy.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/tab.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/bootstrap/assets/javascripts/bootstrap/transition.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/../../../all/themes/uvatemplate/js/uvabase_script.js?tjyopi"></script>
+<script src="/sites/publicsearch/themes/uvatemplate/js/script.js?tjyopi"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=10.6.13"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=10.6.13"></script>
+<script src="/themes/contrib/bootstrap/js/modules/views/ajax_view.js?tjyopi"></script>
+
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a31e6cdcc9b0ddf2',t:'MTc4Nzg2ODgyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"c1a1064d03ab40cf944dc1c9a1410511"}' crossorigin="anonymous"></script>
+</body>
+</html>
