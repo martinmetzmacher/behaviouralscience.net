@@ -10,7 +10,6 @@ interface Props {
   tags: string[];
   excerpt?: string;
   legacyUrl?: string;
-  commentCount?: number;
 }
 
 const {
@@ -21,7 +20,6 @@ const {
   tags,
   excerpt,
   legacyUrl,
-  commentCount = 0,
 } = Astro.props;
 
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
@@ -37,16 +35,11 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
 
   <main class="max-w-2xl mx-auto px-6 py-12">
     
-    <!-- Top Meta / Breadcrumb & Legacy URL Badge -->
+    <!-- Top Breadcrumb -->
     <div class="flex items-center justify-between text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8">
       <a href="/" class="hover:text-[var(--text-main)] flex items-center gap-1">
         ← All Essays
       </a>
-      {legacyUrl && (
-        <span class="px-2 py-0.5 rounded bg-[var(--card-bg)] border border-[var(--border-color)] text-[10px]" title="Exact historical WordPress URL preserved">
-          Historical URL Parity
-        </span>
-      )}
     </div>
 
     <!-- Article Header -->

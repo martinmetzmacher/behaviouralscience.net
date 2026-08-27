@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/06/07/satisfying-relationship-without-se
 categories: ["Social Psychology"]
 tags: ["Anderson", "Baumeister", "Bente", "Bischoping", "Campbell", "Cariocco", "Donaghy", "ego depletion", "Finkel", "Heatherton", "implus-regulation", "Kumashiro", "Leaper", "Metzmacher", "Muraven", "Nauts", "relationship", "relationship-satisfaction", "Rommerswinkel", "Sedikides", "self-presentation", "self-regulation", "Suwelack", "Vohs"]
 excerpt: "A healthy and stable relationship requires both partners to interact on a frequent and regular basis. Different interests need to be discussed, activities need to be planned and coordinated, different tasks need to be done in a joint effort – and if children come into the equation things do not get more relaxed. Recent literature […]"
-comment_count: 5
 ---
 
 A healthy and stable relationship requires both partners to interact on a frequent and regular basis. Different interests need to be discussed, activities need to be planned and coordinated, different tasks need to be done in a joint effort – and if children come into the equation things do not get more relaxed. Recent literature suggests that interactions that require high levels of social coordination impair cognitive functioning (Finkel et al., 2006). And even though we might show more of our “true self” to our partner than to other people, self-presentation also plays a role in intimate relationships. This is important, because there is evidence that self-presentation is a cognitively costly process (Vohs, Baumeister, & Cariocco, 2005). Furthermore one can assume that with time, people in a close relationship get to know the other person better, which means that we are able to understand the wishes and interests of the partner much better. But this also gives us the responsibility to consider those wishes and we might feel forced to reconsider often. In other words we are forced to self-regulate.
@@ -71,25 +70,3 @@ References
 > Management and Effortful Self-Presentation Depletes Regulatory Resources.
 
 > Journal of Personality and Social Psychology, 88, 632-657.
-
-## Comments
-
-### By Collin Vaughan on 2024-05-17T11:55:10+01:00
-
-Hello mate nicee blog
-
-### By Tantrums? Refusal to listen? Anxiety?Help your child develop self-regulation. | Dr. Ardyce Yik ND on 2018-03-02T08:02:56+01:00
-
-[…] Can People who lack Self-Regulation Skills still have Satisfying and Well-functioning Relationships? […]
-
-### By Dr S Santhanam on 2011-03-06T17:57:40+01:00
-
-At least, it works well with the politicians when they interact with each other.
-
-### By The Behavioural Science Blog in 2010 &laquo; Behavioural Science Blog on 2011-01-02T13:54:20+01:00
-
-[…] Can People who lack Self-Regulation Skills still have Satisfying and Well-functioning Relationships? June 2008  5 […]
-
-### By 2010 in review &laquo; Behavioural Science Blog on 2011-01-02T13:53:06+01:00
-
-[…] Can People who lack Self-Regulation Skills still have Satisfying and Well-functioning Relationships? June 2008  5 […]

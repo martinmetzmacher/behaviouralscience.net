@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/03/02/virtual-race-manipulation/
 categories: ["Social Cognition"]
 tags: ["bushalte-experiment", "Daniel Wigboldus", "Interracial Contact on Executive Functioning", "interracial interaction", "Lenggenhager", "racial IAT", "Richeson", "Shelton", "Video Ergo Sum"]
 excerpt: "In the article “When Prejudice does not pay: Effects of Interracial Contact on Executive Functioning”, Richeson and Shelton found that people who score high on an implicit racial bias test, show the highest impairment on executive functioning, after interaction with a black experimenter. They state that this effect occurs when a member of the majority-group […]"
-comment_count: 0
 ---
 
 In the article “When Prejudice does not pay: Effects of Interracial Contact on Executive Functioning”, Richeson and Shelton found that people who score high on an implicit racial bias test, show the highest impairment on executive functioning, after interaction with a black experimenter. They state that this effect occurs when a member of the majority-group has to interact with a member of a minority-group. The now (at least in Nijmegen) famous bushalte-experiment by Daniel Wigboldus did show different approach tendencies for Caucasian versus Moroccan virtual confederate, whereas the Caucasian virtual person is considered belonging to the majority group and the Moroccan person is considered belonging to the minority group.

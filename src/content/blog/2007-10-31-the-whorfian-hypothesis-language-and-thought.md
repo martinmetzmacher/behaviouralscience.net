@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2007/10/31/the-whorfian-hypothesis-language-a
 categories: ["Philosophy"]
 tags: ["Ameel", "Boroditsky", "categorization", "Cheng", "Kemmelmeier", "Language", "linguistic determinism", "linguistic relativism", "Malt", "Memory", "Noam Chomsky", "Pinker", "Sapir-Whorf Hypothesis", "Schooler", "self-perception", "Sloman", "spatial orientation", "Steven Pinker", "Storms", "Thought", "Whorf"]
 excerpt: "Where are all the Eskimos gone? The question of language and though and its reciprocal influence has been discussed countless times. It goes back all the way to the Greeks and probably even further. In the last 30s of last century the businessman and linguist Benjamin Whorf postulated what would be know as the Whorfian-Hypothesis. […]"
-comment_count: 1
 ---
 
 **Where are all the Eskimos gone?**
@@ -49,9 +48,3 @@ References
 > Pinker, S. (1994). The Language Instinct. New York, US: William Morrow and Company.
 
 > Schooler, J. W., & Engstler-Schooler, T. Y. (1990). Verbal overshadowing of visual memories: Some things are better left unsaid. Cognitive Psychology, 22, 36-71.
-
-## Comments
-
-### By The Whorfian Hypothesis: Language and Thought | Natalie Sergeant on 2016-10-10T12:10:46+01:00
-
-[…] The Whorfian Hypothesis: Language and Thought […]

@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/09/30/the-influence-of-aging-self-stereo
 categories: ["Social Psychology"]
 tags: ["aging", "Aging Stereotype", "elderly", "Goal Accomodation", "Goal Assimilation", "Goals", "implicit stereotypen", "Motivation"]
 excerpt: "The processes of goal assimilation and goal accommodation refer to different strategies in dealing with goals, that have become unavailable or extremely difficult to reach. Whereas the process of assimilation can be seen as a more active approach to reach a goal, accommodation refers to a more passive, internal cognitive process that changes the valence […]"
-comment_count: 1
 ---
 
 The processes of goal assimilation and goal accommodation refer to different strategies in dealing with goals, that have become unavailable or extremely difficult to reach. Whereas the process of assimilation can be seen as a more active approach to reach a goal, accommodation refers to a more passive, internal cognitive process that changes the valence of goals. Thus the location of the focus on where to find a solution for a given problem differs for those two strategies: Whereas assimilation directs the focus towards the external world, accommodation directs the focus on the internal world.
@@ -37,9 +36,3 @@ So can we propose some kind of action that would optimize the process of goal op
 *Supplementary*
 
 I would like to finish with a slightly different, but related thought, that came to my mind while writing the essay. Most old people explain that with old age they come to understand what is really important to them. However there is an alternative explanation to the change in goal valence suggested by the heuristic model. Imagine that you perceive yourself doing something. You might infer that you are actually motivated to do so, and even more if there are obstacles to your goal that you have to overcome. When you are old, activities usually bear more obstacles than before and the total range of activities is limited. Thus the perceived motivation (and probably the increased goal value) might be due to the obstacles you encounter and not to some late insight into the own emotions.
-
-## Comments
-
-### By LRJEEGYFMICGD on 2018-09-09T13:15:35+01:00
-
-Fantastic site. A lot of useful info here. I am sending it to a few pals ans also sharing in delicious. And certainly, thank you on your sweat!

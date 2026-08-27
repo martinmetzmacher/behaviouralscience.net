@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/10/03/differences-between-clinicians-wit
 categories: ["Clinical Decision Making"]
 tags: ["Brammer", "Claiborn", "diagnosis", "Expert Psychologists", "Hillerbrand", "therapists"]
 excerpt: "The study of Hillerbrand and Claiborn is a 2 (level of expertise)x3 (levels of problem structure) design. 17 expert and 15 novice psychologists with good diagnostic abilities read well structured, ill structured or random structured cases. Consistency of the relevance of the information supplied varied between the cases. Relevance was the extend to which information […]"
-comment_count: 0
 ---
 
 The study of Hillerbrand and Claiborn is a 2 (level of expertise)x3 (levels of problem structure) design. 17 expert and 15 novice psychologists with good diagnostic abilities read well structured, ill structured or random structured cases. Consistency of the relevance of the information supplied varied between the cases. Relevance was the extend to which information necessary for a particular diagnosis was identified in the case. As dependent measure the accuracy of the diagnose was used, as well as the number of diagnoses, the rationale for the diagnosis and the predictions for future behaviour.

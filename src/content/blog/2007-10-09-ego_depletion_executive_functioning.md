@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2007/10/09/ego_depletion_executive_functionin
 categories: ["Social Psychology"]
 tags: ["Baumeister", "Ciarocco", "Daniels", "ego depletion", "Fisher", "high maintenance interaction", "HMI", "Lassiter", "Muraven", "Richeson", "Schmeichel", "Schneider", "self-monitoring", "self-presentation", "Sheeran", "Shelton", "Smith", "Social Psychology", "Tice", "Twenge", "Vohs", "Webb", "Wegner", "Weiland"]
 excerpt: "Executive functioning is the mental ability to control and manage cognitive processes. It is a theoretical cognitive system that involves processes such as attention, abstract thinking, rule acquisition, initiating appropriate actions and inhibiting inappropriate actions and selecting relevant sensory information. Executive functioning is sometimes called central executive or cognitive control and plays an important role […]"
-comment_count: 7
 ---
 
 Executive functioning is the mental ability to control and manage cognitive processes. It is a theoretical cognitive system that involves processes such as attention, abstract thinking, rule acquisition, initiating appropriate actions and inhibiting inappropriate actions and selecting relevant sensory information. Executive functioning is sometimes called central executive or cognitive control and plays an important role in many psychological theories. Many of them come from observation of patients with frontal lobe damage. They show disorganized behaviour and strategies in everyday life, although the more basic functions such as reasoning, learning and memory are still functioning. Thus it was hypothesized that there must be an overarching system coordinating the basic cognitive processes.
@@ -51,67 +50,3 @@ References
 > Wegner, D. M., Schneider, D. J., Carter, S. R., & White, T. L. (1987). Paradoxical effects of thought suppression. Journal of Personality and Social Psychology, 53, 5-13.
 
 > Weiland, P. E., Lassiter, G. D., Daniels, L., & Fisher, A. (2004, January). Can nonconscious goals moderate self-regulatory failure? Paper presented at the annual meeting of the Society for Personality and Social Psychology, Austin, TX.
-
-## Comments
-
-### By 76Fidelia on 2017-08-06T10:48:02+01:00
-
-Hi blogger, i must say you have very interesting posts here.
-
-Your page can go viral. You need initial traffic boost only.
-
-How to get it? Search for; Mertiso’s tips go viral
-
-### By Lovely Tea Teas on 2017-07-18T05:10:12+01:00
-
-Cool post, do you mind if I link to it from my new blog/tea shop?
-
-Its called Lovely Tea Teas? Thanks in advance – Oliver aka Mr
-
-Tea
-
-### By beautiful places on 2016-12-22T01:54:58+01:00
-
-With havin so much content do you ever run into any issues of
-
-plagorism or copyright violation? My site has a lot of
-
-completely unique content I’ve either created myself or outsourced but it looks like a lot of it is popping it up all
-
-over the web without my authorization. Do
-
-you know any ways to help prevent content from being ripped off?
-
-I’d truly appreciate it.
-
-### By francine-quotes.tumblr.com on 2016-08-26T10:34:06+01:00
-
-I pay a visit day-to-day a few blogs and information sites to read articles or reviews, except this
-
-website offers feature based content.
-
-### By The Behavioural Science Blog in 2010 &laquo; Behavioural Science Blog on 2011-01-02T13:54:23+01:00
-
-[…] Ego Depletion & Executive Functioning October 20071 comment […]
-
-### By 2010 in review &laquo; Behavioural Science Blog on 2011-01-02T13:53:10+01:00
-
-[…] Ego Depletion & Executive Functioning October 20071 comment […]
-
-### By Mar on 2009-11-20T21:17:16+01:00
-
-Suppressed Medical Records (File 5100-13465/001)
-
-St. Catharines, Ontario 
-
-– Privacy Commissioner of Canada (Sect. 25,26,28) 
-
-– C.M.H.A / C.A.M.H. – Brock University
-
-Further details Google:
-
-Medicine_Gone_Bad
-
-or
-
-[http://medicine-gone-bad.blogspot.com/](http://medicine-gone-bad.blogspot.com/)

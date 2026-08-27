@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/11/05/universal-self-enhancement-reloade
 categories: ["Social Psychology"]
 tags: ["Brown", "Crocker", "empirical validation", "Gaertner", "Gregg", "Hamamura", "Heine", "Kitayama", "Krueger", "Lehman", "Markus", "meta-analysis", "pancultural", "SCENT", "Sedikides", "Self-Enhancement", "self-regard", "self-worth", "Taylor", "Toguchi", "Vevea", "Wolfe"]
 excerpt: "Some time ago I gave my thoughts about the battle of panculturalists vs. universalists with regard to self-enhancement. This is take II, which goes much more in depth and explores the story by examining the two key players in the discussion and there scientific battle in the different journals. Self-enhancement describes a range of psychological […]"
-comment_count: 3
 ---
 
 Some time ago I gave my thoughts about the [battle of panculturalists vs. universalists with regard to self-enhancement](http://behaviouralscience.net/2008/10/07/self-enhancement-a-universal-process-with-culture-specific-content/). This is take II, which goes much more in depth and explores the story by examining the two key players in the discussion and there scientific battle in the different journals.
@@ -51,21 +50,3 @@ References
 > Sedikides, C. & Gregg, A. (2008). Self-Enhancement, Food for Thought. Perspectives on 	Psychological Science, 3, 102-116.
 
 > Taylor, S. & Brown, J. (1988). Illusion and Well-being: A Social Psychological Perspective 	on Mental Health. Psychological Bulletin, 103, 193-210.
-
-## Comments
-
-### By Martin Metzmacher on 2009-02-11T12:14:26+01:00
-
-It seems that I indeed did confuse the two groups. Here is some feedback I received from a teacher of mine: 
-
-“I had difficulty following your line of argument, until it dawn on me that you have confused the the terms ‘panculturalists’, ‘universalists’ and ‘culturalists’.”
-
-### By Martin Metzmacher on 2008-11-21T12:20:41+01:00
-
-I see Sedikides and his “team” as the panculturalists. However the positions are probably not as clear cut as their articles suggest. In what way do you think that Sedikides is both?
-
-### By Hedgie on 2008-11-21T11:45:39+01:00
-
-I am confused by your use of the terms “Universalists” and “Panculturalists”. In the debate between Heine and Sedikides, who is the panculturalist?
-
-(In my opinion, Sedikides is both and Heine is a cultural relativist)

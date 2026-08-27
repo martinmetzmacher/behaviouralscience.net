@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/10/20/the-implicit-contract-by-therapist
 categories: ["Clinical Decision Making"]
 tags: ["Chadwick", "life story", "Mackenzie", "Psychotherapy", "Williams"]
 excerpt: "Idea for an experiment: I proposed to prime therapists with the case of a patient that could easily be identified as one disorder (for example depression or dementia) and then present another case in which the information is ambiguous and thus allowing the possibility for both disorders to be present. Having read the articles by […]"
-comment_count: 0
 ---
 
 *Idea for an experiment:*

@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2009/03/13/unconscious-perception-reply-by-to
 categories: ["Social Cognition"]
 tags: ["behaviour", "introspection", "Reply", "subconscious", "unconscious processes", "video"]
 excerpt: "This is a reply posted at LinkedIn by Tom Woottoon to the original article: Unconscious perceptual processes. ———— I spoke to 150 mostly doctors and therapists last week and continue to be amazed at how my radical ideas are so well received. Depresssion, Bipolar, and Schizophrenia can be turned into an advantage with professional guidance […]"
-comment_count: 1
 ---
 
 This is a reply posted at LinkedIn by [Tom Woottoon](http://www.bipolaradvantage.com/AboutUs/EducationTeam.php) to the original article: [Unconscious perceptual processes](http://behaviouralscience.net/2009/02/23/unconscious-perceptual-processes/).
@@ -49,10 +48,3 @@ What does that mean?
  [http://eric.ed.gov:80/ERICWebPortal/custom/portlets/recordDetails/detailmini.jsp?_nfpb=true&_&ERICExtSearch_SearchValue_0=EJ730515&ERICExtSearch_SearchType_0=no&accno=EJ730515](http://www.linkedin.com/redirect?url=http%3A%2F%2Feric%2Eed%2Egov%3A80%2FERICWebPortal%2Fcustom%2Fportlets%2FrecordDetails%2Fdetailmini%2Ejsp%3F_nfpb%3Dtrue%26_%26ERICExtSearch_SearchValue_0%3DEJ730515%26ERICExtSearch_SearchType_0%3Dno%26accno%3DEJ730515&urlhash=8n-V&_t=tracking_disc)
 
 By **[Tom Wootton](http://www.bipolaradvantage.com/AboutUs/EducationTeam.php)** President/CEO at [Bipolar Advantage](http://www.bipolaradvantage.com/)
-[](http://www.linkedin.com/newsArticle?viewDiscussion=&articleID=27096403&gid=94332&comment=4#comment_4)
-
-## Comments
-
-### By Kanada dil okullari on 2009-06-10T12:29:16+01:00
-
-Weird how our brain works. Isn’t it. However we have to understand it better to cure most of the brain related issues.

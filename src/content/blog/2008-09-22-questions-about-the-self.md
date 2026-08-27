@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/09/22/questions-about-the-self/
 categories: ["Social Psychology"]
 tags: ["Boer", "Descartes", "Epstein", "Heine", "Kitayama", "Korf", "Lehman", "Markus", "Nijenhuis", "Paans", "Reinders", "Ross", "self-esteem", "self-perception", "The Self", "Willemsen", "Wilson"]
 excerpt: "In recent times there has been a lot of discussion with regard to social psychology constructs such as self-esteem, self-determination and self-affirmation. Due to rapidly changing societies and new insights into cognitive processes of memory formation some old theories of self-psychology have recently been challenged. For example Heine, Lehman, Markus and Kitayama (1999) postulated that […]"
-comment_count: 1
 ---
 
 In recent times there has been a lot of discussion with regard to social psychology constructs such as self-esteem, self-determination and self-affirmation. Due to rapidly changing societies and new insights into cognitive processes of memory formation some old theories of self-psychology have recently been challenged. For example Heine, Lehman, Markus and Kitayama (1999) postulated that self-esteem, conceptualized as positive self-regard, is not a universal value and should be replaced by the concept of self-enhancement. However, all those theories are closely connected to the concept of self, which in itself still remains unclear. Since there are many different interpretation of the self, many discussions end in despair, each side holding on to their specific conceptualization of the self, which are not interchangeable. But can there be any definition that fits them all? Does “talking about myself” and “exercising control over myself” relate to the same objects?
@@ -33,9 +32,3 @@ References
 > Reinders, A. A. T. S., Nijenhuis, E. R. S., Paans, A. M. J., Korf, J., Willemsen, A. T. M., & Boer, J. A. (2003). One brain, two selves. NeuroImage, (20), 2119-2125.
 
 > Ross, M., Xun, W. Q. E., & Wilson, A. E. (2002). Language and the bicultural self. Personality and Social Psychology Bulletin, 28, 1040-1050.
-
-## Comments
-
-### By Belittling Whittling | Open_Secrets on 2008-09-23T01:46:20+02:00
-
-[…] could try reasoning with the assassins of self-esteem, but this type of ingrained behavior is usually indicative of minds too shallow to reflect on the […]

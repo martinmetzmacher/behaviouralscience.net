@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2009/11/10/research-on-classification-case-fo
 categories: ["Clinical Decision Making"]
 tags: ["DSM", "Garb", "Garssen", "Hornsveld", "Hutschemaekers", "ICD", "information", "Kaasenbrood", "Koele", "Krol", "Kwaadsteniet", "matched care", "mental health", "Miakami", "Persons", "Stepped-Care", "Tiemens", "treatment decisions", "Witteman"]
 excerpt: "It has been postulated (for example see Persons & Miakami) that psycho diagnostic evaluation is an important phase in the treatment of psychopathology. However there is a fierce battle going on between those that argue for a stepped-care model in mental health care and those that argue that we should rather look at the specific […]"
-comment_count: 2
 ---
 
 It has been postulated (for example see [Persons & Miakami](http://people.virginia.edu/~am4jd/research_papers/Persons%20&%20Mikami%202002.pdf)) that psycho diagnostic evaluation is an important phase in the treatment of psychopathology. However there is a fierce battle going on between those that argue for a [stepped-care model in mental health care](http://www.clinicom.cpft.nhs.uk/Carepathways/Steppedcarementalhealthmodel/tabid/249/Default.aspx) and those that argue that we should rather look at the specific needs of an individual (matched care – could not find a suitable link -why?).
@@ -45,19 +44,3 @@ We expect that the more diagnostic information is left out of the vignettes, the
 —–
 
 **Please give us some feedback – we are also thankful for questions and remarks about what is clear/not clear and about what you like/dislike!** Also you might want to suggest a flash title for our research!
-
-## Comments
-
-### By Martin Metzmacher on 2009-11-10T15:41:52+01:00
-
-Hi Jorine,
-
-thanks for your valuable feedback. In study 2 & 3 we will indeed look at treatment effectiveness, as you proposed.
-
-### By jorine on 2009-11-10T15:05:58+01:00
-
-In the first place I want to say that I really like the idea of the study 🙂 (no I will not steal your ideas). Second, I think that you will be able to partially answer the research question, because I think it (how much information is sufficient to pick the best available treatment) is a very broad question that depends on many different factors (e.g., kind of problems). Third, I wondered whether you were planning to include the actual effectiveness of the treatment on the specific case, rather than the effectiveness of treatments tested in general (because it may be the case that some of your participants can foresee that a treatment will not be effective for this specific case)
-
-I don’t have any comments about your other questions, because that goes beyond my clinical (research) knowledge 😉 Good luck and lots of fun with designing the study! If you need anymore help, you know where to find me!
-
-Jorine

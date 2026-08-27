@@ -9,10 +9,9 @@ url: http://behaviouralscience.net/2008/05/06/discussion-during-the-third-europe
 categories: ["Clinical Decision Making"]
 tags: ["causal models", "causal reasoning", "causality", "Clinical Decision Making", "critical case", "function analysis", "level of abstration", "notes", "research"]
 excerpt: "These are my notes of the discussion during the third European workshop on causal reasoning in clinical decision making. The workshop took place on April, 25th and some experts from different European countries were present. My notes are not at all complete, they were rather meant to help me remember the interesting points that were […]"
-comment_count: 0
 ---
 
-These are my notes of the discussion during the third European workshop on causal reasoning in clinical decision making. The workshop took place on April, 25th and some experts from different European countries were present. My notes are not at all complete, they were rather meant to help me remember the interesting points that were discussed during the whole workshop. If you have any questions about them (because some might be quite complicated) please leave a comment, I’ll then get back to you.
+These are my notes of the discussion during the third European workshop on causal reasoning in clinical decision making. The workshop took place on April, 25th and some experts from different European countries were present. My notes are not at all complete, they were rather meant to help me remember the interesting points that were discussed during the whole workshop.
 
 In Belgium a program was designed that uses specific rules to compute reasoning from a questionnaire of Likert scales. That did sound really interesting and I would like to have a go with this program. It could also be very interesting to make an online version and get a lot of people to fill it in, so we have a norm-group.
 

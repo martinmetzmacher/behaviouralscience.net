@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/04/01/developmental-psychopathology/
 categories: ["Clinical Psychology"]
 tags: ["affect regulation", "child", "development", "developmental psychopathology", "family", "mental health", "microsystem", "research"]
 excerpt: "The study of developmental psychopathology is a multidisciplinary approach for studying factors that contribute or impede mental health. These factors can be internal (for example genes) or external (environment) and are conceptualized not as directly influencing mental health, but as building vulnerabilities or enhance adaptation. It is assumed these factors differ in their mechanics according […]"
-comment_count: 0
 ---
 
 The study of developmental psychopathology is a multidisciplinary approach for studying factors that contribute or impede mental health. These factors can be internal (for example genes) or external (environment) and are conceptualized not as directly influencing mental health, but as building vulnerabilities or enhance adaptation. It is assumed these factors differ in their mechanics according to age. Data about the risk factors and protective factors is recorded by the means of longitudinal studies and then analyzed with their regard to adaptive versus maladaptive developmental outcome. Psychopathology is expected to be found in individuals that are exposed to many risk factors during their development, without access to protective factors that can counteract maladaptive development.

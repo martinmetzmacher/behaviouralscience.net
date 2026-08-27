@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/02/21/differences-in-impulsive-processes
 categories: ["Behavioural Regulation"]
 tags: ["associative store", "automatic effects", "Deutsch", "reflective system", "Strack"]
 excerpt: "Imagine walking into a library. All objects in that building are based on the same principle, they all use paper with letters printed on it to deliver a specific message. So should we just put all the books, articles and newspapers on one pile? No – it makes sense to structure the objects according to […]"
-comment_count: 0
 ---
 
 Imagine walking into a library. All objects in that building are based on the same principle, they all use paper with letters printed on it to deliver a specific message. So should we just put all the books, articles and newspapers on one pile? No – it makes sense to structure the objects according to the topic they deal with (so that books and newspapers about gardening stand close to each other). This additional information helps us to deal with the information presented in a much more efficient way. The same is true for the categorization of automatic processes into meaningful groups.

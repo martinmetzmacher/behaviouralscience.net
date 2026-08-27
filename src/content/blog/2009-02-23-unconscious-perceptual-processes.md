@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2009/02/23/unconscious-perceptual-processes/
 categories: ["Social Cognition"]
 tags: ["Bargh", "behavioral targeting", "behaviour", "Burruws", "Cartrand", "Chao", "Chen", "Dijksterhuis", "Ellis", "embodied embedded cognitions", "Evolution", "Fitzsimons", "Holland", "inhibition hypothesis", "Jastrow", "Karremans", "Martion", "Murphy", "Owen", "Pamela Smith", "Pötzl", "perception", "Pierce", "self-esteem", "Simmons", "subliminal", "Taylor", "Tucker", "unconscious processes", "Vicary", "Whalen", "Zajonc", "Zwaam"]
 excerpt: "This article was inspired by a lecture given by Pamela Smith at the Radboud University Nijmegen. The purpose of perception is to support behaviour. Why do we perceive things in the first place? What is the point of it? Is it so we can understand the world? That sounds logical, but that cannot be the […]"
-comment_count: 5
 ---
 
 This article was inspired by a lecture given by [Pamela Smith](http://pamela.smith.socialpsychology.org/) at the Radboud University Nijmegen.
@@ -99,43 +98,3 @@ Frame 3: Nice
 **When people see themselves paired with positive words they showed more positive self-esteem** (tested with the name-letter-effect).
 
 So what can we do with subliminal influencing? Well it is not sure, the field is just starting, Only in the last decade we have computers that can present stimuli in a very short time. There is good experimental software now that we can use and a lot of new test paradigms have been developed.
-
-## Comments
-
-### By The Behavioural Science Blog in 2010 &laquo; Behavioural Science Blog on 2011-01-02T13:54:10+01:00
-
-[…] The busiest day of the year was January 5th with 131 views. The most popular post that day was Unconscious perceptual processes. […]
-
-### By 2010 in review &laquo; Behavioural Science Blog on 2011-01-02T13:52:57+01:00
-
-[…] The busiest day of the year was January 5th with 131 views. The most popular post that day was Unconscious perceptual processes. […]
-
-### By Unconscious Perception: Reply by Tom Wootton &laquo; Behavioural Science Blog on 2009-03-13T23:14:14+01:00
-
-[…] leave a comment »  This is a reply posted at LinkedIn by Tom Woottoon to the original article: Unconscious perceptual processes. […]
-
-### By Martin Metzmacher on 2009-02-26T12:12:24+01:00
-
-Hi Eddy,
-
-Thanks for your comment. I think we are actually starting to ask the right questions. Certainly focusing on behaviour instead of some vague cognitive or emotional constructs has brought the theory-theory (think university) and real-life-theory (think leadership and management programs) closer together. 
-
-In my perspective science has a lot to catch up when it comes to having practical implications in everyday life. However, those leadership and management programs can also benefit from it, as using sound science principles will definitely affect effect size of the training.
-
-### By Dr Eddy Kloprogge on 2009-02-26T10:43:28+01:00
-
-Hi Martin
-
-Thank you for writing this article. It was a joy to read.
-
-My attention goes out to the experiments where (short term memory) emotional recognition seems to have a major influence in conscious recall and therefore behaviour.
-
-It connects emotional intelligence theories in leadership and management programmes with the ‘therapeutic’ observations of transferance and counter-transferance obstruction of inter-personal communication. (2nd element of Prof Petruska Clarkson’s 5 Relationship model).
-
-I also read your article on Behavioral Assessment of Social Anxiety in the Free Speech Task.
-
-I wonder if you have had any thoughts on repeting these experiments with people who live or have lived with an Alcohol Dependency. As this group suffer from extreme forms of social anxiety.
-
-Kind regards
-
-Eddy Kloprogge

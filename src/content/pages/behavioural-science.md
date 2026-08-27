@@ -10,4 +10,4 @@ Behavioural sciences explore interactions among organisms and their environment.
 
 Behavioural sciences are different from social sciences in that they investigate the decision processes within and the interaction between subjects, whereas socials sciences study social processes on a more abstract level, such as economics and history. The integrative work of behavioural science has spawned the development of graduate schools of behavioural science, where researchers from different backgrounds integrate problems from multiple perspectives.
 
-[Click here for more about the Behavioural Science Blog…](https://behaviouralscience.wordpress.com/about-behavioural-science-blog/)
+[Learn more about Behavioural Science →](/about-behavioural-science-blog/)

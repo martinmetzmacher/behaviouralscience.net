@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2010/12/26/forget-the-cinderella-effect-stepp
 categories: ["Social Psychology"]
 tags: ["child homocide", "Daly", "Evolutionary Psychology", "family", "Fergusson", "Fleming", "Kexue Communications", "O’Neill", "stepparent", "Stockholm University", "Temrin", "Tim O’Mahony", "Wilson"]
 excerpt: "By Tim O’Mahony Operations Manager at Kexue Communications, [http://www.kexuecommunications.com](http://www.kexuecommunications.com) Researchers have known since the early 1970s that children in stepfamilies are at greater risk of child abuse and murder (Fergusson, Fleming & O’Neill, 1972). A team of Swedish researchers has found that parents in stepfamilies are equally likely to kill their biological children as they […]"
-comment_count: 1
 ---
 
 By Tim O’Mahony Operations Manager at Kexue Communications, [www.kexuecommunications.com](www.kexuecommunications.com)
@@ -51,9 +50,3 @@ Fergusson DM, Fleming J, O’Neill DP, 1972. Child abuse in New Zealand. Welling
 Turner HA, Finkelhor D, Ormrod R, 2007. Family structure variations in patterns and
 
 predictors of child victimization. American Journal of Orthopsychiatry 77: 282-295.
-
-## Comments
-
-### By marketing digital pos graduação on 2018-02-14T17:00:00+01:00
-
-Internet apenas para propaganda dos produtos.

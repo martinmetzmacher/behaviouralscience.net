@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/11/15/three-recent-applications-of-virtu
 categories: ["Clinical Psychology"]
 tags: ["Cybertherapy", "Psychotherapy", "Training", "Virtual Reality"]
 excerpt: "[http://www.vrphobia.com](http://www.vrphobia.com) (which turned up as #1 in Google) is an organization that is called Virtual Reality Medical Center. They treat all kinds of anxiety related disorders, but seem to focus mainly on specific phobias. After the intake session the client is taught skills to suppress automatic fear reactions. In the following sessions the client is […]"
-comment_count: 3
 ---
 
 [http://www.vrphobia.com](http://www.vrphobia.com) (which turned up as #1 in Google) is an organization that is called Virtual Reality Medical Center. They treat all kinds of anxiety related disorders, but seem to focus mainly on specific phobias. After the intake session the client is taught skills to suppress automatic fear reactions. In the following sessions the client is gradually exposed to the feared stimulus. In other words: VR desensitisation.
@@ -23,25 +22,3 @@ As [http://www.cybertherapy.info/cybertherapy/8_Optale.pdf](http://www.cyberther
 By the way:
 
 [http://www.cybertherapy.info/](http://www.cybertherapy.info/) is the most comprehensive and excellent source for material about VR in psychotherapy that I could find on the net. Especially have a look at the free books, like [http://www.cybertherapy.info/pages/book2.htm](http://www.cybertherapy.info/pages/book2.htm) or [http://www.cybertherapy.info/pages/book3.htm](http://www.cybertherapy.info/pages/book3.htm). The articles are downloadable as PDF (just scroll down). Especially look at book 3 session 2 that comprises some clinical controlled trials with cybertherapy (which seems to be the keyword I was desperately looking for).
-
-## Comments
-
-### By Martin Metzmacher on 2011-05-19T08:19:25+01:00
-
-Hola dianis,
-
-sorry but I do not speak spanisch. I hope that another reader on this website will be able to help you with your request.
-
-Martin
-
-### By dianis on 2011-05-19T02:59:26+01:00
-
-Hola que tal, vivo en Mexico Distrito Federal.  y estoy muy interesada en tomar terapia de realidad virtual ya que sufro de claustrofobia , terror a aviones y elevadores con ataques de panico y quisiera saber a donde puedo acudir a terapia aqui en la ciudad de mexico.
-
-mil gracias
-
-dios los bendiga
-
-### By Shannon Liauw on 2011-05-05T18:39:00+01:00
-
-I love the idea of using VR to treat obesity and eating disorders, especially since obesity is a major risk factor in the United States. However, I wonder if treatment is fully effective when patient know its only a VR and not a real situation. Do these patients take their treatment seriously?

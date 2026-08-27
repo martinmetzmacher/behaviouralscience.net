@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2007/10/09/embodied-embedded-cognition/
 categories: ["Philosophy"]
 tags: ["Damasio", "Embodied Embedded Cognition", "Information retrieval", "neurocognition", "Rolls", "Wong", "Yao"]
 excerpt: "The term Embodiment refers to the idea that the internal milieu of the body (such as hormone levels or other homeostatic functions) plays an important role in the processes usually attributed to more higher cognitive processes. This influence is probably achieved through manipulation of emotional states, as suggested by Damasio (1994). “Embedded” describes the quality […]"
-comment_count: 1
 ---
 
 The term Embodiment refers to the idea that the internal milieu of the body (such as hormone levels or other homeostatic functions) plays an important role in the processes usually attributed to more higher cognitive processes. This influence is probably achieved through manipulation of emotional states, as suggested by Damasio (1994).
@@ -37,9 +36,3 @@ References
 > Rolls, E.T. (1997). “Consciousness in neural networks”. Neural Networks, 10, 1227-1240.
 
 > Wong, S.K M. & Yao, Y. Y. (1991). A probabilistic inference model for information retrieval. Transactions on Information Systems 16, 301-321.
-
-## Comments
-
-### By Arthur on 2022-10-25T13:27:13+01:00
-
-Thank you for sharinng this

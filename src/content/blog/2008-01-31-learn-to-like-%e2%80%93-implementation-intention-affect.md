@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/01/31/learn-to-like-%e2%80%93-implementa
 categories: ["Behavioural Regulation"]
 tags: ["Aarts", "Affect", "automatic behavior", "Cooke", "Custers", "Dijksterhuis", "Förster", "Friedman", "Gollwitzer", "Hassin", "Henk Aarts", "Holland", "Implementation Intention", "Kahnemann", "Langendam", "Liberman", "mesolimbic system", "natural habits", "research proposal", "Rivis", "Ruud Custers", "Sheeran", "Tversky", "Webb"]
 excerpt: "1. Short Summary of the research proposal This study investigates the role of affect in consciously created automatic behaviour tendencies (implementation intentions). The general hypothesis is that the frequency of a behaviour is closely connected to the activation of a specific behaviour tendency, but this model often fails when implementation intentions are used to change […]"
-comment_count: 5
 ---
 
 **1. Short Summary of the research proposal**
@@ -89,39 +88,3 @@ Only in the last few years has behavioural sciences acknowledged that human beha
 > Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision und risk. Econometrica, 47, 263-291.
 
 > Sheeran, P., Aarts, H., Custers, R., Rivis, A., Webb, T., Cooke, R. (2005). The goal-dependent automaticity of drinking habits. British Journal of Social Psychology, 44, 47-63.
-
-## Comments
-
-### By Ruth on 2010-03-09T21:22:11+01:00
-
-Great stuff. behaviouralscience.net is the shit.
-
-### By Martin Metzmacher on 2009-11-10T12:52:33+01:00
-
-Hi Rodney,
-
-oh yeah thanks. I am not a native English speaker (in fact it’s my 3rd language), so I sometimes have misguided feelings about which tense would be appropriate to use. I am not going to change the text, but thanks to your comment people having the same question will find an answer (if they have the guts to scroll down all the way).
-
-### By Rodney on 2009-10-25T19:11:33+01:00
-
-Thanks for your reply Martin.  I think the confusion arose because you used present tense throughout the proposal instead of future-tense words like “will.”  
-
-So for example this line:
-
-“In the last task participants are presented with 10 different travel locations…”
-
-Could be phrased in future-tense and be written as:
-
-“In the last task participants will be presented with 10 different travel locations…”
-
-Rodney
-
-### By Martin Metzmacher on 2009-10-25T11:58:13+01:00
-
-Hi Rodney, thansk for your comment. Please understand that this is a research proposal! This means that I only formulate a hypothesis and a method, there are no results. Therefore the experiment above does prove nothing, because it has not been done yet. 
-
-I guess rereading the first bit, “Short Summary of the research proposal” might help to get a clearer picture. In one line: I want to improve on implementation intentions by adding an affective part to the cognitive one.
-
-### By Rodney on 2009-10-23T08:05:42+01:00
-
-Unfortunately, this article was extremely difficult to understand.  I didn’t really understand  what this study proves if anything although I am very interested in implementation intentions.  Can you please say in plain English what the experiment above proves?

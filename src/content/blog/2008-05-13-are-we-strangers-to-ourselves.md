@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/05/13/are-we-strangers-to-ourselves/
 categories: ["Social Psychology"]
 tags: ["Bem", "Deutsch", "explicit self", "feedback", "implicit self", "Roos Vonk", "self-knowledge", "self-perception", "social comparison", "Strack"]
 excerpt: "Who are you? Okay…easy enough question, but get this one: How do you know who you are? Do you get it right? So many times I meet people that tell me all about them and how they are and when I finally get to know them, they seem to do quite the opposite of what […]"
-comment_count: 0
 ---
 
 Who are you?

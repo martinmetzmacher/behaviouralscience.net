@@ -6,18 +6,22 @@ date: 2010-01-13T19:33:35+01:00
 url: http://behaviouralscience.net/about-behavioural-science-blog/martin-metzmacher/
 ---
 
-Hi,
+**Martin Metzmacher** is a Behavioral Scientist, Diagnostician, and Author specializing in cognitive modeling, habit architecture, and clinical relationship diagnostics.
 
-my name is Martin Metzmacher. I was a Research Master student at the[ Behavioural Science Institute](http://www.ru.nl/bsi/) of the [Radboud University in Nijmegen](http://www.ru.nl). My research interest back then was [diagnostic decision making](http://www.socsci.ru.nl/ddm/) in expert psychotherapists. I believe that more adequate research methods can give valuable insights into expert decision making and the effects on treatment outcome.
+### Academic Background
 
-After finishing my study I am now an entrepreneur. Find out more about my business at [seriousmarketing.de](http://seriousmarketing.de). find out more about my person on [martinmetzmacher.com](http://martinmetzmacher.com)
+Martin completed his Research Master in Cognitive and Behavioral Science at the **Behavioural Science Institute (BSI)** of **Radboud University Nijmegen**. His academic research centered on **diagnostic decision making** in expert clinical practitioners, investigating causal reasoning structures, heuristic errors, and normative decision models in mental health.
 
-Often things come to my mind that I want to share and discuss with others. This blog makes it possible to transcend time and space in the discussion about new ideas in [behavioural science](https://behaviouralscience.wordpress.com/behavioural-science/). I hope you enjoy reading and maybe you can take out some of it for yourself. In any way I will be happy to receive your feedback, so feel free to leave a comment on a subject of your interest.
+### Applied Practice & Thought Leadership
 
-- **You can also write me an [email](mailto:martin.metzmacher@web.de).**
+Over the past fifteen years, Martin has translated cognitive and behavioural science into high-leverage diagnostic tools, therapeutic systems, and published works:
 
-- **[Add Martin Metzmacher on Facebook](http://www.facebook.com/people/Martin_Metzmacher/588353081)**
+- **Clinical Relational Diagnostics:** Developer of evidence-based diagnostic frameworks and 1:1 clinical practice for couples at [paartherapie.in](https://paartherapie.in), integrating adult attachment dynamics (Bowlby, Hazan & Shaver) and empirical couple research.
+- **Habit Architecture & Behavioural Change:** Author of frameworks on effortless behavioral transformation—engineering automaticity and habit loops that eliminate reliance on transient willpower.
+- **Published Works & Writing:** Author of books on habit transformation and relational security (including *Earned Security*).
 
-- **[Add Martin Metzmacher on LinkedIn](http://www.linkedin.com/in/martinmetzmacher)**
+### Connect
 
-- **[Add Martin Metzmacher on Xing](http://www.xing.com/profile/Martin_Metzmacher)**
+- **Practice & Diagnostics:** [paartherapie.in](https://paartherapie.in)
+- **LinkedIn:** [linkedin.com/in/martinmetzmacher](https://www.linkedin.com/in/martinmetzmacher)
+- **Inquiries & Correspondence:** [Contact Page](/contact/)

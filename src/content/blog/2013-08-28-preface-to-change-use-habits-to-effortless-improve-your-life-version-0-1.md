@@ -9,14 +9,13 @@ url: http://behaviouralscience.net/2013/08/28/preface-to-change-use-habits-to-ef
 categories: ["Habits"]
 tags: ["AA", "attention", "automatic behavior", "automaticity", "autopilot", "Behavioural Change", "book", "Change", "dynamic systems", "habit", "Habits", "Judith Martins", "limbic system", "Motivation", "self-talk", "success", "Weight Watchers", "William James"]
 excerpt: "I am writing a book (together with Behavioral Change Specialist Judith Martens from behavior-change.net) about how to change effortless, using habits to shape your behaviour without the need of (an enourmous amount of) motivation. I was writing some chapters, when I realized that I needed to see the preface to really set my focus on […]"
-comment_count: 1
 ---
 
 I am writing a book (together with [Behavioral Change Specialist Judith Martens from behavior-change.net](http://www.behavior-change.net/)) about how to change effortless, using habits to shape your behaviour without the need of (an enourmous amount of) motivation.
 
 I was writing some chapters, when I realized that I needed to see the preface to really set my focus on how I was going to fill the different steps.
 
-The final preface might look very different – but this piece will give me inner focus. It’s not to the point yet – but you still might enjoy reading it. I am happy if you leave your questions and ideas in the comment section below.
+The final preface might look very different – but this piece will give me inner focus. It’s not to the point yet – but you still might enjoy reading it.
 
 Preface to “Change! – Use habits to effortless improve your life.”
 
@@ -79,9 +78,3 @@ May this book guide you to live the life that you deserve
 August 2013
 
 Judith & Martin
-
-## Comments
-
-### By HealthTimes on 2021-08-19T22:39:37+01:00
-
-Great to read lot of source. Thank you for this.

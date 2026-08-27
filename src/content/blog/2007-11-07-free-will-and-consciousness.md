@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2007/11/07/free-will-and-consciousness/
 categories: ["Philosophy"]
 tags: ["Backdating", "behaviour", "consciousness", "Cunningham", "delay", "Free Will", "Libet", "Nørretranders", "Wegner"]
 excerpt: "The topic of free will has been a central issue since the beginning of philosophy: How do rational agents exercise control over one’s actions and decisions. In “the precise of the illusion of conscious will” (2004), Daniel M. Wegner explores the idea of apparent mental causation. He argues that if a thought arises just before […]"
-comment_count: 0
 ---
 
 The topic of free will has been a central issue since the beginning of philosophy: How do rational agents exercise control over one’s actions and decisions.

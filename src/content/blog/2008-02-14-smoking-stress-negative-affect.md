@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2008/02/14/smoking-stress-negative-affect/
 categories: ["Clinical Psychology"]
 tags: ["mesolimbic neurons", "negative affect", "nicotine", "nicotine cholinergic receptors", "psychopharmacology", "relaxation", "Reward", "Smoking", "stress", "Terror Management theory"]
 excerpt: "In terms of psychopharmacology, nicotine acts directly on nicotine cholinergic receptors, which are located in part on mesolimbic dopamine neurons. By stimulating the nicotine receptor, dopamine is released from the mesolimbic neurons, accompanied by a sense of reward and pleasure. Whereas other drugs, such as cocaine, that act on the same neurons, block the dopamine […]"
-comment_count: 6
 ---
 
 In terms of psychopharmacology, nicotine acts directly on nicotine cholinergic receptors, which are located in part on mesolimbic dopamine neurons. By stimulating the nicotine receptor, dopamine is released from the mesolimbic neurons, accompanied by a sense of reward and pleasure. Whereas other drugs, such as cocaine, that act on the same neurons, block the dopamine transporters, nicotine shuts down the nicotine receptor shortly after binding to it, thus the sensation of pleasure comes in small boosts. This is the reason why smoking a cigarette is desirable, but does not influence behaviour strongly. Effects are the elevation of mood, enhancement of cognition and decrease of appetite. However, it was found that smoking does not attenuate negative affect more than drinking a glass of water does.
@@ -23,37 +22,3 @@ The reason why smoking a cigarette is relaxing to smokers might be closely relat
 I believe that smoking can not be explained as a biological problem alone. Conditioning plays an important role, but it does not take into account many other psychological factors that are also important. The connection between smoking and affect regulation is not totally learned by physical conditioning processes within our body, but also by social learning. At least the countless advertisements for cigarettes paint the picture of relaxation and feeling good. Children of smoking parents engage much more in smoking behaviour, than would be expected on the basis of genetic influence. So imitation of behaviour might play a role. There are also other social processes at hand. For example the feeling of belonging to the ingroup of “smokers” in a given social setting might be beneficial. Taking a collective smoking break is also a good chance to engage in casual interaction with someone you do not know so well.
 
 The problem with experimental research on smoking behaviour is that real life settings are hard to control and there are just too many variables, which cannot be controlled for. Laboratory experiments on the other hand often have limited ecological validity. I propose a straight-forward experiment that investigates on the relationship between smoking and stress in the virtual lab. Using the virtual lab has the advantage of supplying every participant with the exact same environment. The scenes used resemble a typical every day transport scenario. One has to move through a virtual train station in order to get to the train in time. The train station is either packed with people (high stress condition) or relatively empty (low stress condition). Arriving at the train platform the participant learns that the train will arrive late and that he will have to wait a few minutes. In that time he either does nothing, smokes a virtual cigarette or smokes a real cigarette. Stress is measured throughout the experiment by galvanic skin response. If the virtual cigarette had the same effect as the real cigarette it would prove that there are important processes at work next to the biological ones.
-
-## Comments
-
-### By Martin Metzmacher on 2010-01-17T10:02:59+01:00
-
-Dear Sibyl, thank you for your nice comment! I believe it will be worth your while to check back soon.
-
-### By Sibyl Beese on 2010-01-17T06:13:49+01:00
-
-I am not an expert on this matter, but after reading your article, my understanding has developed considerably. I did a search about this matter and I believe some people will agree with your post. I don�t know what to say except that I have enjoyed reading. I have bookmarked this web site so I can comeback and read more posts. Keep up the good work.
-
-### By Martin Metzmacher on 2009-04-22T15:33:35+01:00
-
-Very well…would you mind posting some links to empirical articles that back up your claim?
-
-### By natashaclarck on 2009-04-22T07:55:25+01:00
-
-Everyone knows that stress is related to smoking and smoking is often a reaction to stress and tension. Smoking is not the solution to your problems but just hides it.
-
-### By Martin on 2008-02-15T15:01:29+02:00
-
-Hi Joe, thanks for your comment. 
-
-First, I am not making a single buck out of it. I am proposing to conduct this experiment to look further into the mechanism of how stress is reduced by smoking. If you can give me a straight forward answer, please do not hesitate to do so. I would love to hear that.
-
-Secondly I would like you to specify what you find “phony” about my idea. The reason stuff like that gets posted is so that others can reflect on my idea and ultimately also improve it. Sadly enough I don’t really understand what you mean, so that does not really help me improve on the idea. I hope you will specify your ideas.
-
-Greets Martin
-
-### By Joe Camel on 2008-02-14T16:47:15+02:00
-
-You’re obviously making a buckoff the Tobacco War with phony and unnecessary “research”. 
-
-Find another racket.

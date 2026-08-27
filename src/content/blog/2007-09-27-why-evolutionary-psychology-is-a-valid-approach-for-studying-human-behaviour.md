@@ -9,7 +9,6 @@ url: http://behaviouralscience.net/2007/09/27/why-evolutionary-psychology-is-a-v
 categories: ["Philosophy"]
 tags: ["darwin", "Evolution", "Evolutionary Psychology", "philosophy of science"]
 excerpt: "I will first demonstrate that in behavioural science there is no alternative explanation to evolution when exploring the whole causal chain that leads to a specific behaviour. Secondly I will show that the implication of this perspective yield results also in studies that focus on a more narrow subject. Last I hope to refuse the […]"
-comment_count: 1
 ---
 
 I will first demonstrate that in behavioural science there is no alternative explanation to evolution when exploring the whole causal chain that leads to a specific behaviour. Secondly I will show that the implication of this perspective yield results also in studies that focus on a more narrow subject. Last I hope to refuse the critics who claim that EP is build on unscientific presumptions.
@@ -23,9 +22,3 @@ A scientific theory can not be verified, but research can accumulate support for
 Critics often state the problem that Evolutionary Psychology is based on presumptions about human life, that can not be verified. Although historians and anthropologists are able to offer a vivid picture of human life in a former time they might plainly be wrong on important facts. Of course this would form a problem to all theories that rely on those presumptions, including Evolutionary Psychology. In my view this problem is not a problem at all. In constructing hypotheses about evolution (for example the social structure of the homo neandertalis) the same principles apply to any other hypothesis: Only if enough evidence has been accumulated from different sources and with different tools the hypothesis can be used as possible explanation. Setting up an experiment without a hypothesis and then arguing backwards to fit an evolutionary picture is clearly against proper scientific procedures. So when criticizing experiments of Evolutionary Psychology one should always be clear on what is imperfect: The theory itself, which in my opinion can only be proven by falsifying deducted hypothesis, or the methodology used.
 
 Therefore I conclude that Evolutionary Psychology, when used within the proper scientific guidelines, is a very interesting perspective that entails great potential for all science dedicated to biological life. The most important function of the evolutionary perspective in my opinion is the stimulation of and focussing of research towards an ultimate theory of life.
-
-## Comments
-
-### By Behavioural Science Blog development &laquo; Behavioural Science Blog on 2009-09-17T15:08:35+01:00
-
-[…] you personally: I started this blog about two years ago, on September 27th, 2009  with the article Why Evolutionary Psychology is a Valid Approach for Studying Human Behaviour. Since then the blog has grown to 45 postings, which are mostly text-based (and relatively long). […]
