@@ -1,0 +1,210 @@
+[
+  {
+    "ID": 4411067,
+    "name": "Behavioural Regulation",
+    "slug": "behavioural-regulation",
+    "description": "Explicit, implicit, conscious and unconscious, automatic, deliberative...about all processes that regulate behaviour",
+    "post_count": 5,
+    "feed_url": "http://behaviouralscience.net/category/behavioural-regulation/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:behavioural-regulation",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:behavioural-regulation/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 232299,
+    "name": "Behavioural Science",
+    "slug": "behavioural-science",
+    "description": "",
+    "post_count": 7,
+    "feed_url": "http://behaviouralscience.net/category/behavioural-science/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:behavioural-science",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:behavioural-science/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 6736156,
+    "name": "Clinical Decision Making",
+    "slug": "clinical-decision-making",
+    "description": "How decisions in the field of applied clinical psychology are made (or should be made)",
+    "post_count": 7,
+    "feed_url": "http://behaviouralscience.net/category/clinical-decision-making/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:clinical-decision-making",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:clinical-decision-making/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 146692,
+    "name": "Clinical Psychology",
+    "slug": "clinical-psychology",
+    "description": "Mental diseases, (developmental) psychopathology, therapy",
+    "post_count": 11,
+    "feed_url": "http://behaviouralscience.net/category/clinical-psychology/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:clinical-psychology",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:clinical-psychology/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 67837,
+    "name": "Decision Making",
+    "slug": "decision-making",
+    "description": "",
+    "post_count": 0,
+    "feed_url": "http://behaviouralscience.net/category/decision-making/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:decision-making",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:decision-making/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 74941,
+    "name": "Habits",
+    "slug": "habits",
+    "description": "",
+    "post_count": 1,
+    "feed_url": "http://behaviouralscience.net/category/habits/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:habits",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:habits/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 11389443,
+    "name": "Loosely Related",
+    "slug": "loosely-related",
+    "description": "Stuff that is loosely related to the other topics, such as NLP and Hypnosis",
+    "post_count": 5,
+    "feed_url": "http://behaviouralscience.net/category/loosely-related/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:loosely-related",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:loosely-related/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 1868,
+    "name": "Philosophy",
+    "slug": "philosophy",
+    "description": "Some basic considerations that have implications for the study of Behavioural Science",
+    "post_count": 5,
+    "feed_url": "http://behaviouralscience.net/category/philosophy/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:philosophy",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:philosophy/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 715493,
+    "name": "Research Methodology",
+    "slug": "research-methodology",
+    "description": "Methodology and Research Designs - the more technical stuff",
+    "post_count": 6,
+    "feed_url": "http://behaviouralscience.net/category/research-methodology/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:research-methodology",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:research-methodology/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 74907,
+    "name": "Research Skills",
+    "slug": "research-skills",
+    "description": "",
+    "post_count": 1,
+    "feed_url": "http://behaviouralscience.net/category/research-skills/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:research-skills",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:research-skills/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 1888550,
+    "name": "Social Cognition",
+    "slug": "social-cognition",
+    "description": "How people process social information",
+    "post_count": 4,
+    "feed_url": "http://behaviouralscience.net/category/social-cognition/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:social-cognition",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:social-cognition/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 13744,
+    "name": "Social Psychology",
+    "slug": "social-psychology",
+    "description": "Topics from social psychology such as self-knowledge, relationships or ego functioning",
+    "post_count": 9,
+    "feed_url": "http://behaviouralscience.net/category/social-psychology/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:social-psychology",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:social-psychology/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  },
+  {
+    "ID": 1,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "description": "",
+    "post_count": 0,
+    "feed_url": "http://behaviouralscience.net/category/uncategorized/feed/",
+    "parent": 0,
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+      }
+    }
+  }
+]

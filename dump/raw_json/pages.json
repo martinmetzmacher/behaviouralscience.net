@@ -1,0 +1,719 @@
+[
+  {
+    "ID": 373,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2010-02-06T22:31:12+01:00",
+    "modified": "2010-02-06T22:31:12+01:00",
+    "title": "Christina Summerdyk",
+    "URL": "http://behaviouralscience.net/about-behavioural-science-blog/christina-summerdyk/",
+    "short_URL": "https://wp.me/P6PBZ-61",
+    "content": "<p>Christina Summerdyk</p>\n<ul>\n<li><a rel=\"bookmark\" href=\"http://behaviouralscience.net/2009/11/20/popular-beliefs-obesity-contribute-to-problem/\"><span style=\"font-weight:normal;\">How popular beliefs about obesity contribute to the growing problem</span></a></li>\n<li><a rel=\"bookmark\" href=\"http://behaviouralscience.net/2009/10/26/how-do-biases-affect-decision-making-in-mental-health/\"><span style=\"font-weight:normal;\">How do biases affect decision making in mental health?</span></a></li>\n</ul>\n",
+    "excerpt": "<p>Christina Summerdyk How popular beliefs about obesity contribute to the growing problem How do biases affect decision making in mental health?</p>\n",
+    "slug": "christina-summerdyk",
+    "guid": "http://behaviouralscience.net/?page_id=373",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": {
+      "ID": 2,
+      "type": "page",
+      "link": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2",
+      "title": "About this Blog"
+    },
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 0
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "a0b1d75bc38bee0a5b6faeb0e04dd865",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/373",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/373/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/373/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/373/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 370,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2010-02-06T22:24:13+01:00",
+    "modified": "2010-02-06T22:27:06+01:00",
+    "title": "Contact",
+    "URL": "http://behaviouralscience.net/contact/",
+    "short_URL": "https://wp.me/P6PBZ-5Y",
+    "content": "\n",
+    "excerpt": "",
+    "slug": "contact",
+    "guid": "http://behaviouralscience.net/contact/",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": false,
+    "type": "page",
+    "discussion": {
+      "comments_open": false,
+      "comment_status": "closed",
+      "pings_open": false,
+      "ping_status": "closed",
+      "comment_count": 0
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "b970ba010a8dad25f7d2bf8e2b3d6725",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/370",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/370/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/370/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/370/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 348,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2010-01-13T19:33:35+01:00",
+    "modified": "2010-11-14T11:38:27+01:00",
+    "title": "Martin Metzmacher",
+    "URL": "http://behaviouralscience.net/about-behavioural-science-blog/martin-metzmacher/",
+    "short_URL": "https://wp.me/P6PBZ-5C",
+    "content": "<p>Hi,</p>\n<p>my name is Martin Metzmacher. I was a Research Master student at the<a title=\"http://www.ru.nl/bsi/\" href=\"http://www.ru.nl/bsi/\" target=\"_blank\"> Behavioural Science Institute</a> of the <a title=\"http://www.ru.nl\" href=\"http://www.ru.nl\" target=\"_blank\">Radboud University in Nijmegen</a>. My research interest back then was <a title=\"http://www.socsci.ru.nl/ddm/\" href=\"http://www.socsci.ru.nl/ddm/\" target=\"_blank\">diagnostic decision making</a> in expert psychotherapists. I believe that more adequate research methods can give valuable insights into expert decision making and the effects on treatment outcome.</p>\n<p>After finishing my study I am now an entrepreneur. Find out more about my business at <a title=\"Online Marketing Strategy\" href=\"http://seriousmarketing.de\">seriousmarketing.de</a>. find out more about my person on <a title=\"Business, personal, stuff\" href=\"http://martinmetzmacher.com\">martinmetzmacher.com</a></p>\n<p>Often things come to my mind that I want to share and discuss with others. This blog makes it possible to transcend time and space in the discussion about new ideas in <a title=\"https://behaviouralscience.wordpress.com/behavioural-science/\" href=\"https://behaviouralscience.wordpress.com/behavioural-science/\">behavioural science</a>. I hope you enjoy reading and maybe you can take out some of it for yourself. In any way I will be happy to receive your feedback, so feel free to leave a comment on a subject of your interest.</p>\n<ul>\n<li><strong>You can also write me an <a title=\"send me an email\" href=\"mailto:martin.metzmacher@web.de\">email</a>.</strong></li>\n<li><strong><a title=\"Add me to your Facebook\" href=\"http://www.facebook.com/people/Martin_Metzmacher/588353081\" target=\"_blank\">Add Martin Metzmacher on Facebook</a></strong></li>\n<li><strong><a title=\"Add me to your professional network\" href=\"http://www.linkedin.com/in/martinmetzmacher\" target=\"_blank\">Add Martin Metzmacher on LinkedIn</a></strong></li>\n<li><strong><a title=\"Add me on Xing\" href=\"http://www.xing.com/profile/Martin_Metzmacher\" target=\"_blank\">Add Martin Metzmacher on Xing</a></strong></li>\n</ul>\n",
+    "excerpt": "<p>Hi, my name is Martin Metzmacher. I was a Research Master student at the Behavioural Science Institute of the Radboud University in Nijmegen. My research interest back then was diagnostic decision making in expert psychotherapists. I believe that more adequate research methods can give valuable insights into expert decision making and the effects on treatment outcome. [&hellip;]</p>\n",
+    "slug": "martin-metzmacher",
+    "guid": "http://behaviouralscience.net/?page_id=348",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": {
+      "ID": 2,
+      "type": "page",
+      "link": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2",
+      "title": "About this Blog"
+    },
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 2
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "94fec6a2feab544412ed1bb1707dc3fb",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "default",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/348",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/348/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/348/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/348/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 85,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2008-09-22T21:36:59+02:00",
+    "modified": "2009-01-21T17:17:44+01:00",
+    "title": "Scientific Blogging",
+    "URL": "http://behaviouralscience.net/scientific-blogging/",
+    "short_URL": "https://wp.me/P6PBZ-1n",
+    "content": "<p>I believe that scientific blogging will change the way we, as scientists, communicate &#8211; with each other and to the public. Ever since the invention of Hypertext and the Internet, free access to information has  increased rapidly, but only recently have content management systems become so user-friendly that virtually everyone can have his own website.</p>\n<p>I predict that within a few years the peer-review system in place today will collapse and be replaced by a different system of ranking and reviewing scientific publications, probably a combination of the page-rank system and web2.0 commenting systems.</p>\n<p>I hope that the public will wake up and demand that research financed by tax money will be available to everyone without any charge and not subject to limiting contracts with commercial publishers.</p>\n<p>I call upon the fellow scientists to start blogging about their exciting research. The 21st century does not need more ivory towers, but open source information for the benefit of everyone.</p>\n<p>More links about Scientific Blogging:</p>\n<ul>\n<li><a href=\"http://nsaunders.wordpress.com/2008/08/08/why-you-young-scientist-should-have-a-web-presence/\" target=\"_blank\">why you young scientist should have a web presence</a></li>\n<li><a href=\"http://vimeo.com/967056\" target=\"_blank\">video interview about scientific blogging</a></li>\n<li><a title=\"How to set up a science blog\" href=\"http://www.scidev.net/en/practical-guides/how-to-set-up-a-science-blog.html\" target=\"_blank\">how to set up a science blog</a></li>\n</ul>\n",
+    "excerpt": "<p>I believe that scientific blogging will change the way we, as scientists, communicate &#8211; with each other and to the public. Ever since the invention of Hypertext and the Internet, free access to information has  increased rapidly, but only recently have content management systems become so user-friendly that virtually everyone can have his own website. [&hellip;]</p>\n",
+    "slug": "scientific-blogging",
+    "guid": "https://behaviouralscience.wordpress.com/?page_id=85",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": false,
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 0
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "15a3fdb4718fe8988fc9937dd761b6e4",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/85",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/85/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/85/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/85/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 37,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2008-07-23T14:54:49+02:00",
+    "modified": "2008-12-15T21:07:27+01:00",
+    "title": "Behavioural Science Videos",
+    "URL": "http://behaviouralscience.net/behavioural-science-videos/",
+    "short_URL": "https://wp.me/P6PBZ-B",
+    "content": "<p><a href=\"http://www.youtube.com/watch?v=AyzOUbkUf3M\" target=\"_blank\">The Next Generation of Neural Networks, Google Tech Talk</a></p>\n<p><a href=\"http://www.youtube.com/profile_play_list?user=nptelhrd\" target=\"_blank\">Videos about a lot of technical stuff</a> (from India)</p>\n<p><a href=\"http://www.youtube.com/profile_play_list?user=MIT\" target=\"_blank\">Videos from the MIT</a> (Lectures)</p>\n<p><a title=\"Berkeley webcast\" href=\"http://webcast.berkeley.edu/courses.php\" target=\"_blank\">Berkeley webcast</a> (3 courses about psychology)</p>\n",
+    "excerpt": "<p>The Next Generation of Neural Networks, Google Tech Talk Videos about a lot of technical stuff (from India) Videos from the MIT (Lectures) Berkeley webcast (3 courses about psychology)</p>\n",
+    "slug": "behavioural-science-videos",
+    "guid": "https://behaviouralscience.wordpress.com/?page_id=37",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": false,
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 0
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "e8f9aa4ebda441372bc1a528954e459a",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/37",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/37/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/37/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/37/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 30,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2008-07-23T13:55:15+02:00",
+    "modified": "2008-07-23T14:14:42+02:00",
+    "title": "Behavioural Science",
+    "URL": "http://behaviouralscience.net/behavioural-science/",
+    "short_URL": "https://wp.me/P6PBZ-u",
+    "content": "<p>Behavioural sciences explore interactions among organisms and their environment. They involve the observation of human and animal subjects in controlled experiments and in natural settings. They are situated in between natural sciences and social sciences, supplying theories and paradigms that bridge the two fields together through advanced data analysis as well as experimental and non-experimental research methods.</p>\n<p>Behavioural sciences are different from social sciences in that they investigate the decision processes within and the interaction between subjects, whereas socials sciences study social processes on a more abstract level, such as economics and history. The integrative work of behavioural science has spawned the development of graduate schools of behavioural science, where researchers from different backgrounds integrate problems from multiple perspectives.</p>\n<p><a title=\"https://behaviouralscience.wordpress.com/about-behavioural-science-blog/\" href=\"https://behaviouralscience.wordpress.com/about-behavioural-science-blog/\">Click here for more about the Behavioural Science Blog&#8230;</a></p>\n",
+    "excerpt": "<p>Behavioural sciences explore interactions among organisms and their environment. They involve the observation of human and animal subjects in controlled experiments and in natural settings. They are situated in between natural sciences and social sciences, supplying theories and paradigms that bridge the two fields together through advanced data analysis as well as experimental and non-experimental [&hellip;]</p>\n",
+    "slug": "behavioural-science",
+    "guid": "https://behaviouralscience.wordpress.com/?page_id=30",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": false,
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 5
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "c2ea122415972a5a74062277e24bdb9e",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {},
+    "attachment_count": 0,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/30",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/30/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/30/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/30/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  },
+  {
+    "ID": 2,
+    "site_ID": 1628367,
+    "author": {
+      "ID": 945354,
+      "login": "martinglanert",
+      "email": false,
+      "name": "Martin Metzmacher",
+      "first_name": "Martin",
+      "last_name": "Metzmacher",
+      "nice_name": "martinglanert",
+      "URL": "http://seriousmarketing.de",
+      "avatar_URL": "https://2.gravatar.com/avatar/2edab6fe7bba73514eb616f4b46999ce1a63627320521b39135e34d034f9b634?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G",
+      "profile_URL": "https://gravatar.com/martinglanert",
+      "site_ID": 88434770
+    },
+    "date": "2007-09-02T00:49:52+00:00",
+    "modified": "2010-02-06T22:35:18+01:00",
+    "title": "About this Blog",
+    "URL": "http://behaviouralscience.net/about-behavioural-science-blog/",
+    "short_URL": "https://wp.me/P6PBZ-2",
+    "content": "<p><img loading=\"lazy\" data-attachment-id=\"352\" data-permalink=\"http://behaviouralscience.net/about-behavioural-science-blog/behavioural-science-blog-readers/\" data-orig-file=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png\" data-orig-size=\"157,278\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}\" data-image-title=\"behavioural-science-blog-readers\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png?w=157\" class=\"alignright size-full wp-image-352\" title=\"behavioural-science-blog-readers\" src=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png?w=157&#038;h=278\" alt=\"\" width=\"157\" height=\"278\" srcset=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png 157w, https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png?w=85&amp;h=150 85w\" sizes=\"auto, (max-width: 157px) 100vw, 157px\" />The Behavioural Science Blog is about high-quality and comprehensive articles written for those who want to follow the latest research, but find traditional sources inaccessible. Every who has got something to say about Behavioural Science is invited to join in and <a href=\"http://behaviouralscience.net/2010/01/12/new-authors-welcome/\">become an author</a>.</p>\n<p>At the moment there are two author who have posted more than one article:</p>\n<ul>\n<li><a title=\"Martin Metzmacher\" href=\"http://behaviouralscience.net/about-behavioural-science-blog/martin-metzmacher/\">Martin Metzmacher</a> &amp;</li>\n<li><a title=\"Christina Summerdyk Behavioural Science\" href=\"http://behaviouralscience.net/about-behavioural-science-blog/christina-summerdyk/\">Christina Summerdyk</a></li>\n</ul>\n<p>This Blog has also featured a guest writer:</p>\n<ul>\n<li><a rel=\"bookmark\" href=\"http://behaviouralscience.net/2009/03/13/unconscious-perception-reply-by-tom-wootton/\">Unconscious Perception: Reply by Tom Wootton</a></li>\n</ul>\n<p>The people reading this site are mostly students or &#8220;others&#8221; &#8211; yeah I know bad research (-:</p>\n<p>The readers of this blog prefer to read text, also like to have graphics in it and from time to time they enjoy a video or audio posting. And that is what they find on this blog &#8211; I guess that is the reason, why this blog has about <del datetime=\"2010-02-06T21:34:44+00:00\">25</del> 35 RSS readers &#8211; more to come!</p>\n<p>I could go on and on about this blog, but I suggest you rather have a look yourself. Please tell us what you think and which topic interest you most! If you really want to know more about this blog, I suggest you read the article about the <a title=\"Behavioural Science Blog development\" href=\"http://behaviouralscience.net/2009/09/17/behavioural-science-blog-development/\">Behavioural Science Blog development</a>.</p>\n<p><img loading=\"lazy\" data-attachment-id=\"351\" data-permalink=\"http://behaviouralscience.net/about-behavioural-science-blog/information-consumation-behavioural-science/\" data-orig-file=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png\" data-orig-size=\"280,467\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}\" data-image-title=\"information-consumation-behavioural-science\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png?w=280\" class=\"alignright size-full wp-image-351\" title=\"information-consumation-behavioural-science\" src=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png?w=280&#038;h=467\" alt=\"\" width=\"280\" height=\"467\" srcset=\"https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png 280w, https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png?w=90&amp;h=150 90w\" sizes=\"auto, (max-width: 280px) 100vw, 280px\" /></p>\n",
+    "excerpt": "<p>The Behavioural Science Blog is about high-quality and comprehensive articles written for those who want to follow the latest research, but find traditional sources inaccessible. Every who has got something to say about Behavioural Science is invited to join in and become an author. At the moment there are two author who have posted more [&hellip;]</p>\n",
+    "slug": "about-behavioural-science-blog",
+    "guid": "",
+    "status": "publish",
+    "sticky": false,
+    "password": "",
+    "has_password": false,
+    "parent": false,
+    "type": "page",
+    "discussion": {
+      "comments_open": true,
+      "comment_status": "open",
+      "pings_open": true,
+      "ping_status": "open",
+      "comment_count": 3
+    },
+    "likes_enabled": true,
+    "sharing_enabled": true,
+    "like_count": 0,
+    "i_like": false,
+    "is_reblogged": false,
+    "is_following": false,
+    "global_ID": "fb96e9327f0ec5081094e8237f793b75",
+    "featured_image": "",
+    "post_thumbnail": null,
+    "format": "standard",
+    "geo": false,
+    "menu_order": 0,
+    "page_template": "default",
+    "publicize_URLs": [],
+    "terms": {},
+    "tags": {},
+    "categories": {
+      "Uncategorized": {
+        "ID": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "description": "",
+        "post_count": 0,
+        "parent": 0,
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/categories/slug:uncategorized/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367"
+          }
+        }
+      }
+    },
+    "attachments": {
+      "352": {
+        "ID": 352,
+        "URL": "https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/behavioural-science-blog-readers.png",
+        "guid": "https://behaviouralscience.files.wordpress.com/2007/09/behavioural-science-blog-readers.png",
+        "date": "2010-01-13T19:42:13+01:00",
+        "post_ID": 2,
+        "author_ID": 945354,
+        "file": "behavioural-science-blog-readers.png",
+        "mime_type": "image/png",
+        "extension": "png",
+        "title": "behavioural-science-blog-readers",
+        "caption": "",
+        "description": "",
+        "alt": "",
+        "thumbnails": {},
+        "height": "278",
+        "width": "157",
+        "exif": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": ""
+        },
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/media/352",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/media/352/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+            "parent": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2"
+          }
+        }
+      },
+      "351": {
+        "ID": 351,
+        "URL": "https://behaviouralscience.wordpress.com/wp-content/uploads/2007/09/information-consumation-behavioural-science.png",
+        "guid": "https://behaviouralscience.files.wordpress.com/2007/09/information-consumation-behavioural-science.png",
+        "date": "2010-01-13T19:42:11+01:00",
+        "post_ID": 2,
+        "author_ID": 945354,
+        "file": "information-consumation-behavioural-science.png",
+        "mime_type": "image/png",
+        "extension": "png",
+        "title": "information-consumation-behavioural-science",
+        "caption": "",
+        "description": "",
+        "alt": "",
+        "thumbnails": {},
+        "height": "467",
+        "width": "280",
+        "exif": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": ""
+        },
+        "meta": {
+          "links": {
+            "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/media/351",
+            "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/media/351/help",
+            "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+            "parent": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2"
+          }
+        }
+      }
+    },
+    "attachment_count": 2,
+    "metadata": [],
+    "meta": {
+      "links": {
+        "self": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2",
+        "help": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2/help",
+        "site": "https://public-api.wordpress.com/rest/v1.1/sites/1628367",
+        "replies": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2/replies/",
+        "likes": "https://public-api.wordpress.com/rest/v1.1/sites/1628367/posts/2/likes/"
+      }
+    },
+    "capabilities": {
+      "publish_post": false,
+      "delete_post": false,
+      "edit_post": false
+    },
+    "other_URLs": {}
+  }
+]
