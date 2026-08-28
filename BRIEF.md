@@ -30,6 +30,7 @@ The domain has strong historical authority and backlink profile. By migrating of
 | D5 | **Editorial Metadata & Author Footnote** | Clean author bio linking Martin's academic roots with current books, diagnostics, and projects. |
 | D6 | **Integrated Historical Comments** | Cleanly rendered reader discussions at the bottom of archived articles. |
 | D7 | **Cloudflare Pages / Static Ready** | Ready for 1-click zero-cost deployment to Cloudflare Pages. |
+| D8 | **Hybrid Authority Model (Farnam Street / HBR)** | Combines high-volume SEO traffic engine (frameworks/comparisons) with personal branding (Martin's scientific anchor) and multi-stream conversion (B2B advisory, couples diagnostics at `paartherapie.in`, books, and curated high-ticket education programs). No low-end affiliate spam. |
 
 ## Deliverables
 

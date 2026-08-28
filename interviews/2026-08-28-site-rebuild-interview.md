@@ -20,6 +20,16 @@
 ### Q4: How should historical URL routing and permalinks be structured?
 **Decision (Crucial Clarification):** **Preserve 100% exact historical URL parity verbatim (`/[year]/[month]/[day]/[slug]/`)** for all 61 archived articles and original static pages (`/about-behavioural-science-blog/`, `/martin-metzmacher/`, etc.) so that Google's index and historical backlinks are completely preserved with zero ranking risk. Future articles can use clean modern routes.
 
+### Q5: How should the domain be monetized and positioned (Branding vs. Lead Gen vs. SEO vs. Affiliate)?
+**Decision:** **Hybrid Authority Platform (Farnam Street / HBR Model):**
+- **Top of Funnel:** SEO traffic engine ranking on frameworks (COM-B, EAST, Nudge) and high-CPC comparisons ($17+ CPC).
+- **Core Positioning:** Founder scientific bedrock for Martin Metzmacher (elevating from generic consultant to Behavioral Scientist & Systems Architect).
+- **Bottom of Funnel:** Multi-stream conversion routing to:
+  1. B2B Advisory & Applied Behavioral Design leads.
+  2. Couples & Relationship Diagnostics (bridging cognitive bias/self-regulation into `paartherapie.in`).
+  3. Books, diagnostic tools & intellectual property.
+  4. Curated high-ticket education guides (MSc / Executive program partnerships) and reading lists — zero spammy affiliate banners or low-end ads.
+
 ---
 
 ## Harvested Insights & Architectural Principles
@@ -28,3 +38,4 @@
 2. **Editorial Purity over Widget Clutter:** The publication is designed for deep reading. Avoid distracting banners, aggressive popups, heavy social sidebars, or bloated script bundles. Prioritize pristine typographic rhythm (proportional margins, optical font sizes, KaTeX math rendering, and dark/light mode toggle).
 3. **Authority Bridge:** The homepage and author pages should present Martin's academic foundation in behavioural science as the credible bedrock of his current high-leverage work, books, and diagnostic practice.
 4. **Cloudflare Edge Deployment:** Deployable cleanly to Cloudflare Pages or static hosting with instant edge caching.
+5. **Prestige Monetization Invariant:** Maintain institutional brand equity; only monetize via high-value consulting inquiries, relationship diagnostics, book sales, and curated high-ticket academic/executive program partnerships.
