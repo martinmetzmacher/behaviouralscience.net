@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The Fogg Behavior Model (B = MAP): How to Design for Motivation, Ability, and Prompts — Behavioural Science</title><meta name="description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><link rel="canonical" href="https://behaviouralscience.net/fogg-behavior-model-b-map/"><!-- Open Graph / Social --><meta property="og:type" content="website"><meta property="og:title" content="The Fogg Behavior Model (B = MAP): How to Design for Motivation, Ability, and Prompts — Behavioural Science"><meta property="og:description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><meta property="og:url" content="https://behaviouralscience.net/fogg-behavior-model-b-map/"><meta property="og:image" content="https://behaviouralscience.net/media/behavioural-science-blog-stats.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Theme initialization script (prevents flash) --><script>
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script><link rel="stylesheet" href="/_astro/_slug_.ZJgp7sDf.css"></head> <body class="min-h-screen flex flex-col justify-between"> <div> <header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors"> <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between"> <div class="flex items-center gap-6"> <a href="/" class="flex items-center gap-2.5 group"> <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span> <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span> </a> </div> <nav class="flex items-center gap-5 text-sm"> <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a> <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a> <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a> <div class="h-4 w-[1px] bg-[var(--border-color)]"></div> <button id="theme-toggle" type="button" aria-label="Toggle theme" class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"> <span id="theme-icon">☀️</span> <span id="theme-text">Light</span> </button> <script>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script> </nav> </div> </header>  <main class="max-w-2xl mx-auto px-6 py-12"> <div class="text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8"> <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a> </div> <header class="space-y-4 mb-10"> <h1 class="text-4xl sm:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]"> The Fogg Behavior Model (B = MAP): How to Design for Motivation, Ability, and Prompts </h1> </header> <article class="prose-reading"> <p>In digital product design, health coaching, and habit formation, teams frequently obsess over <strong>Motivation</strong>.</p>
+<p>They believe that if they can just deliver an inspiring keynote, craft an emotional promotional video, or offer a bigger financial incentive, users will magically complete complex tasks.</p>
+<p>Yet Dr. BJ Fogg, founder of the Behavior Design Lab at Stanford University, demonstrated that <strong>motivation is the least reliable driver of human action</strong>. It is volatile, emotionally fleeting, and requires immense mental energy to sustain.</p>
+<p>To design predictable behavior, you need the <strong>Fogg Behavior Model (FBM)</strong>.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph LR</span></span>
+<span class="line"><span style="color:#E1E4E8">    B["BEHAVIOR (B)"] &#x3C;--> M["MOTIVATION (M)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    B &#x3C;--> A["ABILITY (A)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    B &#x3C;--> P["PROMPT (P)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    style B fill:#3b82f6,stroke:#1d4ed8,color:#fff</span></span></code></pre>
+<p>$$\mathbf{B = MAP}$$</p>
+<blockquote>
+<p><strong>The Fundamental Law of Behavior Design:</strong><br>
+A behavior ($B$) happens when <strong>Motivation</strong> ($M$), <strong>Ability</strong> ($A$), and a <strong>Prompt</strong> ($P$) converge at the exact same moment. If any of these three elements is missing or insufficient, the behavior will not occur.</p>
+</blockquote>
+<hr>
+<h2 id="the-fogg-behavior-grid--the-action-line">The Fogg Behavior Grid &#x26; The Action Line</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>High ▲</span></span>
+<span class="line"><span>     │            ★ Behavior Occurs (Success)</span></span>
+<span class="line"><span>     │           /</span></span>
+<span class="line"><span>M    │          /</span></span>
+<span class="line"><span>O    │         /   [ ACTION LINE ]</span></span>
+<span class="line"><span>T    │        /</span></span>
+<span class="line"><span>I    │       /</span></span>
+<span class="line"><span>V    │      /      ✕ Behavior Fails (Frustration / Inaction)</span></span>
+<span class="line"><span>A    │     /</span></span>
+<span class="line"><span>T    │    /</span></span>
+<span class="line"><span>I    │   /</span></span>
+<span class="line"><span>O    │  /</span></span>
+<span class="line"><span>N    │ /</span></span>
+<span class="line"><span>Low  ▼────────────────────────────────────────►</span></span>
+<span class="line"><span>     Hard to Do (Low Ability)      Easy to Do (High Ability)</span></span></code></pre>
+<p>The relationship between Motivation and Ability is a curved threshold called the <strong>Action Line</strong>:</p>
+<ol>
+<li><strong>Above the Action Line:</strong> If a prompt triggers the user when their combined Motivation and Ability place them <em>above</em> the curved line, the behavior succeeds.</li>
+<li><strong>Below the Action Line:</strong> If the prompt arrives when they are <em>below</em> the line, the behavior fails—either resulting in annoyance (if prompted when motivation is zero) or frustration (if prompted to do something excessively difficult).</li>
+</ol>
+<h3 id="the-first-rule-of-behavior-design">The First Rule of Behavior Design:</h3>
+<blockquote>
+<p><strong>Make the behavior easier to do before trying to increase motivation.</strong></p>
+</blockquote>
+<p>Increasing ability (reducing friction) permanently shifts the user to the right side of the curve, making the behavior reliably triggerable even when motivation is low.</p>
+<hr>
+<h2 id="deconstructing-ability-the-6-simplicity-factors">Deconstructing Ability: The 6 Simplicity Factors</h2>
+<p>Ability is not just about physical strength; it is defined by <strong>Simplicity</strong>. Simplicity is determined by your user’s most scarce resource at that exact moment.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF["THE 6 SIMPLICITY FACTORS (ABILITY)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> T["1. Time (How long does the action take?)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> M["2. Money (What is the financial cost?)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> PE["3. Physical Effort (Does it require bodily strain?)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> MC["4. Mental Cycles (Does it require intense concentration?)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> SD["5. Social Deviance (Does it break social norms?)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    SF --> NR["6. Non-Routine (Does it disrupt existing habits?)"]</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Factor</th><th>Cognitive / Environmental Barrier</th><th>Tactical UX / Design Fix</th></tr></thead><tbody><tr><td><strong>1. Time</strong></td><td>Task requires 15 continuous minutes.</td><td>Break into 60-second micro-tasks (progressive onboarding).</td></tr><tr><td><strong>2. Money</strong></td><td>Requires upfront credit card commitment.</td><td>Provide a friction-free, no-credit-card freemium tier.</td></tr><tr><td><strong>3. Physical Effort</strong></td><td>Requires walking to another room or typing on mobile.</td><td>Enable 1-click biometric authentication (FaceID).</td></tr><tr><td><strong>4. Mental Cycles</strong></td><td>User must read a 10-step manual.</td><td>Provide pre-configured templates and smart defaults.</td></tr><tr><td><strong>5. Social Deviance</strong></td><td>Action makes the user feel awkward among peers.</td><td>Normalize the behavior through visible social proof badges.</td></tr><tr><td><strong>6. Non-Routine</strong></td><td>Action does not fit into existing workflows.</td><td>Anchor the prompt directly inside an existing daily tool (e.g., Slack/email).</td></tr></tbody></table>
+<hr>
+<h2 id="the-3-types-of-prompts-triggers">The 3 Types of Prompts (Triggers)</h2>
+<p>A prompt is the call-to-action that sparks the behavior. Prompts only work when placed above the Action Line. Dr. Fogg identifies three distinct types:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">flowchart TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    P["PROMPT TYPES"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    P --> Fac["1. Facilitator Prompt\n(High Motivation, Low Ability)\n• Goal: Make it easier to do\n• e.g. '1-Click Install Now' button"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    P --> Spk["2. Spark Prompt\n(Low Motivation, High Ability)\n• Goal: Inspire &#x26; trigger\n• e.g. 'Only 2 tickets left at this price!'"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    P --> Sig["3. Signal Prompt\n(High Motivation, High Ability)\n• Goal: Simple reminder\n• e.g. Traffic light turning green, Calendar ping"]</span></span></code></pre>
+<ol>
+<li><strong>Facilitator Prompts (High Motivation, Low Ability):</strong> The user wants to act but finds it hard. The prompt must simplify the task (e.g., <em>“Click here to auto-import your contacts in 5 seconds”</em>).</li>
+<li><strong>Spark Prompts (Low Motivation, High Ability):</strong> The task is easy, but the user lacks motivation. The prompt must pair the trigger with an emotional hook, urgency, or reward (e.g., <em>“Take 3 deep breaths right now to reduce stress”</em>).</li>
+<li><strong>Signal Prompts (High Motivation, High Ability):</strong> The user is motivated and the task is effortless. The prompt serves as a simple cue (e.g., a reminder notification that your Uber has arrived).</li>
+</ol>
+<hr>
+<h2 id="applying-b--map-to-digital-products-and-habit-formation">Applying B = MAP to Digital Products and Habit Formation</h2>
+<h3 id="1-the-tiny-habits-method">1. The Tiny Habits Method</h3>
+<p>To establish a lasting daily habit, shrink the target behavior until it requires near-zero motivation (high ability), and anchor it to an existing habit prompt:</p>
+<p>$$\text{“After I [Existing Anchor Habit], I will [Tiny New Behavior].”}$$</p>
+<p><em>Example:</em> <em>“After I pour my morning coffee (Anchor), I will write one sentence in my journal (Tiny Behavior).”</em></p>
+<h3 id="2-saas-onboarding-optimization">2. SaaS Onboarding Optimization</h3>
+<ul>
+<li><strong>Common Failure:</strong> Forcing new users to invite 5 colleagues and configure SSO during first login (Low Ability $\rightarrow$ Drop-off).</li>
+<li><strong>FBM Redesign:</strong> Let the user experience the core product value in 1 click (High Ability), then present a Facilitator prompt to invite team members only after they have completed their first workflow.</li>
+</ul>
+<hr>
+<h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
+<h3 id="what-is-the-formula-of-the-fogg-behavior-model">What is the formula of the Fogg Behavior Model?</h3>
+<p>The formula is $B = MAP$, which stands for <strong>Behavior = Motivation $\times$ Ability $\times$ Prompt</strong>. Behavior only occurs when all three elements are present simultaneously.</p>
+<h3 id="why-does-bj-fogg-prioritize-ability-over-motivation">Why does BJ Fogg prioritize Ability over Motivation?</h3>
+<p>Motivation is naturally volatile and depletes quickly. Ability (simplicity) is stable and within the designer’s control. Making a task effortless ensures people can execute it even when their motivation fluctuates.</p>
+<h3 id="what-is-the-difference-between-a-spark-prompt-and-a-facilitator-prompt">What is the difference between a Spark prompt and a Facilitator prompt?</h3>
+<p>A Spark prompt is designed for someone who finds the task easy but lacks motivation (it adds an emotional hook or incentive). A Facilitator prompt is designed for someone who is motivated but finds the task difficult (it removes friction and simplifies the action).</p>
+<hr>
+<h2 id="related-master-guides">Related Master Guides</h2>
+<ul>
+<li><strong>Foundational Science:</strong> <a href="/what-is-behavioural-science/">What is Behavioural Science? The Complete Guide</a></li>
+<li><strong>Diagnostic Model:</strong> <a href="/com-b-model-behaviour-change/">The COM-B Model of Behaviour Change</a></li>
+<li><strong>Intervention Principles:</strong> <a href="/east-framework-behavioural-insights/">The EAST Framework for Behavioral Insights</a></li>
+<li><strong>Decision Environments:</strong> <a href="/choice-architecture-principles-ux/">Choice Architecture in Digital Product Design</a></li>
+</ul> </article> <div id="author-card" class="my-16 p-8 rounded-2xl bg-[var(--card-bg)] border border-[var(--border-color)] space-y-4"> <div class="flex items-center gap-4"> <div class="w-14 h-14 rounded-full bg-neutral-800 text-neutral-100 flex items-center justify-center font-serif-reading text-2xl font-bold">
+MM
+</div> <div> <h3 class="text-lg font-semibold text-[var(--text-main)]">Martin Metzmacher</h3> <p class="text-xs font-mono text-[var(--text-muted)]">Author, Behavioral Scientist & Diagnostician</p> </div> </div> <p class="text-sm text-[var(--text-muted)] leading-relaxed font-serif-reading text-base">
+This publication represents over a decade of empirical research, clinical methodology, and behavioural science synthesis. Today, these cognitive frameworks anchor diagnostic systems, behavioral transformation books, and practice workflows.
+</p> <div class="pt-2 flex items-center gap-4 text-xs font-mono"> <a href="/about-behavioural-science-blog/" class="underline hover:text-[var(--text-main)]">Academic Foundations</a> <span>•</span> <a href="/martin-metzmacher/" class="underline hover:text-[var(--text-main)]">About Martin</a> </div> </div> <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono"> <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a> <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a> </div> </main>  </div> <footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]"> <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-2"> <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span> <span>•</span> <span>© 2007–2026 Martin Metzmacher</span> </div> <div class="flex items-center gap-5 text-xs font-mono"> <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a> <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a> <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a> <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a> </div> </div> </footer> </body></html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The COM-B Model Explained: A Practitioner&#39;s Guide to the Behaviour Change Wheel — Behavioural Science</title><meta name="description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><link rel="canonical" href="https://behaviouralscience.net/com-b-model-behaviour-change/"><!-- Open Graph / Social --><meta property="og:type" content="website"><meta property="og:title" content="The COM-B Model Explained: A Practitioner's Guide to the Behaviour Change Wheel — Behavioural Science"><meta property="og:description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><meta property="og:url" content="https://behaviouralscience.net/com-b-model-behaviour-change/"><meta property="og:image" content="https://behaviouralscience.net/media/behavioural-science-blog-stats.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Theme initialization script (prevents flash) --><script>
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script><link rel="stylesheet" href="/_astro/_slug_.ZJgp7sDf.css"></head> <body class="min-h-screen flex flex-col justify-between"> <div> <header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors"> <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between"> <div class="flex items-center gap-6"> <a href="/" class="flex items-center gap-2.5 group"> <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span> <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span> </a> </div> <nav class="flex items-center gap-5 text-sm"> <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a> <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a> <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a> <div class="h-4 w-[1px] bg-[var(--border-color)]"></div> <button id="theme-toggle" type="button" aria-label="Toggle theme" class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"> <span id="theme-icon">☀️</span> <span id="theme-text">Light</span> </button> <script>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script> </nav> </div> </header>  <main class="max-w-2xl mx-auto px-6 py-12"> <div class="text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8"> <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a> </div> <header class="space-y-4 mb-10"> <h1 class="text-4xl sm:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]"> The COM-B Model Explained: A Practitioner&#39;s Guide to the Behaviour Change Wheel </h1> </header> <article class="prose-reading"> <p>When interventions fail—whether it is an employee failing to adopt a new CRM, a patient neglecting their daily prescription, or a user dropping off mid-onboarding—organizations almost universally misdiagnose the cause as a <strong>lack of motivation</strong>.</p>
+<p>Leaders send motivational memos, product managers add celebratory confetti animations, and clinicians repeat warnings about future health risks. Yet the behavior remains stubbornly unchanged.</p>
+<p>In 2011, Professor Susan Michie, Maartje van Stralen, and Robert West at University College London (UCL) published a landmark synthesis of 19 theoretical frameworks of behavior change. Their objective was to build a comprehensive, ecologically valid system for behavioral diagnosis and intervention design.</p>
+<p>The result is the <strong>COM-B Model</strong> and the <strong>Behaviour Change Wheel (BCW)</strong>.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">flowchart TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph Hub["The COM-B Diagnostic Hub"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        C["CAPABILITY\n(Physical &#x26; Psychological)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        O["OPPORTUNITY\n(Physical &#x26; Social)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        M["MOTIVATION\n(Reflective &#x26; Automatic)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    C &#x3C;--> M</span></span>
+<span class="line"><span style="color:#E1E4E8">    O --> M</span></span>
+<span class="line"><span style="color:#E1E4E8">    C --> B["TARGET BEHAVIOUR (B)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    O --> B</span></span>
+<span class="line"><span style="color:#E1E4E8">    M --> B</span></span></code></pre>
+<hr>
+<h2 id="what-is-the-com-b-model">What is the COM-B Model?</h2>
+<blockquote>
+<p><strong>The COM-B Thesis:</strong><br>
+A target behavior ($B$) will occur if and only if the individual or group has the <strong>Capability</strong> ($C$) and the <strong>Opportunity</strong> ($O$) to engage in the behavior, and is more <strong>Motivated</strong> ($M$) to perform that behavior than any competing alternative.</p>
+</blockquote>
+<p>The model is dynamic: Capability and Opportunity can influence Motivation, and engaging in the behavior itself provides feedback that reinforces or alters Capability, Opportunity, and Motivation over time.</p>
+<hr>
+<h2 id="deconstructing-the-6-subcomponents-of-com-b">Deconstructing the 6 Subcomponents of COM-B</h2>
+<p>To turn COM-B into a rigorous diagnostic instrument, each of the three core pillars is subdivided into two distinct dimensions:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph LR</span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph Capability</span></span>
+<span class="line"><span style="color:#E1E4E8">        C1["Psychological Capability\n(Knowledge, memory, executive attention)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        C2["Physical Capability\n(Musculoskeletal skill, stamina, dexterity)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph Opportunity</span></span>
+<span class="line"><span style="color:#E1E4E8">        O1["Physical Opportunity\n(Time, physical environment, financial cost, tools)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        O2["Social Opportunity\n(Cultural norms, peer expectations, social cues)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph Motivation</span></span>
+<span class="line"><span style="color:#E1E4E8">        M1["Reflective Motivation\n(Evaluations, conscious plans, goal intentions)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        M2["Automatic Motivation\n(Emotional reactions, impulses, habits, fears)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Sub-Dimension</th><th>Operational Definition</th><th>Diagnostic Diagnostic Question</th></tr></thead><tbody><tr><td><strong>Capability</strong></td><td><strong>Psychological</strong></td><td>Knowledge, mental processing capacity, executive attention, and comprehension required to execute the behavior.</td><td><em>Does the individual understand what to do, how to do it, and have the mental bandwidth to execute?</em></td></tr><tr><td><strong>Capability</strong></td><td><strong>Physical</strong></td><td>Musculoskeletal stamina, physical strength, manual dexterity, and bodily capacity.</td><td><em>Does the person have the physical ability and bodily readiness required?</em></td></tr><tr><td><strong>Opportunity</strong></td><td><strong>Physical</strong></td><td>Environmental affordances, physical access, time availability, physical proximity, and material resources.</td><td><em>Does the physical environment provide the necessary tools, time, and friction-free access?</em></td></tr><tr><td><strong>Opportunity</strong></td><td><strong>Social</strong></td><td>Cultural norms, institutional expectations, peer group influence, social validation, and language conventions.</td><td><em>Is this behavior socially acceptable, expected, or reinforced by the individual’s community?</em></td></tr><tr><td><strong>Motivation</strong></td><td><strong>Reflective</strong></td><td>Conscious, deliberative cognitive processes involving evaluations of pros/cons, goal intentions, and beliefs about capabilities.</td><td><em>Does the individual consciously believe this behavior is beneficial, necessary, and aligned with their identity?</em></td></tr><tr><td><strong>Motivation</strong></td><td><strong>Automatic</strong></td><td>Associative, emotional, and reflex-driven impulses, instinctive appetites, conditioned habits, and acute fears.</td><td><em>Does the immediate emotional state, habit loop, or associative cue pull the person toward the behavior?</em></td></tr></tbody></table>
+<hr>
+<h2 id="the-behaviour-change-wheel-moving-from-diagnosis-to-intervention">The Behaviour Change Wheel: Moving from Diagnosis to Intervention</h2>
+<p>COM-B is not merely a descriptive model; it forms the diagnostic hub at the center of the <strong>Behaviour Change Wheel (BCW)</strong>. Once you identify which COM-B components are blocking the behavior, the BCW maps them directly to 9 specific <strong>Intervention Functions</strong> and 7 <strong>Policy Categories</strong>.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    COM["COM-B Diagnostic Hub\n(Capability, Opportunity, Motivation)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph IF["9 Intervention Functions (Middle Layer)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I1["Education"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I2["Persuasion"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I3["Incentivisation"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I4["Coercion"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I5["Training"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I6["Restriction"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I7["Environmental Restructuring"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I8["Modeling"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        I9["Enablement"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph POL["7 Policy Categories (Outer Layer)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P1["Guidelines"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P2["Environmental/Social Planning"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P3["Communication / Marketing"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P4["Legislation"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P5["Service Provision"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P6["Regulation"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        P7["Fiscal Measures"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    COM --> IF</span></span>
+<span class="line"><span style="color:#E1E4E8">    IF --> POL</span></span></code></pre>
+<h3 id="the-diagnostic-mapping-matrix">The Diagnostic Mapping Matrix</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Diagnosed Barrier (COM-B)</th><th>Recommended Intervention Functions</th><th>Example Real-World Execution</th></tr></thead><tbody><tr><td><strong>Lack of Psychological Capability</strong></td><td>Education, Training, Enablement</td><td>Provide progressive checklist walkthroughs rather than a 50-page PDF manual.</td></tr><tr><td><strong>Lack of Physical Opportunity</strong></td><td>Environmental Restructuring, Enablement</td><td>Move healthy snacks to eye-level or automate 1-click passwordless login.</td></tr><tr><td><strong>Lack of Social Opportunity</strong></td><td>Modeling, Persuasion</td><td>Display public testimonials and peer benchmarks (<em>“84% of your peers completed this step”</em>).</td></tr><tr><td><strong>Lack of Reflective Motivation</strong></td><td>Education, Persuasion, Incentivisation</td><td>Quantify the direct financial upside of early retirement contributions.</td></tr><tr><td><strong>Lack of Automatic Motivation</strong></td><td>Environmental Restructuring, Incentivisation, Conditioning</td><td>Pair an immediate micro-reward with habit completion (e.g., instant sensory feedback).</td></tr></tbody></table>
+<hr>
+<h2 id="a-step-by-step-diagnostic-protocol-for-practitioners">A Step-by-Step Diagnostic Protocol for Practitioners</h2>
+<p>When troubleshooting a behavioral failure in your product, organization, or clinical program, follow this 4-step diagnostic protocol:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>[1. Define Target Behavior with Extreme Granularity]</span></span>
+<span class="line"><span>                         │</span></span>
+<span class="line"><span>                         ▼</span></span>
+<span class="line"><span>[2. Conduct the COM-B Gap Audit]</span></span>
+<span class="line"><span>                         │</span></span>
+<span class="line"><span>                         ▼</span></span>
+<span class="line"><span>[3. Select Corresponding Intervention Functions]</span></span>
+<span class="line"><span>                         │</span></span>
+<span class="line"><span>                         ▼</span></span>
+<span class="line"><span>[4. Design and Measure the Minimum Viable Intervention (MVI)]</span></span></code></pre>
+<h3 id="1-define-the-behavior-verbatim">1. Define the Behavior Verbatim</h3>
+<p>Avoid vague abstractions like <em>“increase employee engagement”</em> or <em>“eat healthier”</em>. Specify:</p>
+<ul>
+<li><strong>Who</strong> must perform the action?</li>
+<li><strong>What</strong> exact physical or digital action is required?</li>
+<li><strong>Where</strong> must it take place?</li>
+<li><strong>When</strong> and how often?</li>
+</ul>
+<p><em>Example:</em> “Junior engineers (Who) must submit an architecture review ticket (What) in Jira (Where) within 24 hours of opening a PR (When).”</p>
+<h3 id="2-run-the-diagnostic-barrier-test">2. Run the Diagnostic Barrier Test</h3>
+<p>Audit all 6 subcomponents before writing a single line of code or designing an intervention. If an engineer forgets because the form has 14 required fields, it is an <strong>Opportunity (Physical)</strong> and <strong>Capability (Psychological)</strong> failure, not a motivation problem.</p>
+<hr>
+<h2 id="real-world-case-studies">Real-World Case Studies</h2>
+<h3 id="case-study-1-hand-hygiene-in-intensive-care-units">Case Study 1: Hand Hygiene in Intensive Care Units</h3>
+<ul>
+<li><strong>The Problem:</strong> Hospital staff hand-washing compliance hovered below 55% despite repeated training seminars (Education).</li>
+<li><strong>COM-B Diagnosis:</strong>
+<ul>
+<li><em>Capability:</em> High (staff knew how to wash hands).</li>
+<li><em>Reflective Motivation:</em> High (staff believed in patient safety).</li>
+<li><em>Physical Opportunity:</em> <strong>Low</strong> (sanitizer dispensers were located far from patient beds).</li>
+<li><em>Automatic Motivation:</em> <strong>Low</strong> (cognitive overload during emergencies crowded out the habit loop).</li>
+</ul>
+</li>
+<li><strong>Intervention:</strong> Relocated dispensers to the direct physical threshold of every patient room (Environmental Restructuring) and added high-contrast visual cues (Prompts). Compliance surged to 88%.</li>
+</ul>
+<h3 id="case-study-2-b2b-saas-onboarding-drop-off">Case Study 2: B2B SaaS Onboarding Drop-Off</h3>
+<ul>
+<li><strong>The Problem:</strong> 62% of trial signups never completed database integration.</li>
+<li><strong>COM-B Diagnosis:</strong>
+<ul>
+<li><em>Psychological Capability:</em> <strong>Low</strong> (technical docs assumed advanced API familiarity).</li>
+<li><em>Social Opportunity:</em> <strong>Low</strong> (no peer validation that setup takes under 3 minutes).</li>
+</ul>
+</li>
+<li><strong>Intervention:</strong> Replaced raw documentation with an interactive sandbox terminal and displayed real-time developer testimonials. Activation increased by 34%.</li>
+</ul>
+<hr>
+<h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
+<h3 id="who-developed-the-com-b-model">Who developed the COM-B model?</h3>
+<p>The COM-B model was developed in 2011 by Professor Susan Michie, Dr. Maartje van Stralen, and Professor Robert West at University College London (UCL) as the core diagnostic engine of the Behaviour Change Wheel.</p>
+<h3 id="how-does-com-b-differ-from-the-east-framework">How does COM-B differ from the EAST framework?</h3>
+<p>COM-B is a <strong>diagnostic framework</strong> designed to identify the root causes of why a behavior is or is not happening across Capability, Opportunity, and Motivation. EAST is an <strong>intervention design framework</strong> (Easy, Attractive, Social, Timely) optimized for rapidly crafting nudges once the problem is diagnosed.</p>
+<h3 id="can-com-b-be-used-for-organizational-change-management">Can COM-B be used for organizational change management?</h3>
+<p>Yes. COM-B is widely utilized in corporate change initiatives to determine whether employee resistance stems from skill gaps (Capability), structural friction (Opportunity), or misaligned incentives (Motivation).</p>
+<hr>
+<h2 id="related-master-guides--tools">Related Master Guides &#x26; Tools</h2>
+<ul>
+<li><strong>Core Overview:</strong> <a href="/what-is-behavioural-science/">What is Behavioural Science? The Complete Guide</a></li>
+<li><strong>Intervention Design:</strong> <a href="/east-framework-behavioural-insights/">The EAST Framework: 4 Principles for Behavioral Insights</a></li>
+<li><strong>Tech &#x26; Habits:</strong> <a href="/fogg-behavior-model-b-map/">The Fogg Behavior Model ($B = MAP$) in Digital Product UX</a></li>
+<li><strong>Consulting Applications:</strong> <a href="/applied-behavioural-science-business/">Applied Behavioural Science in Business Strategy</a></li>
+</ul> </article> <div id="author-card" class="my-16 p-8 rounded-2xl bg-[var(--card-bg)] border border-[var(--border-color)] space-y-4"> <div class="flex items-center gap-4"> <div class="w-14 h-14 rounded-full bg-neutral-800 text-neutral-100 flex items-center justify-center font-serif-reading text-2xl font-bold">
+MM
+</div> <div> <h3 class="text-lg font-semibold text-[var(--text-main)]">Martin Metzmacher</h3> <p class="text-xs font-mono text-[var(--text-muted)]">Author, Behavioral Scientist & Diagnostician</p> </div> </div> <p class="text-sm text-[var(--text-muted)] leading-relaxed font-serif-reading text-base">
+This publication represents over a decade of empirical research, clinical methodology, and behavioural science synthesis. Today, these cognitive frameworks anchor diagnostic systems, behavioral transformation books, and practice workflows.
+</p> <div class="pt-2 flex items-center gap-4 text-xs font-mono"> <a href="/about-behavioural-science-blog/" class="underline hover:text-[var(--text-main)]">Academic Foundations</a> <span>•</span> <a href="/martin-metzmacher/" class="underline hover:text-[var(--text-main)]">About Martin</a> </div> </div> <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono"> <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a> <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a> </div> </main>  </div> <footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]"> <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-2"> <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span> <span>•</span> <span>© 2007–2026 Martin Metzmacher</span> </div> <div class="flex items-center gap-5 text-xs font-mono"> <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a> <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a> <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a> <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a> </div> </div> </footer> </body></html>

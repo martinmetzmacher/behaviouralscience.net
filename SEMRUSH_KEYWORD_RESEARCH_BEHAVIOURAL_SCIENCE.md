@@ -243,3 +243,355 @@ graph TD
 ### 4. Tier 4: Editorial Thought Leadership & Cognitive Bias Library
 - Publish Martin's deep-dive essays connecting classical theory (Skinner, Ariely, Kahneman) to modern AI, behavioural data science, and human decision-making.
 - Build a lightweight, typography-first **Glossary / Concept Library** linking to individual historical and modern posts.
+
+---
+
+## 6. The 10 Essential Keywords & Longtail Production Blueprints
+
+Below are the **10 high-impact, strategic keywords** identified for immediate article creation on `behaviouralscience.net`. Each entry provides verified search volume (US & UK), Keyword Difficulty (KD%), Average CPC, search intent, full longtail keyword clusters, recommended article metadata, and structural outlines designed to capture Featured Snippets and People Also Ask (PAA) boxes.
+
+---
+
+### Article Blueprint 1: Master Definitional Flagship Pillar
+* **Primary Focus Keyword:** `what is behavioural science` / `what is behavioral science`
+* **Search Volume:** US: 880 | UK: 170 | Global: ~3,500/mo
+* **Keyword Difficulty:** 40% (US) / 45% (UK)
+* **Average CPC:** **$9.56**
+* **Search Intent:** Informational (Foundational Definitional Anchor)
+* **Proposed Slug / URL:** `/what-is-behavioural-science/`
+* **Target Word Count:** 3,500 – 4,500 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `study of human behavior` | 880 | 210 | 46% | $7.55 | Informational |
+| `what are behavioral sciences` | 320 | 140 | 46% | $9.76 | Informational |
+| `what is a behavioral science` | 320 | 40 | 49% | $9.76 | Informational |
+| `behavioral science definition` | 210 | 90 | 49% | $8.97 | Informational |
+| `behavioural science meaning` | 170 | 90 | 45% | $8.97 | Informational |
+| `what is social and behavioral sciences` | 210 | 40 | 33% | $14.31 | Informational |
+| `define behavioral science` | 110 | 50 | 44% | $8.97 | Informational |
+| `what are the behavioral sciences` | 90 | 40 | 44% | $9.76 | Informational |
+| `is psychology a behavioral science` | 90 | 20 | 35% | $0.00 | Informational |
+| `is sociology a behavioral science` | 70 | 20 | 10% | $0.00 | Informational |
+| `what four disciplines are included in behavioral science` | 40 | 10 | 14% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** What is Behavioural Science? The Complete Guide to Understanding Human Decision-Making
+* **H2 (Featured Snippet Definition):** Defining Behavioural Science: Scope, Purpose, and Foundations (45-word crisp definition paragraph).
+* **H2:** The Core Disciplines: Cognitive Psychology, Behavioural Economics, Neuroscience, and Anthropology.
+* **H2:** How Behavioural Science Differs from Traditional Social Sciences (Comparison Matrix).
+* **H2:** Classical vs. Modern Behavioural Science (From B.F. Skinner to Kahneman, Tversky & Modern AI).
+* **H2:** Key Frameworks at a Glance (COM-B, EAST, Nudge Theory, Fogg Behavior Model).
+* **H2:** Real-World Applications: Public Policy, Product Design, Healthcare, and Executive Strategy.
+* **H2:** Frequently Asked Questions (FAQPage Schema markup targeting PAA queries).
+
+---
+
+### Article Blueprint 2: Applied Behavior Change Wheel
+* **Primary Focus Keyword:** `com-b model`
+* **Search Volume:** UK: **2,900** | US: 1,000 | Global: ~4,500/mo
+* **Keyword Difficulty:** **28%** (US) / **39%** (UK) — *High traffic, very low competition*
+* **Average CPC:** $2.03
+* **Search Intent:** Informational / Practical Implementation
+* **Proposed Slug / URL:** `/com-b-model-behaviour-change/`
+* **Target Word Count:** 2,500 – 3,200 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `com b behaviour change model` | 30 | 390 | 34% | $0.00 | Informational |
+| `com b model of behaviour change` | 40 | 390 | 33% | $0.00 | Informational |
+| `com-b model of behaviour change` | 20 | 260 | 33% | $0.00 | Informational |
+| `com b model behaviour change` | 20 | 170 | 34% | $0.00 | Informational |
+| `com - b model` | 30 | 110 | 30% | $0.00 | Informational |
+| `com-b model for behavior change` | 70 | 20 | 24% | $1.90 | Informational |
+| `what is the com-b model` | 30 | 70 | 0% | $0.00 | Informational |
+| `michie et al 2011 com b model` | 30 | 20 | 0% | $0.00 | Informational |
+| `com b model capability opportunity motivation behavior` | 20 | 20 | 0% | $0.00 | Informational |
+| `com b model behaviour change wheel` | 20 | 20 | 0% | $0.00 | Informational |
+| `com-b model examples` | 20 | 20 | 0% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** The COM-B Model Explained: A Practitioner’s Guide to the Behaviour Change Wheel
+* **H2 (Definition Box):** What is the COM-B Model? (Michie et al. 2011 breakdown).
+* **H2:** The 3 Core Components: Capability (Physical/Psychological), Opportunity (Physical/Social), Motivation (Reflective/Automatic).
+* **H2:** How COM-B Connects to the Behaviour Change Wheel (Intervention Functions & Policy Categories).
+* **H2:** Step-by-Step Diagnostic Worksheet: How to Run a Behavioral Root-Cause Analysis.
+* **H2:** Case Studies: COM-B in Healthcare Adherence, Digital Product Onboarding, and Workplace Safety.
+* **H2:** COM-B vs. EAST vs. Fogg Model: When to Choose Which Framework.
+
+---
+
+### Article Blueprint 3: Practical Policy & Agile Interventions
+* **Primary Focus Keyword:** `east framework`
+* **Search Volume:** UK: **260** | US: 90 | Global: ~600/mo
+* **Keyword Difficulty:** **18%** (US) / **20%** (UK) — *Ultra-low difficulty ranking opportunity*
+* **Average CPC:** $1.51
+* **Search Intent:** Informational / Practical Framework
+* **Proposed Slug / URL:** `/east-framework-behavioural-insights/`
+* **Target Word Count:** 2,200 – 2,800 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `east framework behavioural insights team` | 40 | 50 | 21% | $0.00 | Informational |
+| `east framework behavioural insights team easy attractive social timely` | 40 | 40 | 13% | $0.00 | Informational |
+| `east framework examples` | 20 | 30 | 0% | $0.00 | Informational |
+| `east framework for behaviour change` | 20 | 30 | 0% | $0.00 | Informational |
+| `east framework nudge` | 20 | 20 | 0% | $0.00 | Informational |
+| `what is the east framework` | 20 | 20 | 0% | $0.00 | Informational |
+| `behavioural insights team east framework summary` | 10 | 20 | 0% | $0.00 | Informational |
+| `bit east framework` | 20 | 10 | 0% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** The EAST Framework: 4 Simple Principles to Apply Behavioural Insights
+* **H2:** What is the EAST Framework? (Origin at the UK Behavioural Insights Team / Nudge Unit).
+* **H2:** The 4 Pillars of EAST:
+  * *Easy:* Reduce friction, simplify messages, set optimal defaults.
+  * *Attractive:* Attract attention, personalize rewards, gamify action.
+  * *Social:* Harness social norms, reciprocal networks, commitments.
+  * *Timely:* Prompt when receptive, calibrate immediate vs. future costs.
+* **H2:** EAST in Action: Real-World Case Studies in Tax Compliance, Energy Savings, and Customer Retention.
+* **H2:** Downloadable Checklist: The EAST Behavioral Intervention Audit.
+
+---
+
+### Article Blueprint 4: Choice Architecture & Nudge Systems
+* **Primary Focus Keyword:** `nudge theory`
+* **Search Volume:** US: 1,300 | UK: **1,600** | Global: ~5,500/mo
+* **Keyword Difficulty:** 48% (US) / 49% (UK)
+* **Average CPC:** $1.85
+* **Search Intent:** Informational
+* **Proposed Slug / URL:** `/nudge-theory-examples-principles/`
+* **Target Word Count:** 3,000 – 3,800 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `what is nudging theory` / `what is nudge theory` | 720 / 590 | 320 | 40–44% | $1.22 | Informational |
+| `nudge theory examples` | 170 | 210 | 25% | $0.00 | Informational |
+| `nudge theory change management` | 110 | 90 | 27% | $0.00 | Informational |
+| `nudge theory in business` | 70 | 50 | 36% | $0.00 | Informational |
+| `nudge theory behavioural economics` | 90 | 50 | 44% | $1.74 | Informational |
+| `application of nudge theory` | 70 | 40 | 34% | $0.00 | Informational |
+| `nudge theory by richard thaler` | 40 | 30 | 53% | $0.00 | Informational |
+| `examples of nudge theory in everyday life` | 50 | 40 | 19% | $0.00 | Informational |
+| `ethical concerns with nudge theory (sludge & manipulation)` | 30 | 20 | 15% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Nudge Theory Explained: 12 Real-World Examples & Core Principles of Behavioral Economics
+* **H2 (Definition):** What is a Nudge? (Thaler & Sunstein’s Libertarian Paternalism).
+* **H2:** The Mechanics of Decision Environments: Defaults, Salience, Feedback, and Error Forgiveness.
+* **H2:** 12 Classic & Modern Examples of Nudges (Organ Donation, Fly in the Urinal, Smart Meter Prompts, SaaS Upgrade Defaults).
+* **H2:** Nudge Theory in Organizational Change Management.
+* **H2:** Dark Nudges vs. "Sludge": Ethical Boundaries and Consumer Protection.
+
+---
+
+### Article Blueprint 5: Digital Product Decision Environments
+* **Primary Focus Keyword:** `choice architecture`
+* **Search Volume:** US: 880 | UK: 390 | Global: ~2,200/mo
+* **Keyword Difficulty:** 53% (Head), **19–28%** (Longtail)
+* **Average CPC:** $2.10
+* **Search Intent:** Informational / Product Design
+* **Proposed Slug / URL:** `/choice-architecture-principles-ux/`
+* **Target Word Count:** 2,500 – 3,200 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `architecture of choice` | 590 | 110 | 28% | $0.00 | Informational |
+| `strategy choice architecture` | 210 | 50 | 19% | $0.00 | Informational |
+| `what is choice architecture` | 210 | 70 | 22% | $0.00 | Informational |
+| `choice architecture definition` | 140 | 50 | 32% | $0.00 | Informational |
+| `choice architecture examples` | 70 | 40 | 24% | $0.00 | Informational |
+| `6 principles of choice architecture` | 20 | 10 | 0% | $0.00 | Informational |
+| `online choice architecture` | 30 | 20 | 0% | $0.00 | Informational |
+| `choice architecture and nudge theory` | 20 | 20 | 0% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Choice Architecture in Practice: How to Design Environments That Guide Decision-Making
+* **H2:** Defining Choice Architecture: Why Neutral Presentation Does Not Exist.
+* **H2:** The 6 Core Principles of Choice Architecture (Defaults, Expecting Error, Understanding Mappings, Giving Feedback, Structuring Complex Choices, Incentives).
+* **H2:** Digital Choice Architecture: UX Patterns in Pricing Tables, Checkout Funnels, and Subscription Tiers.
+* **H2:** Choice Overload and the Paradox of Choice: Structuring High-Option Catalogs.
+* **H2:** Designing Responsible Choice Architecture: Avoiding Deceptive Design Patterns.
+
+---
+
+### Article Blueprint 6: Digital Behavior & Habit Formation
+* **Primary Focus Keyword:** `fogg behavior model`
+* **Search Volume:** US: 480 | UK: 70 | Global: ~1,500/mo
+* **Keyword Difficulty:** **36%**
+* **Average CPC:** $2.33
+* **Search Intent:** Informational / UX & Product Design
+* **Proposed Slug / URL:** `/fogg-behavior-model-b-map/`
+* **Target Word Count:** 2,200 – 2,800 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `bj fogg behavior model` | 210 | 40 | 36% | $0.00 | Informational |
+| `fogg's behavior model` | 110 | 30 | 35% | $0.00 | Informational |
+| `fogg behavioral model` | 40 | 20 | 25% | $0.00 | Informational |
+| `fogg behavior model motivation ability prompt` | 30 | 10 | 0% | $0.00 | Informational |
+| `bj fogg tiny habits official behavior model` | 20 | 10 | 0% | $0.00 | Informational |
+| `fogg behavior model examples` | 20 | 10 | 0% | $0.00 | Informational |
+| `fogg behavior model triggers / prompts` | 20 | 10 | 0% | $0.00 | Informational |
+| `fogg 2009 a behavior model for persuasive design` | 50 | 10 | 0% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** The Fogg Behavior Model ($B = MAP$): How to Design for Motivation, Ability, and Prompts
+* **H2:** The $B = MAP$ Formula: Understanding the Three Simultaneous Prerequisites of Action.
+* **H2:** The Action Line: Why High Motivation Cannot Compensate for Low Ability.
+* **H2:** The 6 Elements of Ability (Simplicity Factors: Time, Money, Physical Effort, Mental Cycles, Social Deviance, Non-Routine).
+* **H2:** The 3 Types of Prompts: Facilitator, Spark, and Signal.
+* **H2:** Applying BJ Fogg’s Model to Software Onboarding, Habit Formation, and Fitness Tech.
+
+---
+
+### Article Blueprint 7: High-CPC Academic Boundary Comparison
+* **Primary Focus Keyword:** `behavioral science vs psychology` / `psychology vs behavioral science`
+* **Search Volume:** US: 280 | UK: 40 | Global: ~600/mo
+* **Keyword Difficulty:** **19% – 20%** (Extremely Easy)
+* **Average CPC:** **$13.10 – $17.69** (Highest commercial value in the niche)
+* **Search Intent:** Informational / Commercial Education Evaluation
+* **Proposed Slug / URL:** `/psychology-vs-behavioural-science/`
+* **Target Word Count:** 2,400 – 3,000 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `psychology vs behavioral science` | 110 | 20 | 19% | $17.69 | Informational/Comm |
+| `behavioral science vs psychology` | 170 | 20 | 20% | $13.10 | Informational/Comm |
+| `social and behavioral sciences` | 1,000 | 140 | 29% | $14.02 | Informational |
+| `is psychology a behavioral science` | 90 | 20 | 35% | $0.00 | Informational |
+| `is sociology a behavioral science` | 70 | 20 | 10% | $0.00 | Informational |
+| `behavioral economics vs behavioral science` | 20 | 10 | 0% | $0.00 | Informational |
+| `difference between psychology and behavioral science` | 50 | 20 | 18% | $12.50 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Psychology vs. Behavioural Science: What Is the Actual Difference?
+* **H2 (Comparison Matrix):** Side-by-Side Breakdown (Scope, Methodologies, Focus Areas, Career Outcomes).
+* **H2:** Where Traditional Psychology Ends and Behavioural Science Begins.
+* **H2:** The Multi-Disciplinary Fusion: How Economics, Neuroscience, and Sociology Intersect.
+* **H2:** Career Paths: Clinical & Counseling vs. Product, Policy, and Decision Consulting.
+* **H2:** Which Degree or Career Path Should You Choose? (Decision Flowchart).
+
+---
+
+### Article Blueprint 8: Applied Business & Strategic Consulting
+* **Primary Focus Keyword:** `applied behavioral science` / `behavioral design`
+* **Search Volume:** US: 580 | UK: 160 | Global: ~1,500/mo
+* **Keyword Difficulty:** **27% – 38%**
+* **Average CPC:** **$6.44 – $7.78**
+* **Search Intent:** Commercial / Informational (Direct B2B Consulting Lead Gen)
+* **Proposed Slug / URL:** `/applied-behavioural-science-business/`
+* **Target Word Count:** 2,800 – 3,500 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `applied behavioral science` | 320 | 20 | 38% | $7.78 | Informational/Comm |
+| `behavioral science consulting` | 320 | 40 | 23% | $3.63 | Commercial |
+| `behavioral design` | 260 | 140 | 35% | $2.08 | Informational/Comm |
+| `behavioural data science` | 140 | 20 | 20% | $6.44 | Informational |
+| `behavior design` | 110 | 50 | 38% | $2.33 | Informational/Comm |
+| `behavioral science in business` | 50 | 20 | 22% | $7.50 | Commercial |
+| `behavioral science in marketing` | 30 | 10 | 30% | $5.85 | Commercial |
+| `behavioral design examples` | 90 | 20 | 28% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Applied Behavioural Science in Business: How Companies Use Decision Science to Drive Growth
+* **H2:** What is Applied Behavioural Science? Moving from Academic Theory to Enterprise Execution.
+* **H2:** The 4 Corporate Pillars: Product UX, Pricing & Packaging, Customer Retention, and Workforce Culture.
+* **H2:** Behavioral Audits: How to Map Friction Points, Decision Heuristics, and Drop-Off Triggers.
+* **H2:** Combining Behavioural Science with AI & Data Analytics.
+* **H2:** How Leading Enterprises (Google, Spotify, Lemonade, Gov Nudge Units) Structure Behavioral Teams.
+
+---
+
+### Article Blueprint 9: Cognitive Bias Master Teardown
+* **Primary Focus Keyword:** `loss aversion` / `loss aversion bias`
+* **Search Volume:** US: **6,600** | UK: **1,600** | Global: ~16,000+/mo
+* **Keyword Difficulty:** 52% (Head), **29% – 38%** (Longtail)
+* **Average CPC:** **$3.80 – $5.21**
+* **Search Intent:** Informational (Flagship Cognitive Bias Guide)
+* **Proposed Slug / URL:** `/loss-aversion-bias-examples/`
+* **Target Word Count:** 3,200 – 4,000 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `loss aversion definition` | 1,300 | 260 | 55% | $0.00 | Informational |
+| `what is loss aversion` | 1,000 | 210 | 54% | $3.80 | Informational |
+| `loss aversion bias` | 720 | 170 | 54% | $5.21 | Informational |
+| `whats loss aversion` | 480 | 90 | 51% | $3.80 | Informational |
+| `loss aversion example` | 390 | 90 | 41% | $0.00 | Informational |
+| `loss aversion examples` | 140 | 50 | 33% | $3.27 | Informational |
+| `loss aversion coefficient kahneman tversky` | 140 | 30 | 66% | $0.00 | Informational |
+| `myopic loss aversion` | 110 | 20 | 29% | $0.00 | Informational |
+| `loss aversion cognitive bias` | 110 | 30 | 31% | $0.00 | Informational |
+| `what is an example of loss aversion` | 110 | 20 | 38% | $0.00 | Informational |
+| `loss aversion behavioral economics` | 90 | 40 | 45% | $0.00 | Informational |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Loss Aversion Explained: Why Losses Hurt 2x More Than Gains (and How It Controls Decisions)
+* **H2 (Definition Box):** What is Loss Aversion? (Kahneman & Tversky’s Prospect Theory).
+* **H2:** The Math Behind the Asymmetry: The 2:1 Loss Aversion Coefficient.
+* **H2:** Everyday Examples: Free Trials, Status Quo Bias, Sunk Cost Fallacy, and Stock Market Panic.
+* **H2:** Loss Aversion in Human Relationships: How Perceived Losses Erode Partner Trust & Vulnerability.
+* **H2:** How Marketers and Product Designers Leverage Loss Aversion (and the Ethics of Dark Patterns).
+* **H2:** How to Overcome Loss Aversion in Strategic Decision-Making.
+
+---
+
+### Article Blueprint 10: Industry Career & Salary Compass
+* **Primary Focus Keyword:** `behavioural scientist` / `behavioural science jobs`
+* **Search Volume:** UK: **800** | US: **760** | Global: ~3,000/mo
+* **Keyword Difficulty:** **12% – 27%** (Very Low Competition)
+* **Average CPC:** **$0.81 – $8.21**
+* **Search Intent:** Informational / Career Navigation
+* **Proposed Slug / URL:** `/behavioural-science-jobs-careers-salary/`
+* **Target Word Count:** 3,000 – 3,800 words
+
+#### Longtail Keyword Cluster & Questions
+| Longtail Query Variant | US Vol | UK Vol | KD% | CPC ($) | Intent |
+|---|---|---|---|---|---|
+| `behavioural science jobs` | 50 | 480 | 16% | $0.81 | Nav/Commercial |
+| `behavioral science jobs` | 590 | 90 | 25% | $2.15 | Nav/Commercial |
+| `behavioural scientist` | 170 | 320 | 27% | $1.90 | Informational |
+| `behavioral scientist` | 1,000 | 170 | 39% | $6.85 | Informational |
+| `behavioral scientist salary` | 170 | 30 | 12% | $8.21 | Informational |
+| `what can you do with a behavioral science degree` | 110 | 20 | 22% | $14.00 | Informational |
+| `behavioural science degree jobs` | 140 | 30 | 18% | $4.84 | Commercial |
+| `research assistant behavioural science` | 50 | 110 | 14% | $0.00 | Nav/Commercial |
+| `what jobs can you get with a behavioral science degree` | 50 | 20 | 24% | $13.16 | Informational/Comm |
+
+#### Structural Outline & SERP Feature Strategy
+* **H1:** Behavioural Science Careers & Salary Guide: Roles, Skills, and How to Get Hired
+* **H2:** What Does a Behavioural Scientist Actually Do? (Tech, Government, Consulting, Finance).
+* **H2:** Top Career Paths: Behavioral Product Manager, Nudge Unit Strategist, UX Researcher, Decision Scientist.
+* **H2:** Global Salary Benchmarks: Entry-Level vs. Senior vs. Director Compensation (US, UK, EU).
+* **H2:** Essential Skills: Statistical Rigor (R/Python), RCT Experiment Design, Behavioral Diagnosis.
+* **H2:** Degree Pathways: MSc in Behavioural Science vs. Online Programs vs. PhD.
+* **H2:** Directory of Organizations Hiring Behavioral Scientists.
+
+---
+
+## 7. Master Production Matrix & Priority Schedule
+
+| Priority | Focus Keyword | Slug / Target URL | Combined Mo. Vol | Target KD% | Monetization / Strategic Value |
+|---|---|---|---|---|---|
+| **1 (Pillar)** | `what is behavioural science` | `/what-is-behavioural-science/` | 3,500+ | 40% | Core Authority Hub & Brand Positioning |
+| **2 (Framework)** | `com-b model` | `/com-b-model-behaviour-change/` | 3,900+ | 28% | Rapid Page-1 Rankings; Lead Magnet Tool |
+| **3 (Framework)** | `east framework` | `/east-framework-behavioural-insights/` | 600+ | 18% | #1 Position Target; B2B Playbook Citation |
+| **4 (Theory)** | `nudge theory` | `/nudge-theory-examples-principles/` | 5,000+ | 48% | High Evergreen Search Volume & Book Links |
+| **5 (Product/UX)** | `choice architecture` | `/choice-architecture-principles-ux/` | 2,200+ | 28% | Product Design & B2B Consulting Anchor |
+| **6 (Habits/Tech)** | `fogg behavior model` | `/fogg-behavior-model-b-map/` | 1,500+ | 36% | Digital Product UX & Tech Audience |
+| **7 (High-CPC)** | `psychology vs behavioral science` | `/psychology-vs-behavioural-science/` | 600+ | 19% | **$17.69 CPC**; High-Ticket Degree Affiliates |
+| **8 (Consulting)** | `applied behavioral science` | `/applied-behavioural-science-business/` | 1,500+ | 27% | **$7.78 CPC**; Direct Inbound B2B Inquiries |
+| **9 (Bias)** | `loss aversion` | `/loss-aversion-bias-examples/` | 16,000+ | 33% | Massive Traffic Engine & Relational Angle |
+| **10 (Career)** | `behavioural scientist jobs / salary` | `/behavioural-science-jobs-careers-salary/` | 2,500+ | 16% | High Engagement; Job Board & Edu Funnel |
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>What is Behavioural Science? The Complete Guide to Understanding Human Decision-Making</title><meta name="description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><link rel="canonical" href="https://behaviouralscience.net/what-is-behavioural-science/"><!-- Open Graph / Social --><meta property="og:type" content="website"><meta property="og:title" content="What is Behavioural Science? The Complete Guide to Understanding Human Decision-Making"><meta property="og:description" content="Empirical insights into human behaviour, decision making, habits, and cognitive psychology by Martin Metzmacher."><meta property="og:url" content="https://behaviouralscience.net/what-is-behavioural-science/"><meta property="og:image" content="https://behaviouralscience.net/media/behavioural-science-blog-stats.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Theme initialization script (prevents flash) --><script>
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script><link rel="stylesheet" href="/_astro/_slug_.ZJgp7sDf.css"></head> <body class="min-h-screen flex flex-col justify-between"> <div> <header class="sticky top-0 z-40 bg-[var(--bg-page)]/90 backdrop-blur-md border-b border-[var(--border-color)] transition-colors"> <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between"> <div class="flex items-center gap-6"> <a href="/" class="flex items-center gap-2.5 group"> <span class="w-3 h-3 rounded-full bg-[var(--text-main)] group-hover:scale-110 transition-transform"></span> <span class="font-serif-reading text-xl font-medium tracking-tight text-[var(--text-main)]">Behavioural Science</span> </a> </div> <nav class="flex items-center gap-5 text-sm"> <a href="/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">Essays</a> <a href="/about-behavioural-science-blog/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors">About</a> <a href="/martin-metzmacher/" class="text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors hidden sm:inline">Martin Metzmacher</a> <div class="h-4 w-[1px] bg-[var(--border-color)]"></div> <button id="theme-toggle" type="button" aria-label="Toggle theme" class="px-2 py-1 rounded-md text-xs font-mono border border-[var(--border-color)] bg-[var(--card-bg)] text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors flex items-center gap-1.5"> <span id="theme-icon">☀️</span> <span id="theme-text">Light</span> </button> <script>
+  function updateThemeUI(theme) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+      if (icon) icon.innerText = '🌙';
+      if (text) text.innerText = 'Dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      if (icon) icon.innerText = '☀️';
+      if (text) text.innerText = 'Light';
+    }
+  }
+
+  // Initialize from storage or system
+  const storedTheme = localStorage.getItem('theme');
+  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const initialTheme = storedTheme || systemTheme;
+  updateThemeUI(initialTheme);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem('theme', nextTheme);
+        updateThemeUI(nextTheme);
+      });
+    }
+  });
+</script> </nav> </div> </header>  <main class="max-w-2xl mx-auto px-6 py-12"> <div class="text-xs font-mono text-[var(--text-muted)] border-b border-[var(--border-color)] pb-4 mb-8"> <a href="/" class="hover:text-[var(--text-main)]">← All Essays</a> </div> <header class="space-y-4 mb-10"> <h1 class="text-4xl sm:text-5xl font-serif-reading font-medium tracking-tight text-[var(--text-main)] leading-[1.2]"> What is Behavioural Science? The Complete Guide to Understanding Human Decision-Making </h1> </header> <article class="prose-reading"> <p>Human beings rarely act according to the pristine axioms of classical economics. We plan to save for retirement, eat clean, and sleep eight hours, yet find ourselves doomscrolling at 2:00 AM while bingeing processed sugar and postponing our pensions.</p>
+<p>For over a century, traditional social sciences viewed these behaviors through polarized lenses: either as idiosyncratic moral failures of willpower (traditional individual psychology) or as aggregate mathematical anomalies in rational utility maximization (classical neoclassical economics).</p>
+<p><strong>Behavioural science</strong> emerged to dissolve this false dichotomy.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph LR</span></span>
+<span class="line"><span style="color:#E1E4E8">    A[Human Action] --> B[Impulsive / Associative System]</span></span>
+<span class="line"><span style="color:#E1E4E8">    A --> C[Deliberative / Reflective System]</span></span>
+<span class="line"><span style="color:#E1E4E8">    B --> D[Immediate Ecological Cues &#x26; Friction]</span></span>
+<span class="line"><span style="color:#E1E4E8">    C --> E[Goal Intentions &#x26; Abstract Values]</span></span>
+<span class="line"><span style="color:#E1E4E8">    D -.->|Spreading Activation| A</span></span>
+<span class="line"><span style="color:#E1E4E8">    E -.->|Executive Control| A</span></span></code></pre>
+<p>By grounding human action in <strong>evolutionary biology</strong>, <strong>cognitive neuroscience</strong>, and <strong>empirical experimentation</strong>, behavioural science investigates the precise mechanisms that govern how people actually perceive, decide, and act in complex, resource-constrained environments.</p>
+<hr>
+<h2 id="defining-behavioural-science-scope-purpose-and-foundations">Defining Behavioural Science: Scope, Purpose, and Foundations</h2>
+<blockquote>
+<p><strong>Operational Definition:</strong><br>
+<strong>Behavioural science</strong> is an interdisciplinary, empirical field that investigates the cognitive mechanisms, contextual triggers, and social dynamics driving human (and animal) decision-making and action through controlled experimentation, field trials, and observational research.</p>
+</blockquote>
+<p>Unlike abstract philosophical inquiry into free will or purely descriptive social theory, behavioural science demands <strong>operationalization</strong> and <strong>falsification</strong>. It seeks to identify the proximate cognitive triggers (e.g., choice defaults, cognitive load, salience) and ultimate evolutionary functions (e.g., risk aversion, social status signaling, energy conservation) that shape human choices.</p>
+<h3 id="the-interdisciplinary-spectrum">The Interdisciplinary Spectrum</h3>
+<p>Behavioural science is not a single, isolated discipline. It is a multi-method synthesis of several core fields:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS["Behavioural Science\n(Unified Empirical Study of Decision &#x26; Action)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS --> CP["Cognitive &#x26; Social Psychology\n(Mental architecture, biases, heuristics, social norms)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS --> BE["Behavioural Economics\n(Bounded rationality, prospect theory, market anomalies)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS --> NS["Neuroscience &#x26; Biology\n(Neural substrates, dopamine pathways, executive function)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS --> AN["Evolutionary Anthropology\n(Adaptive fitness, tribal signaling, ecological niches)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    BS --> DS["Behavioural Data Science\n(In-situ behavioral telemetry, A/B testing, causal inference)"]</span></span></code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Discipline</th><th>Primary Focus</th><th>Methodological Paradigm</th><th>Core Question</th></tr></thead><tbody><tr><td><strong>Cognitive Psychology</strong></td><td>Mental processing, memory, perception, attention</td><td>Laboratory experiments, reaction-time tasks (e.g., Stroop)</td><td><em>How does information flow through human cognitive architecture?</em></td></tr><tr><td><strong>Behavioural Economics</strong></td><td>Systematic deviations from rational choice theory</td><td>Controlled economic games, field experiments, lottery choices</td><td><em>Why do humans systematically violate expected utility theory?</em></td></tr><tr><td><strong>Social Psychology</strong></td><td>Group dynamics, conformity, social norms, attribution</td><td>Observational studies, natural field experiments</td><td><em>How does the perceived presence of others alter individual choice?</em></td></tr><tr><td><strong>Neuroscience</strong></td><td>Neural substrates of reward, valuation, and executive control</td><td>fMRI, EEG, neurochemical tracking</td><td><em>What biological mechanisms mediate subjective value and impulse control?</em></td></tr><tr><td><strong>Evolutionary Biology</strong></td><td>Adaptive origins of behavioral schemata</td><td>Comparative cross-species analysis, evolutionary modeling</td><td><em>What ancestral selection pressures forged these cognitive heuristics?</em></td></tr></tbody></table>
+<hr>
+<h2 id="behavioural-science-vs-social-science-vs-traditional-psychology">Behavioural Science vs. Social Science vs. Traditional Psychology</h2>
+<p>A common point of confusion is how behavioural science relates to traditional academic classifications.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>                                  HUMAN INQUIRY</span></span>
+<span class="line"><span>                                        │</span></span>
+<span class="line"><span>        ┌───────────────────────────────┴───────────────────────────────┐</span></span>
+<span class="line"><span>        ▼                                                               ▼</span></span>
+<span class="line"><span>  SOCIAL SCIENCES                                              BEHAVIOURAL SCIENCES</span></span>
+<span class="line"><span>(Sociology, Political Science,                               (Cognitive Psych, Behavioural Econ,</span></span>
+<span class="line"><span>  Macroeconomics, History)                                      Neuroscience, Decision Science)</span></span>
+<span class="line"><span>        │                                                               │</span></span>
+<span class="line"><span>Focus: Abstract macro-structures,                             Focus: Micro-level causal mechanisms,</span></span>
+<span class="line"><span>societal institutions, historical trends                       individual/group choice, verifiable experiments</span></span></code></pre>
+<h3 id="1-behavioural-science-vs-traditional-psychology">1. Behavioural Science vs. Traditional Psychology</h3>
+<p>While traditional psychology often focuses on clinical diagnosis, personality traits, and internal subjective states through self-report scales, behavioural science is rigorously centered on <strong>observable, measurable actions and decisions</strong>. It prioritizes verifiable behavioural outcomes—such as click-throughs, medication compliance, default enrollment, and financial decisions—over self-reported intentions.</p>
+<h3 id="2-behavioural-science-vs-social-sciences">2. Behavioural Science vs. Social Sciences</h3>
+<p>Disciplines like sociology and political science examine broad social institutions, cultural systems, and macroeconomic structures. In contrast, behavioural science decomposes these phenomena into the <strong>micro-foundations of individual and group decision dynamics</strong>, investigating how specific environmental architectures influence individual actors.</p>
+<hr>
+<h2 id="the-dual-process-architecture-how-the-mind-decides">The Dual-Process Architecture: How the Mind Decides</h2>
+<p>At the theoretical core of modern behavioural science lies the <strong>dual-process framework</strong> of human cognition (popularized by Daniel Kahneman and Amos Tversky, and grounded in decades of cognitive neuroscience):</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph S1["System 1: Fast, Automatic &#x26; Associative"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        A1["Heuristic-Driven"] --- A2["Low Metabolic Cost"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        A2 --- A3["Pattern Matching"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        A3 --- A4["Emotionally Reactive"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span>
+<span class="line"><span style="color:#E1E4E8">    </span></span>
+<span class="line"><span style="color:#E1E4E8">    subgraph S2["System 2: Slow, Deliberative &#x26; Reflective"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        B1["Rule-Governed"] --- B2["High Metabolic Cost"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        B2 --- B3["Serial Logic"]</span></span>
+<span class="line"><span style="color:#E1E4E8">        B3 --- B4["Working Memory Dependent"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    end</span></span></code></pre>
+<ol>
+<li><strong>System 1 (Automatic / Impulsive):</strong> Operates effortlessly, fast, without conscious deliberation or voluntary control. It relies on associative pattern recognition, emotional heuristics, and evolved survival reflexes (e.g., ducking when a shadow darts toward you, reading large billboards automatically, judging facial cues).</li>
+<li><strong>System 2 (Reflective / Deliberative):</strong> Allocates attention to effortful mental operations, complex computations, long-term planning, and formal deductive logic. It is resource-intensive and rapidly susceptible to <strong>cognitive depletion and load</strong>.</li>
+</ol>
+<p>Because the brain consumes approximately 20% of the body’s metabolic energy despite representing only 2% of its mass, human cognitive architecture evolved to be <strong>cognitive misers</strong>. System 1 is the default operational state; System 2 is summoned only when friction, surprise, or focused intention explicitly demands working memory.</p>
+<hr>
+<h2 id="the-4-foundational-frameworks-of-applied-behavioural-science">The 4 Foundational Frameworks of Applied Behavioural Science</h2>
+<p>Over the last two decades, academic behavioural science has synthesized into pragmatic, actionable frameworks used by governments, tech companies, and clinical practitioners.</p>
+<h3 id="1-the-com-b-model--the-behaviour-change-wheel">1. The COM-B Model &#x26; The Behaviour Change Wheel</h3>
+<p>Developed by Professor Susan Michie and colleagues at University College London (UCL), the <strong>COM-B model</strong> asserts that for any targeted behavior ($B$) to occur, an individual must possess the <strong>Capability</strong>, <strong>Opportunity</strong>, and <strong>Motivation</strong>:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">flowchart TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    C["Capability\n(Physical &#x26; Psychological)"] &#x3C;--> M["Motivation\n(Reflective &#x26; Automatic)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    O["Opportunity\n(Physical &#x26; Social)"] --> M</span></span>
+<span class="line"><span style="color:#E1E4E8">    C --> B["Target Behavior (B)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    O --> B</span></span>
+<span class="line"><span style="color:#E1E4E8">    M --> B</span></span></code></pre>
+<ul>
+<li><strong>Capability:</strong> Does the person have the psychological knowledge and physical skill to act?</li>
+<li><strong>Opportunity:</strong> Does the physical environment and social culture permit or prompt the action?</li>
+<li><strong>Motivation:</strong> Are both conscious reflective plans and automatic emotional impulses aligned toward the action?</li>
+</ul>
+<h3 id="2-the-east-framework-behavioural-insights-team">2. The EAST Framework (Behavioural Insights Team)</h3>
+<p>Formulated by the UK Government’s Behavioural Insights Team (“The Nudge Unit”), EAST translates behavioural science into four operational maxims:</p>
+<ul>
+<li><strong>Easy:</strong> Reduce friction, minimize form fields, utilize default opt-ins.</li>
+<li><strong>Attractive:</strong> Catch attention through salience, visual contrast, and personalized rewards.</li>
+<li><strong>Social:</strong> Highlight descriptive social norms (<em>“9 out of 10 people in your district pay on time”</em>).</li>
+<li><strong>Timely:</strong> Prompt individuals at key transitional moments when they are most receptive to change.</li>
+</ul>
+<h3 id="3-nudge-theory--choice-architecture">3. Nudge Theory &#x26; Choice Architecture</h3>
+<p>Introduced by Nobel Laureate Richard Thaler and legal scholar Cass Sunstein, <strong>Nudge Theory</strong> demonstrates that because no environment is neutral, the way options are presented (<strong>Choice Architecture</strong>) fundamentally alters choice outcomes without forbidding any alternatives or changing economic incentives.</p>
+<ul>
+<li><strong>Defaults:</strong> Setting the desired behavior as the default path (e.g., organ donation opt-outs, 401(k) auto-enrollment).</li>
+<li><strong>Salience:</strong> Making the critical decision cue impossible to overlook.</li>
+<li><strong>Feedback Loops:</strong> Providing immediate, legible feedback on consumption (e.g., ambient smart-meter displays).</li>
+</ul>
+<h3 id="4-the-fogg-behavior-model-b--map">4. The Fogg Behavior Model ($B = MAP$)</h3>
+<p>Developed by Dr. BJ Fogg at Stanford University, this model states that behavior happens when <strong>Motivation</strong>, <strong>Ability</strong>, and a <strong>Prompt</strong> converge at the same moment:</p>
+<p>$$\text{Behavior} = \text{Motivation} \times \text{Ability} \times \text{Prompt}$$</p>
+<p>When ability is high (the action is effortlessly simple), even modest motivation is sufficient for a prompt to trigger the desired behavior.</p>
+<hr>
+<h2 id="real-world-applications-across-industries">Real-World Applications Across Industries</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="mermaid"><code><span class="line"><span style="color:#E1E4E8">graph TD</span></span>
+<span class="line"><span style="color:#E1E4E8">    APP["Applications of Behavioural Science"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    APP --> B2B["Business &#x26; Product Design\n(Onboarding UX, SaaS retention, pricing architecture)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    APP --> PUB["Public Policy &#x26; Health\n(Tax compliance, vaccine uptake, energy conservation)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    APP --> FIN["Personal Finance &#x26; Wealth\n(Auto-escalation savings, debt repayment waterfalls)"]</span></span>
+<span class="line"><span style="color:#E1E4E8">    APP --> REL["Clinical &#x26; Relational Systems\n(Self-regulation, habit loops, interpersonal de-escalation)"]</span></span></code></pre>
+<ol>
+<li><strong>Digital Product Design &#x26; UX:</strong> Structuring onboarding flows, mitigating churn via progressive disclosure, and aligning user motivation with minimal interaction costs.</li>
+<li><strong>Public Health &#x26; Preventative Medicine:</strong> Elevating medication adherence via implementation intentions and automated SMS priming.</li>
+<li><strong>Pricing &#x26; Consumer Economics:</strong> Decoy effects, anchoring, loss aversion framing, and transparent payment decoupling.</li>
+<li><strong>Relational Diagnostics &#x26; Self-Regulation:</strong> Identifying how executive fatigue and cognitive distortions trigger defensive interpersonal conflict.</li>
+</ol>
+<hr>
+<h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
+<h3 id="what-is-the-primary-difference-between-behavioural-science-and-psychology">What is the primary difference between behavioural science and psychology?</h3>
+<p>While psychology investigates internal mental states, personality constructs, and individual psychopathology, behavioural science focuses specifically on measurable actions, decision mechanisms, and how choice architecture and environmental cues systematically influence behavior.</p>
+<h3 id="what-disciplines-are-included-in-behavioural-science">What disciplines are included in behavioural science?</h3>
+<p>Behavioural science primarily encompasses cognitive psychology, behavioural economics, social psychology, cognitive neuroscience, and evolutionary anthropology.</p>
+<h3 id="why-is-behavioural-science-important-for-modern-business">Why is behavioural science important for modern business?</h3>
+<p>Modern products, marketing campaigns, and organizational policies fail when they assume users and employees behave as perfectly rational actors. Behavioural science provides empirical toolkits (such as COM-B and choice architecture) to align organizational systems with actual human cognitive mechanics.</p>
+<h3 id="what-is-a-nudge-in-behavioural-science">What is a “nudge” in behavioural science?</h3>
+<p>A nudge is any aspect of choice architecture that alters people’s behavior in a predictable way without forbidding any options or significantly changing their economic incentives. A classic example is automatically enrolling employees in a retirement savings plan while allowing them to opt out at any time.</p>
+<hr>
+<h2 id="recommended-next-steps--master-guides">Recommended Next Steps &#x26; Master Guides</h2>
+<ul>
+<li><strong>Explore the Frameworks:</strong> <a href="/com-b-model-behaviour-change/">The Complete Guide to the COM-B Model of Behaviour Change</a></li>
+<li><strong>Intervention Design:</strong> <a href="/east-framework-behavioural-insights/">The EAST Framework Playbook: 4 Steps to Applied Insights</a></li>
+<li><strong>Discipline Breakdown:</strong> <a href="/psychology-vs-behavioural-science/">Psychology vs. Behavioural Science: The Definitive Comparison</a></li>
+<li><strong>Decision Mechanics:</strong> <a href="/choice-architecture-principles-ux/">Understanding Choice Architecture in Digital Product Design</a></li>
+</ul> </article> <div id="author-card" class="my-16 p-8 rounded-2xl bg-[var(--card-bg)] border border-[var(--border-color)] space-y-4"> <div class="flex items-center gap-4"> <div class="w-14 h-14 rounded-full bg-neutral-800 text-neutral-100 flex items-center justify-center font-serif-reading text-2xl font-bold">
+MM
+</div> <div> <h3 class="text-lg font-semibold text-[var(--text-main)]">Martin Metzmacher</h3> <p class="text-xs font-mono text-[var(--text-muted)]">Author, Behavioral Scientist & Diagnostician</p> </div> </div> <p class="text-sm text-[var(--text-muted)] leading-relaxed font-serif-reading text-base">
+This publication represents over a decade of empirical research, clinical methodology, and behavioural science synthesis. Today, these cognitive frameworks anchor diagnostic systems, behavioral transformation books, and practice workflows.
+</p> <div class="pt-2 flex items-center gap-4 text-xs font-mono"> <a href="/about-behavioural-science-blog/" class="underline hover:text-[var(--text-main)]">Academic Foundations</a> <span>•</span> <a href="/martin-metzmacher/" class="underline hover:text-[var(--text-main)]">About Martin</a> </div> </div> <div class="pt-6 border-t border-[var(--border-color)] flex justify-between items-center text-xs font-mono"> <a href="/" class="underline hover:text-[var(--text-main)]">← Back to Index</a> <a href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-[var(--text-muted)] hover:text-[var(--text-main)]">Top ↑</a> </div> </main>  </div> <footer class="mt-20 border-t border-[var(--border-color)] py-12 text-sm text-[var(--text-muted)]"> <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4"> <div class="flex items-center gap-2"> <span class="font-serif-reading font-medium text-[var(--text-main)]">Behavioural Science</span> <span>•</span> <span>© 2007–2026 Martin Metzmacher</span> </div> <div class="flex items-center gap-5 text-xs font-mono"> <a href="/" class="hover:text-[var(--text-main)] transition-colors">Archive</a> <a href="/about-behavioural-science-blog/" class="hover:text-[var(--text-main)] transition-colors">About</a> <a href="/contact/" class="hover:text-[var(--text-main)] transition-colors">Contact</a> <a href="/sitemap-index.xml" class="hover:text-[var(--text-main)] transition-colors">Sitemap</a> </div> </div> </footer> </body></html>
