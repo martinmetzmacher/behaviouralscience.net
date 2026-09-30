@@ -29,6 +29,17 @@ const siteTitle = title.includes('Behavioural Science') ? title : `${title} — 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tag Manager -->
+    <script is:inline>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-M2M9B243');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <title>{siteTitle}</title>
     <meta name="description" content={description} />
     <meta name="google-site-verification" content="fPmSXWhlGO4pLdiV_LgrV922vIghUO7t5xlTmL7DRQE" />
@@ -53,6 +64,10 @@ const siteTitle = title.includes('Behavioural Science') ? title : `${title} — 
     </script>
   </head>
   <body class="min-h-screen flex flex-col justify-between">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2M9B243"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div>
       <Header />
       <slot />
